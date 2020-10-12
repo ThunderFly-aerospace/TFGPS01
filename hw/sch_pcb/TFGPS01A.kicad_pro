@@ -362,7 +362,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.7,
         "via_diameter": 0.8,
-        "via_drill": 0.6,
+        "via_drill": 0.4,
         "wire_width": 6.0
       }
     ],
@@ -413,7 +413,7 @@
   },
   "sheets": [
     [
-      "3f8981b2-9213-4ae1-8504-becd7c76036c",
+      "d92aec6d-964f-4278-bf28-cf7045aff72a",
       ""
     ]
   ],

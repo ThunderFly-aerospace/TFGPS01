@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 44,
+    "active_layer": 37,
     "active_layer_preset": "",
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -59,7 +59,7 @@
       36,
       37
     ],
-    "visible_layers": "003f0fc_80000007"
+    "visible_layers": "003f07c_80000007"
   },
   "meta": {
     "filename": "TFGPS01A.kicad_prl",

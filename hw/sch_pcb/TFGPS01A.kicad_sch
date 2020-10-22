@@ -2004,12 +2004,12 @@
   (junction (at 274.32 17.78) (diameter 1.016) (color 0 0 0 0))
 
   (no_connect (at 41.91 95.25))
+  (no_connect (at 110.49 116.84))
   (no_connect (at 146.05 93.98))
   (no_connect (at 110.49 111.76))
-  (no_connect (at 110.49 114.3))
-  (no_connect (at 110.49 116.84))
-  (no_connect (at 41.91 92.71))
   (no_connect (at 29.21 39.37))
+  (no_connect (at 41.91 92.71))
+  (no_connect (at 110.49 114.3))
 
   (wire (pts (xy 16.51 170.18) (xy 24.13 170.18))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -2569,9 +2569,6 @@
   (wire (pts (xy 232.41 74.93) (xy 232.41 90.17))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (wire (pts (xy 234.95 20.32) (xy 234.95 21.59))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
   (wire (pts (xy 234.95 109.22) (xy 234.95 110.49))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
@@ -2801,23 +2798,6 @@
   )
   (label "BUZZER" (at 186.69 39.37 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
-  )
-
-  (symbol (lib_id "MLAB_MECHANICAL:HOLE") (at 234.95 19.05 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "ed2b49fa-2cbe-4d95-83c5-4bf97e3e872c")
-    (property "Reference" "M5" (id 0) (at 236.3471 18.1407 90)
-      (effects (font (size 1.524 1.524)) (justify left))
-    )
-    (property "Value" "BMI-S-210-F" (id 1) (at 236.347 20.848 90)
-      (effects (font (size 1.524 1.524)) (justify left))
-    )
-    (property "Footprint" "Laird_Technologies_BMI-S-210-F_44.00x30.50mm" (id 2) (at 234.95 19.05 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 234.95 19.05 0)
-      (effects (font (size 1.524 1.524)))
-    )
   )
 
   (symbol (lib_id "MLAB_MECHANICAL:HOLE") (at 259.08 20.32 90) (unit 1)
@@ -3514,23 +3494,6 @@
     )
     (property "Datasheet" "" (id 3) (at 229.87 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 234.95 21.59 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "873f3cbc-ddf4-46cc-bb0e-eab90876cb84")
-    (property "Reference" "#PWR0101" (id 0) (at 234.95 27.94 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 234.95 25.4 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "" (id 2) (at 234.95 21.59 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Datasheet" "" (id 3) (at 234.95 21.59 0)
-      (effects (font (size 1.524 1.524)))
     )
   )
 
@@ -4802,9 +4765,6 @@
     (path "/00000000-0000-0000-0000-0000549d770f"
       (reference "#PWR044") (unit 1) (value "GND") (footprint "")
     )
-    (path "/873f3cbc-ddf4-46cc-bb0e-eab90876cb84"
-      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
-    )
     (path "/0b4eac50-9f3d-475a-b8a1-d225de746a22"
       (reference "AE1") (unit 1) (value "Antenna") (footprint "MLAB_ANT:GPS_CGGP.35.3.A.02")
     )
@@ -4909,9 +4869,6 @@
     )
     (path "/00000000-0000-0000-0000-0000549d7665"
       (reference "M4") (unit 1) (value "HOLE") (footprint "Mlab_Mechanical:MountingHole_3mm")
-    )
-    (path "/ed2b49fa-2cbe-4d95-83c5-4bf97e3e872c"
-      (reference "M5") (unit 1) (value "BMI-S-210-F") (footprint "Laird_Technologies_BMI-S-210-F_44.00x30.50mm")
     )
     (path "/0e21f791-9a6d-4511-aef7-35f0d83c37c6"
       (reference "Q1") (unit 1) (value "BC817-25") (footprint "Package_TO_SOT_SMD:SOT-23")

@@ -1,4 +1,4 @@
-19643705548253396
+19656214476716581
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -57511,6 +57511,13 @@ CST-931RP-A
 0
 2
 2
+MLAB_LOGA
+TF
+
+
+0
+0
+0
 MLAB_SAW
 SAW DBP.1575.W.A.30
 
@@ -58044,6 +58051,13 @@ QFN 0.65
 24
 21
 Mlab_IO
+SC-70-5
+SC70-8
+SC70-8
+0
+5
+5
+Mlab_IO
 SC-70-6
 SC70-8
 SC70-8
@@ -58232,6 +58246,13 @@ DRV8835
 0
 20
 13
+Mlab_IO
+XDCR_VCNT2020
+
+
+0
+4
+4
 Mlab_IO
 tsot-5
 TSOT-5

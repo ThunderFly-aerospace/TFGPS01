@@ -20,9 +20,9 @@
 <!--- ELead ---> 
 
 
-![Top view on TFGPS01A](/doc/img/TFGPS01A_top_big.png)
+![Top view on TFGPS01A](/doc/img/TFGPS01A_top_big.jpg)
 
-![Bottom view on TFGPS01A](/doc/img/TFGPS01A_bot_big.png)
+![Bottom view on TFGPS01A](/doc/img/TFGPS01A_bot_big.jpg)
 
 <!--- Description --->
 <!--- EDescription --->

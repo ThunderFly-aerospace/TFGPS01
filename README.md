@@ -8,8 +8,8 @@
 <!--- Label --->
 <!--- ELabel --->
 
-<!--- Name:GPS02A: --->
-# GPS02A
+<!--- Name:TFGPS01A: --->
+# TFGPS01A
 
 <!--- LongName --->
 ## RTK navigation capable GPS module.  
@@ -19,8 +19,10 @@
 
 <!--- ELead ---> 
 
-![GPS02A](doc/img/GPS02A_top.jpg) 
 
+![Top view on TFGPS01A](/doc/img/TFGPS01A_top_big.png)
+
+![Bottom view on TFGPS01A](/doc/img/TFGPS01A_bot_big.png)
 
 <!--- Description --->
 <!--- EDescription --->

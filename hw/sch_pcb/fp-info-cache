@@ -1,4 +1,4 @@
-19046568663968047
+19047063727676545
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57344,13 +57344,6 @@ Inductor
 2
 2
 Mlab_Mechanical
-0
-
-
-0
-1
-1
-Mlab_Mechanical
 BMI-S-210-F
 
 
@@ -57385,6 +57378,13 @@ pin header straight 2x01
 0
 2
 2
+Mlab_Mechanical
+dira_3mm
+
+
+0
+0
+0
 Mlab_Pin_Headers
 Angled_1x01
 pin header angled 1x01

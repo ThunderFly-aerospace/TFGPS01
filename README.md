@@ -1,13 +1,3 @@
-<!--- PrjInfo ---> <!--- Please remove this line after manually editing --->
-<!--- 00a56be08b96043df9e37d6aff7b6990 --->
-<!--- Created:2020-06-01 14:57:55.686464: ---> 
-<!--- Author:: ---> 
-<!--- AuthorEmail:: ---> 
-<!--- Tags:: ---> 
-<!--- Ust:: ---> 
-<!--- Label --->
-<!--- ELabel --->
-
 <!--- Name:TFGPS01A: --->
 # TFGPS01A
 
@@ -19,10 +9,21 @@
 
 <!--- ELead ---> 
 
+The design is based on multi-constellation uBlox NEO-9 module capable to use GPS, GLONASS and Galileo navigation signals. 
 
 ![Top view on TFGPS01A](/doc/img/TFGPS01A_top_big.jpg)
 
 ![Bottom view on TFGPS01A](/doc/img/TFGPS01A_bot_big.jpg)
+
+### Features 
+
+  * RTK capability
+  * Interface for Payload connection 
+  * CUAV V5+ compatible GPS&SAFETY connector
+
+### Paload connection
+
+The module is equipped with connector designed for payload connection this feature is usefull for time-sync and navigation data, time-stamping or geo-fencing. 
 
 <!--- Description --->
 <!--- EDescription --->

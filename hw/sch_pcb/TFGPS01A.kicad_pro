@@ -371,6 +371,31 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.4,
+        "line_style": 0,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.2,
+        "name": "RF",
+        "nets": [
+          "/RF1",
+          "/RF2",
+          "/RF3",
+          "/RF4",
+          "/RF5",
+          "/RF6"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.261,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
       }
     ],
     "meta": {
@@ -420,7 +445,7 @@
   },
   "sheets": [
     [
-      "5ef14b5c-1aae-431b-81f9-35d1dc64947e",
+      "debe0ce2-7b06-44d4-a853-dca00bec3b82",
       ""
     ]
   ],

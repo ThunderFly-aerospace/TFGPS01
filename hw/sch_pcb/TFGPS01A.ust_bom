@@ -1,65 +1,137 @@
 [
     {
+        "Datasheet": "https://cz.mouser.com/datasheet/2/398/CGGP.35.3.A.02-27913.pdf", 
+        "Footprint": "MLAB_ANT:GPS_CGGP.35.3.A.02", 
+        "Ref": "AE1", 
+        "Tstamp": "0b4eac50-9f3d-475a-b8a1-d225de746a22", 
+        "UST_ID": "5fa0f07c12875025b397787a", 
+        "Value": "Antenna"
+    }, 
+    {
         "Datasheet": "~", 
-        "Footprint": "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm", 
+        "Footprint": "MLAB_BUZZER:MagneticBuzzer_LET9032ES-03L-2.7-16-R", 
+        "Ref": "BZ1", 
+        "Tstamp": "13b724d7-299d-4de7-9fb2-acf636a86732", 
+        "UST_ID": "5fa0f13812875025b3977890", 
+        "Value": "LET9032ES-03L-2.7-16-R"
+    }, 
+    {
+        "Datasheet": "FCS0H104ZFTBR24 KEMET", 
+        "Footprint": "Capacitor_SMD:CP_Elec_10x10.5", 
         "Ref": "C1", 
-        "Tstamp": "5E83848B", 
-        "UST_ID": "5c70984412875079b91f8873", 
-        "Value": "1F"
+        "Tstamp": "00000000-0000-0000-0000-00005e83848b", 
+        "UST_ID": "5fa0f22e12875025b39778a3", 
+        "Value": "0,1F"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "C2", 
-        "Tstamp": "5E832309", 
-        "UST_ID": "5c70984812875079b91f8bbe", 
+        "Tstamp": "eba3ece1-4037-486a-b83d-0607675964b6", 
+        "UST_ID": "5c70984812875079b91f8bbd", 
         "Value": "10uF"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "C3", 
-        "Tstamp": "5E8339DD", 
-        "UST_ID": "5c70984712875079b91f8b50", 
-        "Value": "1uF"
+        "Tstamp": "00000000-0000-0000-0000-00005e832309", 
+        "UST_ID": "5c70984812875079b91f8bbd", 
+        "Value": "10uF"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "C4", 
-        "Tstamp": "5E8FC158", 
+        "Tstamp": "00000000-0000-0000-0000-00005e8339dd", 
+        "UST_ID": "5c70984812875079b91f8bbd", 
+        "Value": "10uF"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Mlab_R:SMD-0805", 
+        "Ref": "C5", 
+        "Tstamp": "00000000-0000-0000-0000-00005e8fc158", 
         "UST_ID": "5c70984712875079b91f8b4c", 
         "Value": "100nF"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
-        "Ref": "C5", 
-        "Tstamp": "5E8E9A62", 
-        "UST_ID": "5c70984712875079b91f8b50", 
-        "Value": "1uF"
-    }, 
-    {
-        "Datasheet": "~", 
-        "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "C6", 
-        "Tstamp": "5E868DBD", 
-        "UST_ID": "5c70984712875079b91f8b50", 
-        "Value": "1uF"
+        "Tstamp": "00000000-0000-0000-0000-00005e8e9a62", 
+        "UST_ID": "5c70984812875079b91f8bbd", 
+        "Value": "10uF"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "C7", 
-        "Tstamp": "5EC469D3", 
-        "UST_ID": "5c70984712875079b91f8b49", 
-        "Value": "10nF"
+        "Tstamp": "2ef4918e-cb90-4058-8b10-d84d1722cded", 
+        "UST_ID": "5c70984812875079b91f8bbd", 
+        "Value": "10uF"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Mlab_R:SMD-0805", 
+        "Ref": "C8", 
+        "Tstamp": "1de8ff3f-a275-4d8d-bd6d-ad551f839369", 
+        "UST_ID": "5c70984812875079b91f8bbd", 
+        "Value": "10uF"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Mlab_R:SMD-0805", 
+        "Ref": "C9", 
+        "Tstamp": "89fd5ad7-64b2-4a36-8757-647b5164b5a7", 
+        "UST_ID": "5c70984712875079b91f8b43", 
+        "Value": "680pF"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Mlab_R:SMD-0805", 
+        "Ref": "C10", 
+        "Tstamp": "25551e2a-1877-4740-9d6c-1c40787556be", 
+        "UST_ID": "5c70984712875079b91f8b3b", 
+        "Value": "100pF"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Mlab_R:SMD-0805", 
+        "Ref": "C11", 
+        "Tstamp": "7773a25a-4487-4aa2-b99f-420ac11ff5a2", 
+        "UST_ID": "5c70984712875079b91f8b3b", 
+        "Value": "100pF"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Mlab_R:SMD-0805", 
+        "Ref": "C12", 
+        "Tstamp": "37aebd5e-3bd0-4f3f-954f-0d2d26d07731", 
+        "UST_ID": "5c70984712875079b91f8b3b", 
+        "Value": "100pF"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Mlab_R:SMD-0805", 
+        "Ref": "C13", 
+        "Tstamp": "86deb435-ac6f-4922-806a-0998ac1a3708", 
+        "UST_ID": "5c70984712875079b91f8b26", 
+        "Value": "1pF"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Mlab_R:SMD-0805", 
+        "Ref": "C14", 
+        "Tstamp": "b830f0d4-d797-4b91-b70b-9b3a7a4c51f0", 
+        "UST_ID": "5fa0ff6512875025b39779b1", 
+        "Value": "1n8F"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Diode_SMD:D_MiniMELF", 
         "Ref": "D1", 
-        "Tstamp": "5E8355A7", 
+        "Tstamp": "00000000-0000-0000-0000-00005e8355a7", 
         "UST_ID": "5c70984512875079b91f88b3", 
         "Value": "BAS85"
     }, 
@@ -67,7 +139,7 @@
         "Datasheet": "~", 
         "Footprint": "Diode_SMD:D_SMA", 
         "Ref": "D2", 
-        "Tstamp": "5E855FD7", 
+        "Tstamp": "00000000-0000-0000-0000-00005e855fd7", 
         "UST_ID": "5c70984512875079b91f88ac", 
         "Value": "M4"
     }, 
@@ -75,7 +147,7 @@
         "Datasheet": "~", 
         "Footprint": "Mlab_D:LED_1206", 
         "Ref": "D3", 
-        "Tstamp": "5E83ED6C", 
+        "Tstamp": "00000000-0000-0000-0000-00005e83ed6c", 
         "UST_ID": "5c70984412875079b91f8896", 
         "Value": "RED"
     }, 
@@ -83,15 +155,15 @@
         "Datasheet": "~", 
         "Footprint": "Mlab_D:LED_1206", 
         "Ref": "D4", 
-        "Tstamp": "5E86723B", 
-        "UST_ID": "5c70984412875079b91f8897", 
-        "Value": "YELLOW"
+        "Tstamp": "00000000-0000-0000-0000-00005e880b05", 
+        "UST_ID": "5c70984512875079b91f8898", 
+        "Value": "BLUE"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_D:LED_1206", 
         "Ref": "D5", 
-        "Tstamp": "5E87F368", 
+        "Tstamp": "00000000-0000-0000-0000-00005e86723b", 
         "UST_ID": "5c70984412875079b91f8897", 
         "Value": "YELLOW"
     }, 
@@ -99,201 +171,71 @@
         "Datasheet": "~", 
         "Footprint": "Mlab_D:LED_1206", 
         "Ref": "D6", 
-        "Tstamp": "5E880B05", 
+        "Tstamp": "00000000-0000-0000-0000-00005e87f368", 
         "UST_ID": "5c70984412875079b91f8895", 
         "Value": "GREEN"
     }, 
     {
         "Datasheet": "~", 
-        "Footprint": "Mlab_F:1812", 
-        "Ref": "F1", 
-        "Tstamp": "5E854E79", 
-        "UST_ID": "5c70984512875079b91f88d2", 
-        "Value": "750mA"
+        "Footprint": "Mlab_D:LED_1206", 
+        "Ref": "D7", 
+        "Tstamp": "d046736c-6039-46c0-a433-52f0a4874786", 
+        "UST_ID": "5c70984412875079b91f8896", 
+        "Value": "RED"
+    }, 
+    {
+        "Datasheet": "https://eu.mouser.com/datasheet/2/398/DBP.1575.W.A.30-1371847.pdf", 
+        "Footprint": "MLAB_SAW:SAW DBP.1575.W.A.30", 
+        "Ref": "FL1", 
+        "Tstamp": "e78163e9-482e-4227-9608-722196227914", 
+        "UST_ID": "5fa0f56412875025b39778fc", 
+        "Value": "DBP.1575.W.A.30"
     }, 
     {
         "Datasheet": "", 
-        "Footprint": "Mlab_Pin_Headers:Straight_2x03", 
+        "Footprint": "Connector_JST:JST_GH_SM10B-GHS-TB_1x10-1MP_P1.25mm_Horizontal", 
         "Ref": "J1", 
-        "Tstamp": "5E84B158", 
-        "Value": "HEADER_2x03_PARALLEL"
+        "Tstamp": "3827360e-c4ff-4d2a-96f5-de82e5f2c74b", 
+        "UST_ID": "5fa0f69e12875025b397791d", 
+        "Value": "SM10B-GHS-TB"
     }, 
     {
-        "Datasheet": " ~", 
-        "Footprint": "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal", 
+        "Datasheet": "", 
+        "Footprint": "Mlab_CON:USBC GCT_USB4105-GF-A", 
         "Ref": "J2", 
-        "Tstamp": "5E837FAF", 
-        "UST_ID": "5c70984412875079b91f87a8", 
-        "Value": "USB_B"
+        "Tstamp": "1b5b7deb-7458-499b-a7df-6081dc132418", 
+        "UST_ID": "5fa0f94612875025b397795e", 
+        "Value": "USBC_USB4105-GF-A"
     }, 
     {
         "Datasheet": "", 
-        "Footprint": "Mlab_Pin_Headers:Straight_2x03", 
+        "Footprint": "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal", 
         "Ref": "J3", 
-        "Tstamp": "5E88BC59", 
-        "Value": "HEADER_2x03_PARALLEL"
+        "Tstamp": "9f9c094f-5a63-4d94-afc5-34f9ea43c8df", 
+        "UST_ID": "5fa0f70212875025b3977932", 
+        "Value": "SM06B-GHS-TB"
     }, 
     {
         "Datasheet": "", 
-        "Footprint": "Mlab_Pin_Headers:Straight_2x01", 
+        "Footprint": "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal", 
         "Ref": "J4", 
-        "Tstamp": "5E8B5E10", 
-        "Value": "HEADER_2x01_PARALLEL"
+        "Tstamp": "29610f96-4dd1-478c-8206-4f9415f22588", 
+        "UST_ID": "5c86273d1287500b4e0280be", 
+        "Value": "SM04B-GHS-TB"
     }, 
     {
         "Datasheet": "", 
-        "Footprint": "Mlab_Pin_Headers:Straight_2x01", 
+        "Footprint": "Connector_JST:JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal", 
         "Ref": "J5", 
-        "Tstamp": "5E8B3E8D", 
-        "Value": "HEADER_2x01_PARALLEL"
-    }, 
-    {
-        "Datasheet": "", 
-        "Footprint": "Mlab_Pin_Headers:Straight_2x01", 
-        "Ref": "J6", 
-        "Tstamp": "5E8B29F3", 
-        "Value": "HEADER_2x01_PARALLEL"
-    }, 
-    {
-        "Datasheet": "", 
-        "Footprint": "Mlab_Pin_Headers:Straight_2x01", 
-        "Ref": "J7", 
-        "Tstamp": "5E8AE4FE", 
-        "Value": "HEADER_2x01_PARALLEL"
-    }, 
-    {
-        "Datasheet": "", 
-        "Footprint": "Mlab_Pin_Headers:Straight_2x01", 
-        "Ref": "J8", 
-        "Tstamp": "5EC9A68C", 
-        "Value": "HEADER_2x01_PARALLEL"
-    }, 
-    {
-        "Datasheet": "", 
-        "Footprint": "Mlab_Pin_Headers:Straight_2x01", 
-        "Ref": "J9", 
-        "Tstamp": "5EC9099C", 
-        "Value": "HEADER_2x01_PARALLEL"
-    }, 
-    {
-        "Datasheet": "", 
-        "Footprint": "Mlab_Pin_Headers:Straight_2x01", 
-        "Ref": "J10", 
-        "Tstamp": "5EC96C7B", 
-        "Value": "HEADER_2x01_PARALLEL"
-    }, 
-    {
-        "Datasheet": "", 
-        "Footprint": "Mlab_Pin_Headers:Straight_2x01", 
-        "Ref": "J11", 
-        "Tstamp": "5EBC9ADF", 
-        "Value": "HEADER_2x01_PARALLEL"
-    }, 
-    {
-        "Datasheet": "", 
-        "Footprint": "Mlab_Pin_Headers:Straight_2x01", 
-        "Ref": "J12", 
-        "Tstamp": "5E8332C8", 
-        "Value": "HEADER_2x01_PARALLEL"
-    }, 
-    {
-        "Datasheet": "", 
-        "Footprint": "Mlab_Pin_Headers:Straight_2x01", 
-        "Ref": "J13", 
-        "Tstamp": "5E83C7AE", 
-        "Value": "HEADER_2x01_PARALLEL"
-    }, 
-    {
-        "Datasheet": "", 
-        "Footprint": "Mlab_Pin_Headers:Straight_2x01", 
-        "Ref": "J14", 
-        "Tstamp": "5EC138AB", 
-        "Value": "HEADER_2x01_PARALLEL"
-    }, 
-    {
-        "Datasheet": "", 
-        "Footprint": "Mlab_Pin_Headers:Straight_2x03", 
-        "Ref": "J15", 
-        "Tstamp": "5E85A394", 
-        "Value": "HEADER_2x03_PARALLEL"
-    }, 
-    {
-        "Datasheet": "", 
-        "Footprint": "Mlab_Pin_Headers:Straight_2x01", 
-        "Ref": "J16", 
-        "Tstamp": "5EC37FF5", 
-        "Value": "HEADER_2x01_PARALLEL"
-    }, 
-    {
-        "Datasheet": "", 
-        "Footprint": "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical", 
-        "Ref": "J17", 
-        "Tstamp": "5EC3BAF1", 
-        "UST_ID": "5ed7ac8e12875004e15a62c8", 
-        "Value": "u.FL"
-    }, 
-    {
-        "Datasheet": "", 
-        "Footprint": "Connector_Coaxial:SMB_Jack_Vertical", 
-        "Ref": "J18", 
-        "Tstamp": "5EBB8E2B", 
-        "UST_ID": "5c70984412875079b91f87ac", 
-        "Value": "SMA"
-    }, 
-    {
-        "Datasheet": "~", 
-        "Footprint": "Mlab_Pin_Headers:Straight_1x03", 
-        "Ref": "JP1", 
-        "Tstamp": "5E83383A", 
-        "Value": "Jumper_3_Bridged12"
-    }, 
-    {
-        "Datasheet": "~", 
-        "Footprint": "Mlab_Pin_Headers:Straight_1x02", 
-        "Ref": "JP2", 
-        "Tstamp": "5EC85315", 
-        "Value": "Jumper_2_Bridged"
-    }, 
-    {
-        "Datasheet": "~", 
-        "Footprint": "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm", 
-        "Ref": "JP4", 
-        "Tstamp": "5E848CC5", 
-        "Value": "Jumper_2_Open"
-    }, 
-    {
-        "Datasheet": "~", 
-        "Footprint": "Mlab_Pin_Headers:Straight_1x02", 
-        "Ref": "JP6", 
-        "Tstamp": "5E85E3D0", 
-        "Value": "Jumper_2_Bridged"
-    }, 
-    {
-        "Datasheet": "~", 
-        "Footprint": "Mlab_Pin_Headers:Straight_1x02", 
-        "Ref": "JP7", 
-        "Tstamp": "5E85D222", 
-        "Value": "Jumper_2_Open"
-    }, 
-    {
-        "Datasheet": "~", 
-        "Footprint": "Mlab_Pin_Headers:Straight_1x02", 
-        "Ref": "JP8", 
-        "Tstamp": "5E85DB1C", 
-        "Value": "Jumper_2_Open"
-    }, 
-    {
-        "Datasheet": "~", 
-        "Footprint": "Mlab_Pin_Headers:Straight_1x02", 
-        "Ref": "JP9", 
-        "Tstamp": "5ECC134D", 
-        "Value": "Jumper_2_Open"
+        "Tstamp": "4d470c2b-51cc-4195-9679-b60f8cb35fa0", 
+        "UST_ID": "5fa0f75012875025b3977948", 
+        "Value": "SM08B-GHS-TB"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Inductor_SMD:L_1210_3225Metric", 
         "Ref": "L1", 
-        "Tstamp": "5E853EBF", 
+        "Tstamp": "00000000-0000-0000-0000-00005e853ebf", 
         "UST_ID": "5c70984412875079b91f87fb", 
         "Value": "NL322522T-101K"
     }, 
@@ -301,43 +243,59 @@
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "L2", 
-        "Tstamp": "5EC263A6", 
-        "UST_ID": "5c70984412875079b91f8807", 
-        "Value": "27nH"
+        "Tstamp": "4df28642-4338-4e55-b154-9d794c85815c", 
+        "UST_ID": "5fa100d812875025b39779cf", 
+        "Value": "4n7H"
     }, 
     {
         "Datasheet": "", 
         "Footprint": "Mlab_Mechanical:MountingHole_3mm", 
         "Ref": "M1", 
-        "Tstamp": "549D7549", 
+        "Tstamp": "00000000-0000-0000-0000-0000549d7549", 
         "Value": "HOLE"
     }, 
     {
         "Datasheet": "", 
         "Footprint": "Mlab_Mechanical:MountingHole_3mm", 
         "Ref": "M2", 
-        "Tstamp": "549D7628", 
+        "Tstamp": "00000000-0000-0000-0000-0000549d7628", 
         "Value": "HOLE"
     }, 
     {
         "Datasheet": "", 
         "Footprint": "Mlab_Mechanical:MountingHole_3mm", 
         "Ref": "M3", 
-        "Tstamp": "549D7646", 
+        "Tstamp": "00000000-0000-0000-0000-0000549d7646", 
         "Value": "HOLE"
     }, 
     {
         "Datasheet": "", 
         "Footprint": "Mlab_Mechanical:MountingHole_3mm", 
         "Ref": "M4", 
-        "Tstamp": "549D7665", 
+        "Tstamp": "00000000-0000-0000-0000-0000549d7665", 
         "Value": "HOLE"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Package_TO_SOT_SMD:SOT-23", 
+        "Ref": "Q1", 
+        "Tstamp": "0e21f791-9a6d-4511-aef7-35f0d83c37c6", 
+        "UST_ID": "5c70984712875079b91f8aea", 
+        "Value": "BC817-25"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Package_TO_SOT_SMD:SOT-23", 
+        "Ref": "Q2", 
+        "Tstamp": "dbba55c4-bdc9-4766-92db-5df00971577e", 
+        "UST_ID": "5c70984712875079b91f8aea", 
+        "Value": "BC817-25"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R1", 
-        "Tstamp": "5E8322C0", 
+        "Tstamp": "00000000-0000-0000-0000-00005e8322c0", 
         "UST_ID": "5c70984512875079b91f896f", 
         "Value": "22R"
     }, 
@@ -345,47 +303,47 @@
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R2", 
-        "Tstamp": "5EC61720", 
-        "UST_ID": "5c70984612875079b91f899f", 
-        "Value": "10k"
+        "Tstamp": "3b236ba6-0e9b-4353-b4d4-e0e9ee0c184b", 
+        "UST_ID": "5fa0fc3e12875025b3977997", 
+        "Value": "5k1"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R3", 
-        "Tstamp": "5EC7130A", 
+        "Tstamp": "bc19ac54-2438-41ce-bcf8-4ca838a54ce7", 
+        "UST_ID": "5fa0fc3e12875025b3977997", 
+        "Value": "5k1"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Mlab_R:SMD-0805", 
+        "Ref": "R4", 
+        "Tstamp": "00000000-0000-0000-0000-00005e840e49", 
+        "UST_ID": "5c70984512875079b91f8989", 
+        "Value": "620R"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Mlab_R:SMD-0805", 
+        "Ref": "R5", 
+        "Tstamp": "00000000-0000-0000-0000-00005ec61720", 
         "UST_ID": "5c70984612875079b91f899f", 
         "Value": "10k"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
-        "Ref": "R4", 
-        "Tstamp": "5E88848F", 
-        "UST_ID": "5c70984512875079b91f8970", 
-        "Value": "33R"
-    }, 
-    {
-        "Datasheet": "~", 
-        "Footprint": "Mlab_R:SMD-0805", 
-        "Ref": "R5", 
-        "Tstamp": "5E88A33B", 
-        "UST_ID": "5c70984512875079b91f8970", 
-        "Value": "33R"
-    }, 
-    {
-        "Datasheet": "~", 
-        "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R6", 
-        "Tstamp": "5E88B07B", 
-        "UST_ID": "5c70984512875079b91f8970", 
-        "Value": "33R"
+        "Tstamp": "00000000-0000-0000-0000-00005ec7130a", 
+        "UST_ID": "5c70984612875079b91f899f", 
+        "Value": "10k"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R7", 
-        "Tstamp": "5E88B982", 
+        "Tstamp": "00000000-0000-0000-0000-00005e88848f", 
         "UST_ID": "5c70984512875079b91f8970", 
         "Value": "33R"
     }, 
@@ -393,7 +351,7 @@
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R8", 
-        "Tstamp": "5E88C389", 
+        "Tstamp": "00000000-0000-0000-0000-00005e88a33b", 
         "UST_ID": "5c70984512875079b91f8970", 
         "Value": "33R"
     }, 
@@ -401,7 +359,7 @@
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R9", 
-        "Tstamp": "5E88D1F6", 
+        "Tstamp": "00000000-0000-0000-0000-00005e88b07b", 
         "UST_ID": "5c70984512875079b91f8970", 
         "Value": "33R"
     }, 
@@ -409,72 +367,176 @@
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R10", 
-        "Tstamp": "5E840E49", 
-        "UST_ID": "5c70984512875079b91f8989", 
-        "Value": "620R"
+        "Tstamp": "00000000-0000-0000-0000-00005e88b982", 
+        "UST_ID": "5c70984512875079b91f8970", 
+        "Value": "33R"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R11", 
-        "Tstamp": "5EC10AB0", 
-        "UST_ID": "5c70984512875079b91f896d", 
-        "Value": "10R"
+        "Tstamp": "00000000-0000-0000-0000-00005e88c389", 
+        "UST_ID": "5c70984512875079b91f8970", 
+        "Value": "33R"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R12", 
-        "Tstamp": "5E873847", 
-        "UST_ID": "5c70984512875079b91f8989", 
-        "Value": "620R"
+        "Tstamp": "00000000-0000-0000-0000-00005e88d1f6", 
+        "UST_ID": "5c70984512875079b91f8970", 
+        "Value": "33R"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R13", 
-        "Tstamp": "5E87BDE8", 
-        "UST_ID": "5c70984512875079b91f8989", 
-        "Value": "620R"
+        "Tstamp": "cdd98aa8-39c3-4902-a0e7-b4479d95ffc5", 
+        "UST_ID": "5c70984512875079b91f8977", 
+        "Value": "100R"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R14", 
-        "Tstamp": "5E87CECD", 
+        "Tstamp": "7b4cb5de-acfc-4eb8-b423-1fe9cedbdaaf", 
+        "UST_ID": "5c70984512875079b91f8970", 
+        "Value": "33R"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Mlab_R:SMD-0805", 
+        "Ref": "R15", 
+        "Tstamp": "ece9e3fc-3639-41e4-a5ee-ebba7fce0010", 
+        "UST_ID": "5c70984512875079b91f8970", 
+        "Value": "33R"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Mlab_R:SMD-0805", 
+        "Ref": "R16", 
+        "Tstamp": "ed431bee-d90e-48a7-b403-178564524dff", 
+        "UST_ID": "5c70984512875079b91f8970", 
+        "Value": "33R"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Mlab_R:SMD-0805", 
+        "Ref": "R17", 
+        "Tstamp": "4313d099-4ba5-4c5b-84fd-da270ac6a872", 
+        "UST_ID": "5c70984512875079b91f898c", 
+        "Value": "1k"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Mlab_R:SMD-0805", 
+        "Ref": "R18", 
+        "Tstamp": "181136c6-142b-4030-9cba-0214ff7b9672", 
+        "UST_ID": "5c70984512875079b91f898c", 
+        "Value": "1k"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Mlab_R:SMD-0805", 
+        "Ref": "R19", 
+        "Tstamp": "00000000-0000-0000-0000-00005e87cecd", 
         "UST_ID": "5c70984512875079b91f8989", 
         "Value": "620R"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
-        "Ref": "R15", 
-        "Tstamp": "5EC8BE49", 
+        "Ref": "R20", 
+        "Tstamp": "00000000-0000-0000-0000-00005e873847", 
+        "UST_ID": "5c70984512875079b91f8989", 
+        "Value": "620R"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Mlab_R:SMD-0805", 
+        "Ref": "R21", 
+        "Tstamp": "00000000-0000-0000-0000-00005e87bde8", 
+        "UST_ID": "5c70984512875079b91f8989", 
+        "Value": "620R"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Mlab_R:SMD-0805", 
+        "Ref": "R22", 
+        "Tstamp": "f44c53ef-4a73-4de6-a9ba-573fa6ec21d4", 
+        "UST_ID": "5c70984512875079b91f8989", 
+        "Value": "620R"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Mlab_R:SMD-0805", 
+        "Ref": "R23", 
+        "Tstamp": "f3a95f28-0cd1-4285-adf6-4709cb14c1e8", 
+        "UST_ID": "5c70984512875079b91f896b", 
+        "Value": "0R"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Mlab_R:SMD-0805", 
+        "Ref": "R24", 
+        "Tstamp": "3be073a5-3cf2-4dcd-95e5-638b5ff126d4", 
+        "UST_ID": "5c70984512875079b91f897f", 
+        "Value": "220R"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Mlab_R:SMD-0805", 
+        "Ref": "R25", 
+        "Tstamp": "c07fc06b-3b92-4227-90bf-93bfd2bcf815", 
         "UST_ID": "5c70984612875079b91f899f", 
         "Value": "10k"
     }, 
     {
-        "Datasheet": "http://www2.st.com/resource/en/datasheet/CD00050750.pdf", 
-        "Footprint": "Package_TO_SOT_SMD:SOT-23-6", 
-        "Ref": "U1", 
-        "Tstamp": "5E82FCFD", 
-        "UST_ID": "5e82e0691287502a334a778c", 
-        "Value": "USBLC6-2SC6"
+        "Datasheet": "~", 
+        "Footprint": "Mlab_R:SMD-0805", 
+        "Ref": "R26", 
+        "Tstamp": "d1585a21-b520-4562-97dd-1e6ebc7a6516", 
+        "UST_ID": "5c70984612875079b91f89a1", 
+        "Value": "12k"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Mlab_R:SMD-0805", 
+        "Ref": "R27", 
+        "Tstamp": "3fd6e552-1e3f-4e4d-ba3f-e82fe65bf46d", 
+        "UST_ID": "5fa12b6012875025b3977a16", 
+        "Value": "390R"
     }, 
     {
         "Datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf", 
         "Footprint": "Package_TO_SOT_SMD:SOT-23-5", 
-        "Ref": "U2", 
-        "Tstamp": "5E8337AB", 
+        "Ref": "U1", 
+        "Tstamp": "00000000-0000-0000-0000-00005e8337ab", 
         "UST_ID": "5c7255e81287500b4e112ea2", 
         "Value": "MIC5504-3.3YM5"
+    }, 
+    {
+        "Datasheet": "http://www2.st.com/resource/en/datasheet/CD00050750.pdf", 
+        "Footprint": "Package_TO_SOT_SMD:SOT-23-6", 
+        "Ref": "U2", 
+        "Tstamp": "00000000-0000-0000-0000-00005e82fcfd", 
+        "UST_ID": "5e82e0691287502a334a778c", 
+        "Value": "USBLC6-2SC6"
     }, 
     {
         "Datasheet": "https://www.u-blox.com/sites/default/files/NEO-M8P_DataSheet_%28UBX-15016656%29.pdf", 
         "Footprint": "RF_GPS:ublox_NEO", 
         "Ref": "U3", 
-        "Tstamp": "5E82E194", 
-        "UST_ID": "5ed7ad5612875004e15a62f5", 
+        "Tstamp": "00000000-0000-0000-0000-00005e82e194", 
+        "UST_ID": "5fa0faaf12875025b3977985", 
         "Value": "NEO-M8P"
+    }, 
+    {
+        "Datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX2654-MAX2656.pdf", 
+        "Footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6", 
+        "Ref": "U4", 
+        "Tstamp": "e9490243-5a68-4bbb-a1d9-29a68cf133c8", 
+        "UST_ID": "5fa0fa3612875025b397796f", 
+        "Value": "MAX2656"
     }
 ]

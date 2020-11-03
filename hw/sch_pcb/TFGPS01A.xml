@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Chroust\stare\MLAB_G\Modules\sensors\GPS02A\hw\sch_pcb\GPS02A.sch</source>
-    <date>03.06.2020 16:03:52</date>
-    <tool>Eeschema (5.99.0-494-g9b7d4e274)</tool>
+    <source>C:\Chroust\stare\TF_G\TFGPS01\hw\sch_pcb\TFGPS01A.kicad_sch</source>
+    <date>03.11.2020 11:05:58</date>
+    <tool>Eeschema (5.99.0-6591-gee6c8b60ac)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>NAME</title>
-        <company>Mlab www.mlab.cz</company>
-        <rev>REV</rev>
+        <title>TFGPS01A</title>
+        <company>ThunderFly s.r.o.</company>
+        <rev>A</rev>
         <date>%F</date>
-        <source>GPS02A.sch</source>
-        <comment number="1" value="VERSION"/>
+        <source>TFGPS01A.kicad_sch</source>
+        <comment number="1" value=""/>
         <comment number="2" value="Short description \nTwo lines are maximum"/>
-        <comment number="3" value="nickname &lt;email@example.com&gt;"/>
-        <comment number="4" value="BSD"/>
+        <comment number="3" value="Jacho &lt;info@thunderfly.cz&gt;"/>
+        <comment number="4" value="GPL 3.0"/>
         <comment number="5" value=""/>
         <comment number="6" value=""/>
         <comment number="7" value=""/>
@@ -24,179 +24,229 @@
     </sheet>
   </design>
   <components>
-    <comp ref="M1">
-      <value>HOLE</value>
-      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
-      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>549D7549</tstamp>
-    </comp>
-    <comp ref="M2">
-      <value>HOLE</value>
-      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
-      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>549D7628</tstamp>
-    </comp>
-    <comp ref="M3">
-      <value>HOLE</value>
-      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
-      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>549D7646</tstamp>
-    </comp>
-    <comp ref="M4">
-      <value>HOLE</value>
-      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
-      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>549D7665</tstamp>
-    </comp>
-    <comp ref="U3">
-      <value>NEO-M8P</value>
-      <footprint>RF_GPS:ublox_NEO</footprint>
-      <datasheet>https://www.u-blox.com/sites/default/files/NEO-M8P_DataSheet_%28UBX-15016656%29.pdf</datasheet>
+    <comp ref="AE1">
+      <value>Antenna</value>
+      <footprint>MLAB_ANT:GPS_CGGP.35.3.A.02</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/398/CGGP.35.3.A.02-27913.pdf</datasheet>
       <fields>
-        <field name="UST_ID">5ed7ad5612875004e15a62f5</field>
+        <field name="UST_ID">5fa0f07c12875025b397787a</field>
       </fields>
-      <libsource lib="RF_GPS" part="NEO-M8P" description="GNSS RTK Module NEO M8, VCC 2.7V to 3.6V"/>
+      <libsource lib="Device" part="Antenna" description="Antenna"/>
+      <property name="UST_ID" value="5fa0f07c12875025b397787a"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E82E194</tstamp>
+      <tstamp>0b4eac50-9f3d-475a-b8a1-d225de746a22</tstamp>
     </comp>
-    <comp ref="U1">
-      <value>USBLC6-2SC6</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
-      <datasheet>http://www2.st.com/resource/en/datasheet/CD00050750.pdf</datasheet>
-      <fields>
-        <field name="UST_ID">5e82e0691287502a334a778c</field>
-      </fields>
-      <libsource lib="Power_Protection" part="USBLC6-2SC6" description="Bidirectional ESD Protection Diode, SOT-23-6"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E82FCFD</tstamp>
-    </comp>
-    <comp ref="U2">
-      <value>MIC5504-3.3YM5</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
-      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf</datasheet>
-      <fields>
-        <field name="UST_ID">5c7255e81287500b4e112ea2</field>
-      </fields>
-      <libsource lib="Regulator_Linear" part="MIC5504-3.3YM5" description="300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E8337AB</tstamp>
-    </comp>
-    <comp ref="J2">
-      <value>USB_B</value>
-      <footprint>Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal</footprint>
-      <datasheet> ~</datasheet>
-      <fields>
-        <field name="UST_ID">5c70984412875079b91f87a8</field>
-      </fields>
-      <libsource lib="Connector" part="USB_B" description="USB Type B connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E837FAF</tstamp>
-    </comp>
-    <comp ref="J1">
-      <value>HEADER_2x03_PARALLEL</value>
-      <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
-      <libsource lib="MLAB_HEADER" part="HEADER_2x03_PARALLEL" description="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E84B158</tstamp>
-    </comp>
-    <comp ref="F1">
-      <value>750mA</value>
-      <footprint>Mlab_F:1812</footprint>
+    <comp ref="BZ1">
+      <value>LET9032ES-03L-2.7-16-R</value>
+      <footprint>MLAB_BUZZER:MagneticBuzzer_LET9032ES-03L-2.7-16-R</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f88d2</field>
+        <field name="UST_ID">5fa0f13812875025b3977890</field>
       </fields>
-      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <libsource lib="Device" part="Buzzer" description="Buzzer, polarized"/>
+      <property name="UST_ID" value="5fa0f13812875025b3977890"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E854E79</tstamp>
+      <tstamp>13b724d7-299d-4de7-9fb2-acf636a86732</tstamp>
     </comp>
-    <comp ref="D2">
-      <value>M4</value>
-      <footprint>Diode_SMD:D_SMA</footprint>
-      <datasheet>~</datasheet>
+    <comp ref="C1">
+      <value>0,1F</value>
+      <footprint>Capacitor_SMD:CP_Elec_10x10.5</footprint>
+      <datasheet>FCS0H104ZFTBR24 KEMET</datasheet>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f88ac</field>
+        <field name="UST_ID">5fa0f22e12875025b39778a3</field>
       </fields>
-      <libsource lib="Device" part="D" description="Diode"/>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <property name="UST_ID" value="5fa0f22e12875025b39778a3"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E855FD7</tstamp>
-    </comp>
-    <comp ref="L1">
-      <value>NL322522T-101K</value>
-      <footprint>Inductor_SMD:L_1210_3225Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="UST_ID">5c70984412875079b91f87fb</field>
-      </fields>
-      <libsource lib="Device" part="L" description="Inductor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E853EBF</tstamp>
-    </comp>
-    <comp ref="J3">
-      <value>HEADER_2x03_PARALLEL</value>
-      <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
-      <libsource lib="MLAB_HEADER" part="HEADER_2x03_PARALLEL" description="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E88BC59</tstamp>
+      <tstamp>00000000-0000-0000-0000-00005e83848b</tstamp>
     </comp>
     <comp ref="C2">
       <value>10uF</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bbe</field>
+        <field name="UST_ID">5c70984812875079b91f8bbd</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bbd"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E832309</tstamp>
+      <tstamp>eba3ece1-4037-486a-b83d-0607675964b6</tstamp>
     </comp>
     <comp ref="C3">
-      <value>1uF</value>
+      <value>10uF</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID">5c70984712875079b91f8b50</field>
+        <field name="UST_ID">5c70984812875079b91f8bbd</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bbd"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E8339DD</tstamp>
+      <tstamp>00000000-0000-0000-0000-00005e832309</tstamp>
     </comp>
-    <comp ref="D3">
-      <value>RED</value>
-      <footprint>Mlab_D:LED_1206</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="UST_ID">5c70984412875079b91f8896</field>
-      </fields>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E83ED6C</tstamp>
-    </comp>
-    <comp ref="R10">
-      <value>620R</value>
+    <comp ref="C4">
+      <value>10uF</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f8989</field>
+        <field name="UST_ID">5c70984812875079b91f8bbd</field>
       </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bbd"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E840E49</tstamp>
+      <tstamp>00000000-0000-0000-0000-00005e8339dd</tstamp>
     </comp>
-    <comp ref="R1">
-      <value>22R</value>
+    <comp ref="C5">
+      <value>100nF</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f896f</field>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
       </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E8322C0</tstamp>
+      <tstamp>00000000-0000-0000-0000-00005e8fc158</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bbd</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bbd"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005e8e9a62</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bbd</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bbd"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>2ef4918e-cb90-4058-8b10-d84d1722cded</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bbd</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bbd"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>1de8ff3f-a275-4d8d-bd6d-ad551f839369</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>680pF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b43</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b43"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>89fd5ad7-64b2-4a36-8757-647b5164b5a7</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100pF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b3b</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b3b"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>25551e2a-1877-4740-9d6c-1c40787556be</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100pF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b3b</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b3b"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7773a25a-4487-4aa2-b99f-420ac11ff5a2</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100pF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b3b</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b3b"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>37aebd5e-3bd0-4f3f-954f-0d2d26d07731</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>1pF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b26</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b26"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>86deb435-ac6f-4922-806a-0998ac1a3708</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>1n8F</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5fa0ff6512875025b39779b1</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5fa0ff6512875025b39779b1"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>b830f0d4-d797-4b91-b70b-9b3a7a4c51f0</tstamp>
     </comp>
     <comp ref="D1">
       <value>BAS85</value>
@@ -206,193 +256,53 @@
         <field name="UST_ID">5c70984512875079b91f88b3</field>
       </fields>
       <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="UST_ID" value="5c70984512875079b91f88b3"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E8355A7</tstamp>
+      <tstamp>00000000-0000-0000-0000-00005e8355a7</tstamp>
     </comp>
-    <comp ref="C1">
-      <value>1F</value>
-      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+    <comp ref="D2">
+      <value>M4</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID">5c70984412875079b91f8873</field>
+        <field name="UST_ID">5c70984512875079b91f88ac</field>
       </fields>
-      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="UST_ID" value="5c70984512875079b91f88ac"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E83848B</tstamp>
+      <tstamp>00000000-0000-0000-0000-00005e855fd7</tstamp>
     </comp>
-    <comp ref="J15">
-      <value>HEADER_2x03_PARALLEL</value>
-      <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
-      <libsource lib="MLAB_HEADER" part="HEADER_2x03_PARALLEL" description="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E85A394</tstamp>
-    </comp>
-    <comp ref="C6">
-      <value>1uF</value>
-      <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="UST_ID">5c70984712875079b91f8b50</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E868DBD</tstamp>
-    </comp>
-    <comp ref="R4">
-      <value>33R</value>
-      <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="UST_ID">5c70984512875079b91f8970</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E88848F</tstamp>
-    </comp>
-    <comp ref="R5">
-      <value>33R</value>
-      <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="UST_ID">5c70984512875079b91f8970</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E88A33B</tstamp>
-    </comp>
-    <comp ref="R7">
-      <value>33R</value>
-      <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="UST_ID">5c70984512875079b91f8970</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E88B982</tstamp>
-    </comp>
-    <comp ref="R9">
-      <value>33R</value>
-      <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="UST_ID">5c70984512875079b91f8970</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E88D1F6</tstamp>
-    </comp>
-    <comp ref="R8">
-      <value>33R</value>
-      <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="UST_ID">5c70984512875079b91f8970</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E88C389</tstamp>
-    </comp>
-    <comp ref="R6">
-      <value>33R</value>
-      <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="UST_ID">5c70984512875079b91f8970</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E88B07B</tstamp>
-    </comp>
-    <comp ref="J12">
-      <value>HEADER_2x01_PARALLEL</value>
-      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
-      <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E8332C8</tstamp>
-    </comp>
-    <comp ref="J13">
-      <value>HEADER_2x01_PARALLEL</value>
-      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
-      <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E83C7AE</tstamp>
-    </comp>
-    <comp ref="JP1">
-      <value>Jumper_3_Bridged12</value>
-      <footprint>Mlab_Pin_Headers:Straight_1x03</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E83383A</tstamp>
-    </comp>
-    <comp ref="JP4">
-      <value>Jumper_2_Open</value>
-      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E848CC5</tstamp>
-    </comp>
-    <comp ref="JP7">
-      <value>Jumper_2_Open</value>
-      <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E85D222</tstamp>
-    </comp>
-    <comp ref="JP6">
-      <value>Jumper_2_Bridged</value>
-      <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E85E3D0</tstamp>
-    </comp>
-    <comp ref="D4">
-      <value>YELLOW</value>
+    <comp ref="D3">
+      <value>RED</value>
       <footprint>Mlab_D:LED_1206</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID">5c70984412875079b91f8897</field>
+        <field name="UST_ID">5c70984412875079b91f8896</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="UST_ID" value="5c70984412875079b91f8896"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E86723B</tstamp>
+      <tstamp>00000000-0000-0000-0000-00005e83ed6c</tstamp>
     </comp>
-    <comp ref="R12">
-      <value>620R</value>
-      <footprint>Mlab_R:SMD-0805</footprint>
+    <comp ref="D4">
+      <value>BLUE</value>
+      <footprint>Mlab_D:LED_1206</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f8989</field>
+        <field name="UST_ID">5c70984512875079b91f8898</field>
       </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="UST_ID" value="5c70984512875079b91f8898"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E873847</tstamp>
-    </comp>
-    <comp ref="R13">
-      <value>620R</value>
-      <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="UST_ID">5c70984512875079b91f8989</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E87BDE8</tstamp>
-    </comp>
-    <comp ref="R14">
-      <value>620R</value>
-      <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="UST_ID">5c70984512875079b91f8989</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E87CECD</tstamp>
+      <tstamp>00000000-0000-0000-0000-00005e880b05</tstamp>
     </comp>
     <comp ref="D5">
       <value>YELLOW</value>
@@ -402,8 +312,11 @@
         <field name="UST_ID">5c70984412875079b91f8897</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="UST_ID" value="5c70984412875079b91f8897"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E87F368</tstamp>
+      <tstamp>00000000-0000-0000-0000-00005e86723b</tstamp>
     </comp>
     <comp ref="D6">
       <value>GREEN</value>
@@ -413,135 +326,254 @@
         <field name="UST_ID">5c70984412875079b91f8895</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="UST_ID" value="5c70984412875079b91f8895"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E880B05</tstamp>
+      <tstamp>00000000-0000-0000-0000-00005e87f368</tstamp>
     </comp>
-    <comp ref="J7">
-      <value>HEADER_2x01_PARALLEL</value>
-      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
-      <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
+    <comp ref="D7">
+      <value>RED</value>
+      <footprint>Mlab_D:LED_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984412875079b91f8896</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="UST_ID" value="5c70984412875079b91f8896"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E8AE4FE</tstamp>
+      <tstamp>d046736c-6039-46c0-a433-52f0a4874786</tstamp>
     </comp>
-    <comp ref="J6">
-      <value>HEADER_2x01_PARALLEL</value>
-      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
-      <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
+    <comp ref="FL1">
+      <value>DBP.1575.W.A.30</value>
+      <footprint>MLAB_SAW:SAW DBP.1575.W.A.30</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/398/DBP.1575.W.A.30-1371847.pdf</datasheet>
+      <fields>
+        <field name="UST_ID">5fa0f56412875025b39778fc</field>
+      </fields>
+      <libsource lib="MLAB_IO" part="DBP.1575.W.A.30" description="Dielectric Band Pass Filter for 1575MHz"/>
+      <property name="UST_ID" value="5fa0f56412875025b39778fc"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E8B29F3</tstamp>
+      <tstamp>e78163e9-482e-4227-9608-722196227914</tstamp>
     </comp>
-    <comp ref="J5">
-      <value>HEADER_2x01_PARALLEL</value>
-      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
-      <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
+    <comp ref="J1">
+      <value>SM10B-GHS-TB</value>
+      <footprint>Connector_JST:JST_GH_SM10B-GHS-TB_1x10-1MP_P1.25mm_Horizontal</footprint>
+      <fields>
+        <field name="UST_ID">5fa0f69e12875025b397791d</field>
+      </fields>
+      <libsource lib="MLAB_CONNECTORS_JST" part="SM10B-GHS-TB" description="Zásuvka; kabel-pl.spoj; vidlice; GH; 1,25mm; PIN: 10; SMT; 50V; 1A"/>
+      <property name="UST_ID" value="5fa0f69e12875025b397791d"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E8B3E8D</tstamp>
+      <tstamp>3827360e-c4ff-4d2a-96f5-de82e5f2c74b</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>USBC_USB4105-GF-A</value>
+      <footprint>Mlab_CON:USBC GCT_USB4105-GF-A</footprint>
+      <fields>
+        <field name="UST_ID">5fa0f94612875025b397795e</field>
+      </fields>
+      <libsource lib="MLAB_CONNECTORS" part="USBC_USB4105-GF-A" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="UST_ID" value="5fa0f94612875025b397795e"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>1b5b7deb-7458-499b-a7df-6081dc132418</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>SM06B-GHS-TB</value>
+      <footprint>Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal</footprint>
+      <fields>
+        <field name="UST_ID">5fa0f70212875025b3977932</field>
+      </fields>
+      <libsource lib="MLAB_CONNECTORS_JST" part="SM06B-GHS-TB" description="1x07 2.54 mm pitch header"/>
+      <property name="UST_ID" value="5fa0f70212875025b3977932"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>9f9c094f-5a63-4d94-afc5-34f9ea43c8df</tstamp>
     </comp>
     <comp ref="J4">
-      <value>HEADER_2x01_PARALLEL</value>
-      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
-      <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E8B5E10</tstamp>
-    </comp>
-    <comp ref="C5">
-      <value>1uF</value>
-      <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
+      <value>SM04B-GHS-TB</value>
+      <footprint>Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</footprint>
       <fields>
-        <field name="UST_ID">5c70984712875079b91f8b50</field>
+        <field name="UST_ID">5c86273d1287500b4e0280be</field>
       </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="MLAB_CONNECTORS_JST" part="SM04B-GHS-TB" description="1x05 2.54 mm pitch header"/>
+      <property name="UST_ID" value="5c86273d1287500b4e0280be"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E8E9A62</tstamp>
+      <tstamp>29610f96-4dd1-478c-8206-4f9415f22588</tstamp>
     </comp>
-    <comp ref="C4">
-      <value>100nF</value>
-      <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
+    <comp ref="J5">
+      <value>SM08B-GHS-TB</value>
+      <footprint>Connector_JST:JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal</footprint>
       <fields>
-        <field name="UST_ID">5c70984712875079b91f8b4c</field>
+        <field name="UST_ID">5fa0f75012875025b3977948</field>
       </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="MLAB_CONNECTORS_JST" part="SM08B-GHS-TB" description="1x08 2.54 mm pitch header"/>
+      <property name="UST_ID" value="5fa0f75012875025b3977948"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E8FC158</tstamp>
+      <tstamp>4d470c2b-51cc-4195-9679-b60f8cb35fa0</tstamp>
     </comp>
-    <comp ref="R11">
-      <value>10R</value>
-      <footprint>Mlab_R:SMD-0805</footprint>
+    <comp ref="L1">
+      <value>NL322522T-101K</value>
+      <footprint>Inductor_SMD:L_1210_3225Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f896d</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EC10AB0</tstamp>
-    </comp>
-    <comp ref="L2">
-      <value>27nH</value>
-      <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="UST_ID">5c70984412875079b91f8807</field>
+        <field name="UST_ID">5c70984412875079b91f87fb</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="UST_ID" value="5c70984412875079b91f87fb"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EC263A6</tstamp>
+      <tstamp>00000000-0000-0000-0000-00005e853ebf</tstamp>
     </comp>
-    <comp ref="C7">
-      <value>10nF</value>
+    <comp ref="L2">
+      <value>4n7H</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID">5c70984712875079b91f8b49</field>
+        <field name="UST_ID">5fa100d812875025b39779cf</field>
       </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="UST_ID" value="5fa100d812875025b39779cf"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EC469D3</tstamp>
+      <tstamp>4df28642-4338-4e55-b154-9d794c85815c</tstamp>
     </comp>
-    <comp ref="J18">
-      <value>SMA</value>
-      <footprint>Connector_Coaxial:SMB_Jack_Vertical</footprint>
+    <comp ref="M1">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-0000549d7549</tstamp>
+    </comp>
+    <comp ref="M2">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-0000549d7628</tstamp>
+    </comp>
+    <comp ref="M3">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-0000549d7646</tstamp>
+    </comp>
+    <comp ref="M4">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-0000549d7665</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC817-25</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID">5c70984412875079b91f87ac</field>
+        <field name="UST_ID">5c70984712875079b91f8aea</field>
       </fields>
-      <libsource lib="MLAB_CONNECTORS" part="SMA" description=""/>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <property name="UST_ID" value="5c70984712875079b91f8aea"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EBB8E2B</tstamp>
+      <tstamp>0e21f791-9a6d-4511-aef7-35f0d83c37c6</tstamp>
     </comp>
-    <comp ref="J11">
-      <value>HEADER_2x01_PARALLEL</value>
-      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
-      <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
+    <comp ref="Q2">
+      <value>BC817-25</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8aea</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <property name="UST_ID" value="5c70984712875079b91f8aea"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EBC9ADF</tstamp>
+      <tstamp>dbba55c4-bdc9-4766-92db-5df00971577e</tstamp>
     </comp>
-    <comp ref="J14">
-      <value>HEADER_2x01_PARALLEL</value>
-      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
-      <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
+    <comp ref="R1">
+      <value>22R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f896f</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f896f"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EC138AB</tstamp>
-    </comp>
-    <comp ref="J16">
-      <value>HEADER_2x01_PARALLEL</value>
-      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
-      <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EC37FF5</tstamp>
+      <tstamp>00000000-0000-0000-0000-00005e8322c0</tstamp>
     </comp>
     <comp ref="R2">
-      <value>10k</value>
+      <value>5k1</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID">5c70984612875079b91f899f</field>
+        <field name="UST_ID">5fa0fc3e12875025b3977997</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5fa0fc3e12875025b3977997"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EC61720</tstamp>
+      <tstamp>3b236ba6-0e9b-4353-b4d4-e0e9ee0c184b</tstamp>
     </comp>
     <comp ref="R3">
+      <value>5k1</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5fa0fc3e12875025b3977997</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5fa0fc3e12875025b3977997"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>bc19ac54-2438-41ce-bcf8-4ca838a54ce7</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>620R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8989</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f8989"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005e840e49</tstamp>
+    </comp>
+    <comp ref="R5">
       <value>10k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <datasheet>~</datasheet>
@@ -549,65 +581,279 @@
         <field name="UST_ID">5c70984612875079b91f899f</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984612875079b91f899f"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EC7130A</tstamp>
+      <tstamp>00000000-0000-0000-0000-00005ec61720</tstamp>
     </comp>
-    <comp ref="J9">
-      <value>HEADER_2x01_PARALLEL</value>
-      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
-      <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EC9099C</tstamp>
-    </comp>
-    <comp ref="J10">
-      <value>HEADER_2x01_PARALLEL</value>
-      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
-      <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EC96C7B</tstamp>
-    </comp>
-    <comp ref="J8">
-      <value>HEADER_2x01_PARALLEL</value>
-      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
-      <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EC9A68C</tstamp>
-    </comp>
-    <comp ref="J17">
-      <value>u.FL</value>
-      <footprint>Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical</footprint>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID">5ed7ac8e12875004e15a62c8</field>
+        <field name="UST_ID">5c70984612875079b91f899f</field>
       </fields>
-      <libsource lib="MLAB_CONNECTORS" part="SMA" description=""/>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984612875079b91f899f"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EC3BAF1</tstamp>
+      <tstamp>00000000-0000-0000-0000-00005ec7130a</tstamp>
     </comp>
-    <comp ref="JP8">
-      <value>Jumper_2_Open</value>
-      <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
+    <comp ref="R7">
+      <value>33R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8970</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f8970"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E85DB1C</tstamp>
+      <tstamp>00000000-0000-0000-0000-00005e88848f</tstamp>
     </comp>
-    <comp ref="JP9">
-      <value>Jumper_2_Open</value>
-      <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
+    <comp ref="R8">
+      <value>33R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8970</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f8970"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5ECC134D</tstamp>
+      <tstamp>00000000-0000-0000-0000-00005e88a33b</tstamp>
     </comp>
-    <comp ref="JP2">
-      <value>Jumper_2_Bridged</value>
-      <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
+    <comp ref="R9">
+      <value>33R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8970</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f8970"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EC85315</tstamp>
+      <tstamp>00000000-0000-0000-0000-00005e88b07b</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>33R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8970</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f8970"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005e88b982</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>33R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8970</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f8970"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005e88c389</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>33R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8970</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f8970"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005e88d1f6</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>100R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8977</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f8977"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>cdd98aa8-39c3-4902-a0e7-b4479d95ffc5</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>33R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8970</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f8970"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7b4cb5de-acfc-4eb8-b423-1fe9cedbdaaf</tstamp>
     </comp>
     <comp ref="R15">
+      <value>33R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8970</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f8970"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>ece9e3fc-3639-41e4-a5ee-ebba7fce0010</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>33R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8970</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f8970"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>ed431bee-d90e-48a7-b403-178564524dff</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>1k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f898c</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f898c"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4313d099-4ba5-4c5b-84fd-da270ac6a872</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>1k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f898c</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f898c"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>181136c6-142b-4030-9cba-0214ff7b9672</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>620R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8989</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f8989"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005e87cecd</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>620R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8989</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f8989"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005e873847</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>620R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8989</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f8989"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005e87bde8</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>620R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8989</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f8989"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>f44c53ef-4a73-4de6-a9ba-573fa6ec21d4</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>0R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f896b</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f896b"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>f3a95f28-0cd1-4285-adf6-4709cb14c1e8</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>220R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f897f</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f897f"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>3be073a5-3cf2-4dcd-95e5-638b5ff126d4</tstamp>
+    </comp>
+    <comp ref="R25">
       <value>10k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <datasheet>~</datasheet>
@@ -615,28 +861,124 @@
         <field name="UST_ID">5c70984612875079b91f899f</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984612875079b91f899f"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EC8BE49</tstamp>
+      <tstamp>c07fc06b-3b92-4227-90bf-93bfd2bcf815</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>12k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984612875079b91f89a1</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984612875079b91f89a1"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>d1585a21-b520-4562-97dd-1e6ebc7a6516</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>390R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5fa12b6012875025b3977a16</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5fa12b6012875025b3977a16"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>3fd6e552-1e3f-4e4d-ba3f-e82fe65bf46d</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MIC5504-3.3YM5</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf</datasheet>
+      <fields>
+        <field name="UST_ID">5c7255e81287500b4e112ea2</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="MIC5504-3.3YM5" description="300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23"/>
+      <property name="UST_ID" value="5c7255e81287500b4e112ea2"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005e8337ab</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>USBLC6-2SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www2.st.com/resource/en/datasheet/CD00050750.pdf</datasheet>
+      <fields>
+        <field name="UST_ID">5e82e0691287502a334a778c</field>
+      </fields>
+      <libsource lib="Power_Protection" part="USBLC6-2SC6" description="Bidirectional ESD Protection Diode, SOT-23-6"/>
+      <property name="UST_ID" value="5e82e0691287502a334a778c"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005e82fcfd</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>NEO-M8P</value>
+      <footprint>RF_GPS:ublox_NEO</footprint>
+      <datasheet>https://www.u-blox.com/sites/default/files/NEO-M8P_DataSheet_%28UBX-15016656%29.pdf</datasheet>
+      <fields>
+        <field name="UST_ID">5fa0faaf12875025b3977985</field>
+      </fields>
+      <libsource lib="RF_GPS" part="NEO-M8P" description="GNSS RTK Module NEO M8, VCC 2.7V to 3.6V"/>
+      <property name="UST_ID" value="5fa0faaf12875025b3977985"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005e82e194</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>MAX2656</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX2654-MAX2656.pdf</datasheet>
+      <fields>
+        <field name="UST_ID">5fa0fa3612875025b397796f</field>
+      </fields>
+      <libsource lib="MLAB_IO" part="MAX2656" description="1575MHz/1900MHz Variable-IP3, LNA pro GPS"/>
+      <property name="UST_ID" value="5fa0fa3612875025b397796f"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>e9490243-5a68-4bbb-a1d9-29a68cf133c8</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="Connector" part="USB_B">
-      <description>USB Type B connector</description>
-      <docs> ~</docs>
-      <footprints>
-        <fp>USB*</fp>
-      </footprints>
+    <libpart lib="Device" part="Antenna">
+      <description>Antenna</description>
+      <docs>~</docs>
       <fields>
-        <field name="Reference">J</field>
-        <field name="Value">USB_B</field>
-        <field name="Datasheet"> ~</field>
+        <field name="Reference">AE</field>
+        <field name="Value">Antenna</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="VBUS" type="power_out"/>
-        <pin num="2" name="D-" type="passive"/>
-        <pin num="3" name="D+" type="passive"/>
-        <pin num="4" name="GND" type="power_out"/>
-        <pin num="5" name="Shield" type="passive"/>
+        <pin num="1" name="A" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Buzzer">
+      <description>Buzzer, polarized</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Buzzer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BZ</field>
+        <field name="Value">Buzzer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C">
@@ -709,22 +1051,6 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="Fuse">
-      <description>Fuse</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>*Fuse*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">F</field>
-        <field name="Value">Fuse</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="L">
       <description>Inductor</description>
       <docs>~</docs>
@@ -762,6 +1088,20 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="Q_NPN_BEC">
+      <description>NPN transistor, base/emitter/collector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BEC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="R">
       <description>Resistor</description>
       <docs>~</docs>
@@ -778,81 +1118,56 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Jumper" part="Jumper_2_Bridged">
-      <description>Jumper, 2-pole, closed/bridged</description>
-      <docs>~</docs>
+    <libpart lib="MLAB_CONNECTORS" part="USBC_USB4105-GF-A">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
       <footprints>
-        <fp>SolderJumper*Bridged*</fp>
+        <fp>USB*C*Receptacle*</fp>
       </footprints>
-      <fields>
-        <field name="Reference">JP</field>
-        <field name="Value">Jumper_2_Bridged</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="B" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Jumper" part="Jumper_2_Open">
-      <description>Jumper, 2-pole, open</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>SolderJumper*Open*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">JP</field>
-        <field name="Value">Jumper_2_Open</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="B" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Jumper" part="Jumper_3_Bridged12">
-      <description>Jumper, 3-pole, pins 1+2 closed/bridged</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>SolderJumper*Bridged12*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">JP</field>
-        <field name="Value">Jumper_3_Bridged12</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="C" type="input"/>
-        <pin num="3" name="B" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="MLAB_CONNECTORS" part="SMA">
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">SMA</field>
+        <field name="Value">USBC_USB4105-GF-A</field>
+        <field name="Footprint">Mlab_CON:USBC GCT_USB4105-GF-A</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="unspc"/>
-        <pin num="2" name="~" type="unspc"/>
+        <pin num="A5" name="CC1" type="BiDi"/>
+        <pin num="A6" name="D+" type="BiDi"/>
+        <pin num="A7" name="D-" type="BiDi"/>
+        <pin num="A8" name="SBU1" type="BiDi"/>
+        <pin num="A1/B12" name="GND" type="passive"/>
+        <pin num="A4/B9" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="BiDi"/>
+        <pin num="B6" name="D+" type="BiDi"/>
+        <pin num="B7" name="D-" type="BiDi"/>
+        <pin num="B8" name="SBU2" type="BiDi"/>
+        <pin num="B1/A12" name="GND" type="passive"/>
+        <pin num="B4/A9" name="VBUS" type="passive"/>
+        <pin num="G1" name="SHIELD" type="passive"/>
+        <pin num="G2" name="SHIELD" type="passive"/>
+        <pin num="G3" name="SHIELD" type="passive"/>
+        <pin num="G4" name="SHIELD" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL">
-      <description>2x01 2.54 mm pitch header, 2 pins next to each other are connected</description>
+    <libpart lib="MLAB_CONNECTORS_JST" part="SM04B-GHS-TB">
+      <description>1x05 2.54 mm pitch header</description>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">HEADER_2x01_PARALLEL</field>
+        <field name="Value">SM04B-GHS-TB</field>
+        <field name="Footprint">Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="input"/>
         <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="MP" name="~" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="MLAB_HEADER" part="HEADER_2x03_PARALLEL">
-      <description>2x03 2.54 mm pitch header, 2 pins next to each other are connected</description>
+    <libpart lib="MLAB_CONNECTORS_JST" part="SM06B-GHS-TB">
+      <description>1x07 2.54 mm pitch header</description>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">HEADER_2x03_PARALLEL</field>
+        <field name="Value">SM06B-GHS-TB</field>
+        <field name="Footprint">Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="input"/>
@@ -861,6 +1176,76 @@
         <pin num="4" name="~" type="input"/>
         <pin num="5" name="~" type="input"/>
         <pin num="6" name="~" type="input"/>
+        <pin num="MP" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_CONNECTORS_JST" part="SM08B-GHS-TB">
+      <description>1x08 2.54 mm pitch header</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SM08B-GHS-TB</field>
+        <field name="Footprint">Connector_JST:JST_GH_SM08B-GHS-TB_1x8-1MP_P1.25mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+        <pin num="7" name="~" type="input"/>
+        <pin num="8" name="~" type="input"/>
+        <pin num="MP" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_CONNECTORS_JST" part="SM10B-GHS-TB">
+      <description>Zásuvka; kabel-pl.spoj; vidlice; GH; 1,25mm; PIN: 10; SMT; 50V; 1A</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SM10B-GHS-TB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+        <pin num="7" name="~" type="input"/>
+        <pin num="8" name="~" type="input"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="input"/>
+        <pin num="MP" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_IO" part="DBP.1575.W.A.30">
+      <description>Dielectric Band Pass Filter for 1575MHz</description>
+      <footprints>
+        <fp>Filter*1109*1.1x0.9mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FL</field>
+        <field name="Value">DBP.1575.W.A.30</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN/OUT" type="passive"/>
+        <pin num="2" name="IN/OUT" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_IO" part="MAX2656">
+      <description>1575MHz/1900MHz Variable-IP3, LNA pro GPS</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX2656</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BIAS" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="RFIN" type="passive"/>
+        <pin num="4" name="VCC" type="input"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="RFOUT" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="MLAB_MECHANICAL" part="HOLE">
@@ -954,23 +1339,20 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="Connector">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
-    </library>
     <library logical="Device">
       <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
     </library>
-    <library logical="Jumper">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Jumper.lib</uri>
-    </library>
     <library logical="MLAB_CONNECTORS">
-      <uri>C:/Chroust/stare/MLAB_G/kicad-mlab/symbols/MLAB_CONNECTORS.lib</uri>
+      <uri>C:\Chroust\stare\MLAB_G\kicad-mlab\symbols/MLAB_CONNECTORS.kicad_sym</uri>
     </library>
-    <library logical="MLAB_HEADER">
-      <uri>C:/Chroust/stare/MLAB_G/kicad-mlab/symbols/MLAB_HEADER.lib</uri>
+    <library logical="MLAB_CONNECTORS_JST">
+      <uri>C:\Chroust\stare\MLAB_G\kicad-mlab\symbols/MLAB_CONNECTORS_JST.kicad_sym</uri>
+    </library>
+    <library logical="MLAB_IO">
+      <uri>C:\Chroust\stare\MLAB_G\kicad-mlab\symbols/MLAB_IO.kicad_sym</uri>
     </library>
     <library logical="MLAB_MECHANICAL">
-      <uri>C:/Chroust/stare/MLAB_G/kicad-mlab/symbols/MLAB_MECHANICAL.lib</uri>
+      <uri>C:\Chroust\stare\MLAB_G\kicad-mlab\symbols/MLAB_MECHANICAL.lib</uri>
     </library>
     <library logical="Power_Protection">
       <uri>C:\Program Files\KiCad\share\kicad\library/Power_Protection.lib</uri>
@@ -983,262 +1365,336 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/VDD_USB">
-      <node ref="U3" pin="7" pinfunction="VDD_USB"/>
-      <node ref="R15" pin="1"/>
-      <node ref="JP2" pin="1" pinfunction="A"/>
-    </net>
-    <net code="2" name="/D_SEL">
-      <node ref="JP4" pin="2" pinfunction="B"/>
-      <node ref="U3" pin="2" pinfunction="D_SEL"/>
-    </net>
-    <net code="3" name="/#SAFEB">
-      <node ref="J12" pin="2"/>
-      <node ref="J12" pin="1"/>
-      <node ref="U3" pin="1" pinfunction="~SAFEBOOT"/>
-    </net>
-    <net code="4" name="/#RESET">
-      <node ref="J13" pin="2"/>
-      <node ref="J13" pin="1"/>
-      <node ref="U3" pin="8" pinfunction="~RESET"/>
-    </net>
-    <net code="5" name="GND">
-      <node ref="R15" pin="2"/>
-      <node ref="J17" pin="2"/>
-      <node ref="J10" pin="1"/>
-      <node ref="J10" pin="2"/>
-      <node ref="J9" pin="2"/>
-      <node ref="J9" pin="1"/>
-      <node ref="J18" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="R14" pin="2"/>
-      <node ref="R13" pin="2"/>
-      <node ref="R12" pin="2"/>
-      <node ref="U1" pin="2" pinfunction="GND"/>
-      <node ref="JP4" pin="1" pinfunction="A"/>
-      <node ref="U3" pin="13" pinfunction="GND"/>
-      <node ref="U3" pin="12" pinfunction="GND"/>
-      <node ref="U3" pin="24" pinfunction="GND"/>
-      <node ref="U3" pin="10" pinfunction="GND"/>
-      <node ref="U2" pin="2" pinfunction="GND"/>
-      <node ref="C6" pin="2"/>
-      <node ref="J15" pin="6"/>
-      <node ref="J15" pin="5"/>
-      <node ref="J15" pin="2"/>
-      <node ref="J15" pin="1"/>
-      <node ref="C1" pin="2"/>
-      <node ref="R10" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="D2" pin="2" pinfunction="A"/>
-      <node ref="J3" pin="6"/>
-      <node ref="J3" pin="5"/>
-      <node ref="J3" pin="2"/>
-      <node ref="J3" pin="1"/>
-      <node ref="J1" pin="2"/>
-      <node ref="J1" pin="1"/>
-      <node ref="J1" pin="6"/>
-      <node ref="J1" pin="5"/>
-      <node ref="J2" pin="4" pinfunction="GND"/>
-      <node ref="J2" pin="5" pinfunction="Shield"/>
-      <node ref="M4" pin="1"/>
-      <node ref="M3" pin="1"/>
-      <node ref="M2" pin="1"/>
-      <node ref="M1" pin="1"/>
-    </net>
-    <net code="6" name="+3V3">
-      <node ref="JP9" pin="1" pinfunction="A"/>
+    <net code="1" name="+3V3">
       <node ref="C4" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="U2" pin="5" pinfunction="VOUT"/>
-      <node ref="J8" pin="2"/>
-      <node ref="J8" pin="1"/>
-      <node ref="R3" pin="1"/>
-      <node ref="JP2" pin="2" pinfunction="B"/>
-      <node ref="R1" pin="1"/>
       <node ref="C5" pin="1"/>
-      <node ref="U3" pin="23" pinfunction="VCC"/>
       <node ref="C6" pin="1"/>
-      <node ref="J15" pin="4"/>
-      <node ref="J15" pin="3"/>
-      <node ref="R2" pin="1"/>
-    </net>
-    <net code="7" name="Net-(JP8-Pad1)">
-      <node ref="JP8" pin="1" pinfunction="A"/>
-      <node ref="U3" pin="16" pinfunction="GEOFENCE_STAT"/>
-    </net>
-    <net code="8" name="Net-(J16-Pad1)">
-      <node ref="JP6" pin="1" pinfunction="A"/>
-      <node ref="U3" pin="3" pinfunction="TIMEPULSE"/>
-      <node ref="J16" pin="2"/>
-      <node ref="J16" pin="1"/>
-    </net>
-    <net code="9" name="Net-(J17-Pad1)">
-      <node ref="J18" pin="1"/>
-      <node ref="J17" pin="1"/>
-      <node ref="U3" pin="11" pinfunction="RF_IN"/>
-      <node ref="L2" pin="2" pinfunction="2"/>
-    </net>
-    <net code="10" name="/SDA{slash}#CS">
-      <node ref="R2" pin="2"/>
-      <node ref="J6" pin="2"/>
-      <node ref="J6" pin="1"/>
-      <node ref="R8" pin="2"/>
-    </net>
-    <net code="11" name="/LNEN">
-      <node ref="U3" pin="14" pinfunction="LNA_EN"/>
-      <node ref="J14" pin="2"/>
-      <node ref="J14" pin="1"/>
-    </net>
-    <net code="12" name="/EXTINT">
-      <node ref="U3" pin="4" pinfunction="EXTINT"/>
-      <node ref="J11" pin="2"/>
-      <node ref="J11" pin="1"/>
-    </net>
-    <net code="13" name="Net-(C7-Pad1)">
-      <node ref="L2" pin="1" pinfunction="1"/>
-      <node ref="R11" pin="2"/>
       <node ref="C7" pin="1"/>
-    </net>
-    <net code="14" name="/SCL{slash}CLK">
-      <node ref="J7" pin="2"/>
-      <node ref="J7" pin="1"/>
-      <node ref="R9" pin="2"/>
-      <node ref="R3" pin="2"/>
-    </net>
-    <net code="15" name="/RXD{slash}MOSI">
-      <node ref="J5" pin="2"/>
-      <node ref="J5" pin="1"/>
-      <node ref="R7" pin="2"/>
-    </net>
-    <net code="16" name="/TXD{slash}MISO">
-      <node ref="J4" pin="1"/>
-      <node ref="J4" pin="2"/>
-      <node ref="R6" pin="2"/>
-    </net>
-    <net code="17" name="Net-(D3-Pad2)">
-      <node ref="JP9" pin="2" pinfunction="B"/>
       <node ref="D3" pin="2" pinfunction="A"/>
-    </net>
-    <net code="18" name="/DM">
-      <node ref="R4" pin="2"/>
-      <node ref="U1" pin="3" pinfunction="IO2"/>
-    </net>
-    <net code="19" name="/TIMEPULSE">
-      <node ref="JP6" pin="2" pinfunction="B"/>
-      <node ref="D6" pin="2" pinfunction="A"/>
-    </net>
-    <net code="20" name="Net-(D5-Pad1)">
-      <node ref="D5" pin="1" pinfunction="K"/>
-      <node ref="R13" pin="1"/>
-    </net>
-    <net code="21" name="Net-(JP7-Pad1)">
-      <node ref="JP7" pin="1" pinfunction="A"/>
-      <node ref="U3" pin="15" pinfunction="RTK_STAT"/>
-    </net>
-    <net code="22" name="/GEO_STAT">
-      <node ref="JP8" pin="2" pinfunction="B"/>
       <node ref="D4" pin="2" pinfunction="A"/>
-    </net>
-    <net code="23" name="/RTK_STAT">
-      <node ref="D5" pin="2" pinfunction="A"/>
-      <node ref="JP7" pin="2" pinfunction="B"/>
-    </net>
-    <net code="24" name="Net-(F1-Pad1)">
-      <node ref="JP1" pin="2" pinfunction="C"/>
-      <node ref="F1" pin="1"/>
-    </net>
-    <net code="25" name="/VBUS">
-      <node ref="JP1" pin="1" pinfunction="A"/>
-      <node ref="U1" pin="5" pinfunction="VBUS"/>
-      <node ref="J2" pin="1" pinfunction="VBUS"/>
-    </net>
-    <net code="26" name="Net-(D6-Pad1)">
-      <node ref="R14" pin="1"/>
-      <node ref="D6" pin="1" pinfunction="K"/>
-    </net>
-    <net code="27" name="Net-(R6-Pad1)">
-      <node ref="R6" pin="1"/>
-      <node ref="U3" pin="20" pinfunction="TXD/SPI_MISO"/>
-    </net>
-    <net code="28" name="Net-(R9-Pad1)">
-      <node ref="R9" pin="1"/>
-      <node ref="U3" pin="19" pinfunction="SCL/SPI_CLK"/>
-    </net>
-    <net code="29" name="Net-(R8-Pad1)">
-      <node ref="R8" pin="1"/>
-      <node ref="U3" pin="18" pinfunction="SDA/~SPI_CS"/>
-    </net>
-    <net code="30" name="Net-(R7-Pad1)">
-      <node ref="R7" pin="1"/>
-      <node ref="U3" pin="21" pinfunction="RXD/SPI_MOSI"/>
-    </net>
-    <net code="31" name="Net-(R11-Pad1)">
-      <node ref="U3" pin="9" pinfunction="VCC_RF"/>
-      <node ref="R11" pin="1"/>
-    </net>
-    <net code="32" name="Net-(D4-Pad1)">
-      <node ref="D4" pin="1" pinfunction="K"/>
-      <node ref="R12" pin="1"/>
-    </net>
-    <net code="33" name="Net-(R5-Pad1)">
+      <node ref="R1" pin="1"/>
       <node ref="R5" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="5" pinfunction="VOUT"/>
+      <node ref="U3" pin="23" pinfunction="VCC"/>
+      <node ref="U3" pin="7" pinfunction="VDD_USB"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="BZ1" pin="1" pinfunction="-"/>
+      <node ref="D2" pin="1" pinfunction="K"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J2" pin="A4/B9" pinfunction="VBUS"/>
+      <node ref="J2" pin="B4/A9" pinfunction="VBUS"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J3" pin="5"/>
+      <node ref="J4" pin="1"/>
+      <node ref="L1" pin="1" pinfunction="1"/>
+      <node ref="U2" pin="5" pinfunction="VBUS"/>
+    </net>
+    <net code="3" name="/1+">
+      <node ref="R8" pin="1"/>
       <node ref="U3" pin="6" pinfunction="USB_DP"/>
     </net>
-    <net code="34" name="Net-(R4-Pad1)">
-      <node ref="R4" pin="1"/>
+    <net code="4" name="/1-">
+      <node ref="R7" pin="1"/>
       <node ref="U3" pin="5" pinfunction="USB_DM"/>
     </net>
-    <net code="35" name="Net-(J1-Pad3)">
-      <node ref="JP1" pin="3" pinfunction="B"/>
-      <node ref="J1" pin="4"/>
-      <node ref="J1" pin="3"/>
+    <net code="5" name="/BUZZER">
+      <node ref="J1" pin="9"/>
+      <node ref="J3" pin="4"/>
+      <node ref="R24" pin="1"/>
+      <node ref="R25" pin="1"/>
     </net>
-    <net code="36" name="/VBACKUP">
+    <net code="6" name="/D+">
+      <node ref="J2" pin="A6" pinfunction="D+"/>
+      <node ref="J2" pin="B6" pinfunction="D+"/>
+      <node ref="U2" pin="6" pinfunction="IO1"/>
+    </net>
+    <net code="7" name="/D-">
+      <node ref="J2" pin="A7" pinfunction="D-"/>
+      <node ref="J2" pin="B7" pinfunction="D-"/>
+      <node ref="U2" pin="4" pinfunction="IO2"/>
+    </net>
+    <net code="8" name="/D1+">
+      <node ref="R8" pin="2"/>
+      <node ref="U2" pin="1" pinfunction="IO1"/>
+    </net>
+    <net code="9" name="/D1-">
+      <node ref="R7" pin="2"/>
+      <node ref="U2" pin="3" pinfunction="IO2"/>
+    </net>
+    <net code="10" name="/EXTINT">
+      <node ref="R15" pin="1"/>
+      <node ref="U3" pin="4" pinfunction="EXTINT"/>
+    </net>
+    <net code="11" name="/GEO_STAT">
+      <node ref="D5" pin="2" pinfunction="A"/>
+      <node ref="R16" pin="1"/>
+      <node ref="U3" pin="16" pinfunction="GEOFENCE_STAT"/>
+    </net>
+    <net code="12" name="/RF1">
+      <node ref="FL1" pin="2" pinfunction="IN/OUT"/>
+      <node ref="U3" pin="11" pinfunction="RF_IN"/>
+    </net>
+    <net code="13" name="/RF2">
+      <node ref="C11" pin="1"/>
+      <node ref="FL1" pin="1" pinfunction="IN/OUT"/>
+    </net>
+    <net code="14" name="/RF3">
+      <node ref="C11" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="U4" pin="6" pinfunction="RFOUT"/>
+    </net>
+    <net code="15" name="/RF4">
+      <node ref="L2" pin="1" pinfunction="1"/>
+      <node ref="U4" pin="3" pinfunction="RFIN"/>
+    </net>
+    <net code="16" name="/RF5">
+      <node ref="C13" pin="2"/>
+      <node ref="C14" pin="1"/>
+      <node ref="L2" pin="2" pinfunction="2"/>
+    </net>
+    <net code="17" name="/RF6">
+      <node ref="AE1" pin="1" pinfunction="A"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="18" name="/RTK_STAT">
+      <node ref="D6" pin="2" pinfunction="A"/>
+      <node ref="U3" pin="15" pinfunction="RTK_STAT"/>
+    </net>
+    <net code="19" name="/RX">
+      <node ref="J1" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="20" name="/SAFETY_SW">
+      <node ref="J1" pin="6"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="21" name="/SAFETY_SW_LED">
+      <node ref="D7" pin="2" pinfunction="A"/>
+      <node ref="J1" pin="7"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="22" name="/SAFE_VCC">
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="23" name="/SCL">
+      <node ref="J5" pin="5"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="24" name="/SCL1">
+      <node ref="J1" pin="4"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="25" name="/SDA">
+      <node ref="J5" pin="4"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="26" name="/SDA1">
+      <node ref="J1" pin="5"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="27" name="/TIMEPULSE">
+      <node ref="R13" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U3" pin="3" pinfunction="TIMEPULSE"/>
+    </net>
+    <net code="28" name="/TX">
+      <node ref="J1" pin="3"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="29" name="/VBACKUP">
       <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
       <node ref="D1" pin="1" pinfunction="K"/>
       <node ref="U3" pin="22" pinfunction="V_BCKP"/>
     </net>
-    <net code="37" name="Net-(D1-Pad2)">
+    <net code="30" name="GND">
+      <node ref="C1" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="D2" pin="2" pinfunction="A"/>
+      <node ref="FL1" pin="3" pinfunction="GND"/>
+      <node ref="J1" pin="10"/>
+      <node ref="J1" pin="MP"/>
+      <node ref="J2" pin="A1/B12" pinfunction="GND"/>
+      <node ref="J2" pin="B1/A12" pinfunction="GND"/>
+      <node ref="J2" pin="G1" pinfunction="SHIELD"/>
+      <node ref="J2" pin="G2" pinfunction="SHIELD"/>
+      <node ref="J2" pin="G3" pinfunction="SHIELD"/>
+      <node ref="J2" pin="G4" pinfunction="SHIELD"/>
+      <node ref="J3" pin="6"/>
+      <node ref="J3" pin="MP"/>
+      <node ref="J4" pin="4"/>
+      <node ref="J4" pin="MP"/>
+      <node ref="J5" pin="8"/>
+      <node ref="J5" pin="MP"/>
+      <node ref="M1" pin="1"/>
+      <node ref="M2" pin="1"/>
+      <node ref="M3" pin="1"/>
+      <node ref="M4" pin="1"/>
+      <node ref="Q1" pin="2" pinfunction="E"/>
+      <node ref="Q2" pin="2" pinfunction="E"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="R25" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="2" pinfunction="GND"/>
+      <node ref="U2" pin="2" pinfunction="GND"/>
+      <node ref="U3" pin="10" pinfunction="GND"/>
+      <node ref="U3" pin="12" pinfunction="GND"/>
+      <node ref="U3" pin="13" pinfunction="GND"/>
+      <node ref="U3" pin="24" pinfunction="GND"/>
+      <node ref="U4" pin="2" pinfunction="GND"/>
+      <node ref="U4" pin="5" pinfunction="GND"/>
+    </net>
+    <net code="31" name="Net-(BZ1-Pad2)">
+      <node ref="BZ1" pin="2" pinfunction="+"/>
+      <node ref="Q2" pin="3" pinfunction="C"/>
+    </net>
+    <net code="32" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="R26" pin="1"/>
+      <node ref="U4" pin="4" pinfunction="VCC"/>
+    </net>
+    <net code="33" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1"/>
+      <node ref="R27" pin="1"/>
+      <node ref="U4" pin="1" pinfunction="BIAS"/>
+    </net>
+    <net code="34" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="L1" pin="2" pinfunction="2"/>
+      <node ref="U1" pin="1" pinfunction="VIN"/>
+      <node ref="U1" pin="3" pinfunction="EN"/>
+    </net>
+    <net code="35" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="R23" pin="2"/>
+      <node ref="U3" pin="9" pinfunction="VCC_RF"/>
+    </net>
+    <net code="36" name="Net-(D1-Pad2)">
       <node ref="D1" pin="2" pinfunction="A"/>
       <node ref="R1" pin="2"/>
     </net>
-    <net code="38" name="Net-(D3-Pad1)">
+    <net code="37" name="Net-(D3-Pad1)">
       <node ref="D3" pin="1" pinfunction="K"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="38" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1" pinfunction="K"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="39" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1" pinfunction="K"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="40" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1" pinfunction="K"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="41" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1" pinfunction="K"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="42" name="Net-(J2-PadA5)">
+      <node ref="J2" pin="A5" pinfunction="CC1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="43" name="Net-(J2-PadA8)">
+      <node ref="J2" pin="A8" pinfunction="SBU1"/>
+    </net>
+    <net code="44" name="Net-(J2-PadB5)">
+      <node ref="J2" pin="B5" pinfunction="CC2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="45" name="Net-(J2-PadB8)">
+      <node ref="J2" pin="B8" pinfunction="SBU2"/>
+    </net>
+    <net code="46" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="47" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="48" name="Net-(J5-Pad3)">
+      <node ref="J5" pin="3"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="49" name="Net-(J5-Pad6)">
+      <node ref="J5" pin="6"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="50" name="Net-(J5-Pad7)">
+      <node ref="J5" pin="7"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="51" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="B"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="52" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3" pinfunction="C"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="53" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1" pinfunction="B"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="54" name="Net-(R10-Pad1)">
       <node ref="R10" pin="1"/>
+      <node ref="U3" pin="21" pinfunction="RXD/SPI_MOSI"/>
     </net>
-    <net code="39" name="Net-(C2-Pad1)">
-      <node ref="C2" pin="1"/>
-      <node ref="L1" pin="2" pinfunction="2"/>
-      <node ref="U2" pin="1" pinfunction="VIN"/>
-      <node ref="U2" pin="3" pinfunction="EN"/>
+    <net code="55" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="U3" pin="18" pinfunction="SDA/~SPI_CS"/>
     </net>
-    <net code="40" name="Net-(D2-Pad1)">
-      <node ref="F1" pin="2"/>
-      <node ref="D2" pin="1" pinfunction="K"/>
-      <node ref="L1" pin="1" pinfunction="1"/>
-      <node ref="J3" pin="4"/>
-      <node ref="J3" pin="3"/>
+    <net code="56" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="U3" pin="19" pinfunction="SCL/SPI_CLK"/>
     </net>
-    <net code="41" name="/DP">
-      <node ref="U1" pin="1" pinfunction="IO1"/>
-      <node ref="R5" pin="2"/>
+    <net code="57" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="U3" pin="20" pinfunction="TXD/SPI_MISO"/>
     </net>
-    <net code="42" name="/D+">
-      <node ref="U1" pin="6" pinfunction="IO1"/>
-      <node ref="J2" pin="3" pinfunction="D+"/>
+    <net code="58" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="NC"/>
     </net>
-    <net code="43" name="/D-">
-      <node ref="U1" pin="4" pinfunction="IO2"/>
-      <node ref="J2" pin="2" pinfunction="D-"/>
+    <net code="59" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1" pinfunction="~SAFEBOOT"/>
     </net>
-    <net code="44" name="Net-(U2-Pad4)">
-      <node ref="U2" pin="4" pinfunction="NC"/>
+    <net code="60" name="Net-(U3-Pad14)">
+      <node ref="U3" pin="14" pinfunction="LNA_EN"/>
     </net>
-    <net code="45" name="Net-(U3-Pad17)">
+    <net code="61" name="Net-(U3-Pad17)">
       <node ref="U3" pin="17" pinfunction="RESERVED"/>
+    </net>
+    <net code="62" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2" pinfunction="D_SEL"/>
+    </net>
+    <net code="63" name="Net-(U3-Pad8)">
+      <node ref="U3" pin="8" pinfunction="~RESET"/>
     </net>
   </nets>
 </export>

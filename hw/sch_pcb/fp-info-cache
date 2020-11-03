@@ -1,4 +1,4 @@
-18989670554729390
+19658325492239366
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2191,6 +2191,13 @@ Murata Buzzer Beeper
 2
 2
 Buzzer_Beeper
+Buzzer_Murata_PKMCS0909E4000-R1
+Murata Buzzer http://www.murata.com/en-us/api/pdfdownloadapi?cate=&partno=PKMCS0909E4000-R1
+Murata Buzzer Beeper
+0
+2
+2
+Buzzer_Beeper
 Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm
 Buzzer, D12.2mm height 6.5mm, https://product.tdk.com/info/en/catalog/datasheets/piezoelectronic_buzzer_ps_en.pdf
 buzzer
@@ -2821,6 +2828,13 @@ capacitor
 2
 2
 Capacitor_SMD
+C_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Capacitor_SMD
 C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
 Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 capacitor handsolder
@@ -2831,6 +2845,13 @@ Capacitor_SMD
 C_0805_2012Metric
 Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
 capacitor
+0
+2
+2
+Capacitor_SMD
+C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor handsolder
 0
 2
 2
@@ -2870,6 +2891,13 @@ capacitor handsolder
 2
 2
 Capacitor_SMD
+C_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Capacitor_SMD
 C_1210_3225Metric
 Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 capacitor
@@ -2884,9 +2912,37 @@ capacitor handsolder
 2
 2
 Capacitor_SMD
+C_1210_3225Metric_Pad1.42x2.65mm_HandSolder
+Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Capacitor_SMD
+C_1806_4516Metric
+Capacitor SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Capacitor_SMD
+C_1806_4516Metric_Pad1.57x1.80mm_HandSolder
+Capacitor SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Capacitor_SMD
 C_1812_4532Metric
 Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 capacitor
+0
+2
+2
+Capacitor_SMD
+C_1812_4532Metric_Pad1.30x3.40mm_HandSolder
+Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
+capacitor handsolder
 0
 2
 2
@@ -2907,6 +2963,27 @@ capacitor
 Capacitor_SMD
 C_1825_4564Metric_Pad1.57x6.80mm_HandSolder
 Capacitor SMD 1825 (4564 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Capacitor_SMD
+C_1825_4564Metric_Pad1.88x6.70mm_HandSolder
+Capacitor SMD 1825 (4564 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Capacitor_SMD
+C_2010_5025Metric
+Capacitor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Capacitor_SMD
+C_2010_5025Metric_Pad1.52x2.65mm_HandSolder
+Capacitor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 capacitor handsolder
 0
 2
@@ -2935,6 +3012,34 @@ capacitor
 Capacitor_SMD
 C_2225_5664Metric_Pad1.80x6.60mm_HandSolder
 Capacitor SMD 2225 (5664 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Capacitor_SMD
+C_2512_6332Metric
+Capacitor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Capacitor_SMD
+C_2512_6332Metric_Pad1.52x3.35mm_HandSolder
+Capacitor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Capacitor_SMD
+C_2816_7142Metric
+Capacitor SMD 2816 (7142 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Capacitor_SMD
+C_2816_7142Metric_Pad3.20x4.45mm_HandSolder
+Capacitor SMD 2816 (7142 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), generated with kicad-footprint-generator
 capacitor handsolder
 0
 2
@@ -6412,6 +6517,13 @@ jack stereo TRS
 5
 5
 Connector_Audio
+Jack_3.5mm_Neutrik_NMJ6HCD2_Horizontal
+NMJ6HCD2, TRS 1/4in (http://www.neutrik.com/en/audio/plugs-and-jacks/m-series/nmj6hcd2)
+NMJ6HCD2 TRS stereo jack connector
+0
+6
+6
+Connector_Audio
 Jack_3.5mm_PJ311_Horizontal
 PJ311 6pin SMD 3.5mm stereo headphones jack.
 headphones jack plug stereo 3.5mm PJ311
@@ -8071,6 +8183,13 @@ SMA THT Female Jack Horizontal
 5
 2
 Connector_Coaxial
+SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount
+http://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf
+SMA
+0
+5
+2
+Connector_Coaxial
 SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount
 Connector SMA, 0Hz to 20GHz, 50Ohm, Edge Mount (http://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf)
 SMA Straight Samtec Edge Mount
@@ -8113,9 +8232,23 @@ DIN 41612 IEC 60603 B/2
 16
 16
 Connector_DIN
+DIN41612_B2_2x8_Horizontal
+DIN 41612 connector, type B/2, horizontal, 16 pins wide, 2 rows, even columns
+DIN 41512 IEC 60603 B/2
+0
+16
+16
+Connector_DIN
 DIN41612_B2_2x8_Male_Horizontal_THT
 DIN41612 connector, type B/2, Horizontal, 2 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 B/2
+0
+16
+16
+Connector_DIN
+DIN41612_B2_2x8_Vertical
+DIN 41612 connector, type B/2, vertical, 16 pins wide, 2 rows, even columns
+DIN 41512 IEC 60603 B/2
 0
 16
 16
@@ -8127,9 +8260,23 @@ DIN 41612 IEC 60603 B/2
 32
 32
 Connector_DIN
+DIN41612_B2_2x16_Horizontal
+DIN 41612 connector, type B/2, horizontal, 16 pins wide, 2 rows, full configuration
+DIN 41512 IEC 60603 B/2
+0
+32
+32
+Connector_DIN
 DIN41612_B2_2x16_Male_Horizontal_THT
 DIN41612 connector, type B/2, Horizontal, 2 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 B/2
+0
+32
+32
+Connector_DIN
+DIN41612_B2_2x16_Vertical
+DIN 41612 connector, type B/2, vertical, 16 pins wide, 2 rows, full configuration
+DIN 41512 IEC 60603 B/2
 0
 32
 32
@@ -8141,9 +8288,23 @@ DIN 41612 IEC 60603 B/3
 10
 10
 Connector_DIN
+DIN41612_B3_2x5_Horizontal
+DIN 41612 connector, type B/3, horizontal, 10 pins wide, 2 rows, even columns
+DIN 41512 IEC 60603 B/3
+0
+10
+10
+Connector_DIN
 DIN41612_B3_2x5_Male_Horizontal_THT
 DIN41612 connector, type B/3, Horizontal, 2 rows 10 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 B/3
+0
+10
+10
+Connector_DIN
+DIN41612_B3_2x5_Vertical
+DIN 41612 connector, type B/3, vertical, 10 pins wide, 2 rows, even columns
+DIN 41512 IEC 60603 B/3
 0
 10
 10
@@ -8155,9 +8316,23 @@ DIN 41612 IEC 60603 B/3
 20
 20
 Connector_DIN
+DIN41612_B3_2x10_Horizontal
+DIN 41612 connector, type B/3, horizontal, 10 pins wide, 2 rows, full configuration
+DIN 41512 IEC 60603 B/3
+0
+20
+20
+Connector_DIN
 DIN41612_B3_2x10_Male_Horizontal_THT
 DIN41612 connector, type B/3, Horizontal, 2 rows 10 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 B/3
+0
+20
+20
+Connector_DIN
+DIN41612_B3_2x10_Vertical
+DIN 41612 connector, type B/3, vertical, 10 pins wide, 2 rows, full configuration
+DIN 41512 IEC 60603 B/3
 0
 20
 20
@@ -8183,9 +8358,23 @@ DIN 41612 IEC 60603 B
 32
 32
 Connector_DIN
+DIN41612_B_2x16_Horizontal
+DIN 41612 connector, type B, horizontal, 32 pins wide, 2 rows, even columns
+DIN 41512 IEC 60603 B
+0
+32
+32
+Connector_DIN
 DIN41612_B_2x16_Male_Horizontal_THT
 DIN41612 connector, type B, Horizontal, 2 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 B
+0
+32
+32
+Connector_DIN
+DIN41612_B_2x16_Vertical
+DIN 41612 connector, type B, vertical, 32 pins wide, 2 rows, even columns
+DIN 41512 IEC 60603 B
 0
 32
 32
@@ -8197,9 +8386,23 @@ DIN 41612 IEC 60603 B
 64
 64
 Connector_DIN
+DIN41612_B_2x32_Horizontal
+DIN 41612 connector, type B, horizontal, 32 pins wide, 2 rows, full configuration
+DIN 41512 IEC 60603 B
+0
+64
+64
+Connector_DIN
 DIN41612_B_2x32_Male_Horizontal_THT
 DIN41612 connector, type B, Horizontal, 2 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 B
+0
+64
+64
+Connector_DIN
+DIN41612_B_2x32_Vertical
+DIN 41612 connector, type B, vertical, 32 pins wide, 2 rows, full configuration
+DIN 41512 IEC 60603 B
 0
 64
 64
@@ -12257,6 +12460,13 @@ Through hole horizontal IDC box header THT 2x05 2.54mm double row
 10
 10
 Connector_IDC
+IDC-Header_2x05_P2.54mm_Horizontal_Lock
+Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
+connector idc locked
+0
+12
+10
+Connector_IDC
 IDC-Header_2x05_P2.54mm_Latch6.5mm_Vertical
 Through hole IDC header, 2x05, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, 6.5mm latches, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
 Through hole vertical IDC header THT 2x05 2.54mm double row
@@ -12297,6 +12507,13 @@ Through hole IDC box header, 2x05, 2.54mm pitch, DIN 41651 / IEC 60603-13, doubl
 Through hole vertical IDC box header THT 2x05 2.54mm double row
 0
 10
+10
+Connector_IDC
+IDC-Header_2x05_P2.54mm_Vertical_Lock
+Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
+connector idc locked
+0
+12
 10
 Connector_IDC
 IDC-Header_2x06-1MP_P2.54mm_Latch6.5mm_Vertical
@@ -12474,6 +12691,13 @@ Through hole vertical IDC box header THT 2x07 2.54mm double row
 14
 14
 Connector_IDC
+IDC-Header_2x07_P2.54mm_Vertical_Lock
+Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
+connector idc locked
+0
+16
+14
+Connector_IDC
 IDC-Header_2x08-1MP_P2.54mm_Latch6.5mm_Vertical
 Through hole IDC header, 2x08, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, 6.5mm latches, mounting holes, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
 Through hole vertical IDC header THT 2x08 2.54mm double row
@@ -12514,6 +12738,13 @@ Through hole IDC box header, 2x08, 2.54mm pitch, DIN 41651 / IEC 60603-13, doubl
 Through hole horizontal IDC box header THT 2x08 2.54mm double row
 0
 16
+16
+Connector_IDC
+IDC-Header_2x08_P2.54mm_Horizontal_Lock
+Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
+connector idc locked
+0
+18
 16
 Connector_IDC
 IDC-Header_2x08_P2.54mm_Latch6.5mm_Vertical
@@ -12558,6 +12789,13 @@ Through hole vertical IDC box header THT 2x08 2.54mm double row
 16
 16
 Connector_IDC
+IDC-Header_2x08_P2.54mm_Vertical_Lock
+Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
+connector idc locked
+0
+18
+16
+Connector_IDC
 IDC-Header_2x10-1MP_P2.54mm_Latch6.5mm_Vertical
 Through hole IDC header, 2x10, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, 6.5mm latches, mounting holes, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
 Through hole vertical IDC header THT 2x10 2.54mm double row
@@ -12600,6 +12838,13 @@ Through hole horizontal IDC box header THT 2x10 2.54mm double row
 20
 20
 Connector_IDC
+IDC-Header_2x10_P2.54mm_Horizontal_Lock
+Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
+connector idc locked
+0
+22
+20
+Connector_IDC
 IDC-Header_2x10_P2.54mm_Latch6.5mm_Vertical
 Through hole IDC header, 2x10, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, 6.5mm latches, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
 Through hole vertical IDC header THT 2x10 2.54mm double row
@@ -12640,6 +12885,13 @@ Through hole IDC box header, 2x10, 2.54mm pitch, DIN 41651 / IEC 60603-13, doubl
 Through hole vertical IDC box header THT 2x10 2.54mm double row
 0
 20
+20
+Connector_IDC
+IDC-Header_2x10_P2.54mm_Vertical_Lock
+Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
+connector idc locked
+0
+22
 20
 Connector_IDC
 IDC-Header_2x12-1MP_P2.54mm_Latch6.5mm_Vertical
@@ -12768,6 +13020,13 @@ Through hole horizontal IDC box header THT 2x13 2.54mm double row
 26
 26
 Connector_IDC
+IDC-Header_2x13_P2.54mm_Horizontal_Lock
+Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
+connector idc locked
+0
+28
+26
+Connector_IDC
 IDC-Header_2x13_P2.54mm_Latch6.5mm_Vertical
 Through hole IDC header, 2x13, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, 6.5mm latches, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
 Through hole vertical IDC header THT 2x13 2.54mm double row
@@ -12808,6 +13067,13 @@ Through hole IDC box header, 2x13, 2.54mm pitch, DIN 41651 / IEC 60603-13, doubl
 Through hole vertical IDC box header THT 2x13 2.54mm double row
 0
 26
+26
+Connector_IDC
+IDC-Header_2x13_P2.54mm_Vertical_Lock
+Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
+connector idc locked
+0
+28
 26
 Connector_IDC
 IDC-Header_2x15-1MP_P2.54mm_Latch6.5mm_Vertical
@@ -12936,6 +13202,13 @@ Through hole horizontal IDC box header THT 2x17 2.54mm double row
 34
 34
 Connector_IDC
+IDC-Header_2x17_P2.54mm_Horizontal_Lock
+Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
+connector idc locked
+0
+36
+34
+Connector_IDC
 IDC-Header_2x17_P2.54mm_Latch6.5mm_Vertical
 Through hole IDC header, 2x17, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, 6.5mm latches, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
 Through hole vertical IDC header THT 2x17 2.54mm double row
@@ -12976,6 +13249,13 @@ Through hole IDC box header, 2x17, 2.54mm pitch, DIN 41651 / IEC 60603-13, doubl
 Through hole vertical IDC box header THT 2x17 2.54mm double row
 0
 34
+34
+Connector_IDC
+IDC-Header_2x17_P2.54mm_Vertical_Lock
+Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
+connector idc locked
+0
+36
 34
 Connector_IDC
 IDC-Header_2x20-1MP_P2.54mm_Latch6.5mm_Vertical
@@ -13020,6 +13300,13 @@ Through hole horizontal IDC box header THT 2x20 2.54mm double row
 40
 40
 Connector_IDC
+IDC-Header_2x20_P2.54mm_Horizontal_Lock
+Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
+connector idc locked
+0
+42
+41
+Connector_IDC
 IDC-Header_2x20_P2.54mm_Latch6.5mm_Vertical
 Through hole IDC header, 2x20, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, 6.5mm latches, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
 Through hole vertical IDC header THT 2x20 2.54mm double row
@@ -13060,6 +13347,13 @@ Through hole IDC box header, 2x20, 2.54mm pitch, DIN 41651 / IEC 60603-13, doubl
 Through hole vertical IDC box header THT 2x20 2.54mm double row
 0
 40
+40
+Connector_IDC
+IDC-Header_2x20_P2.54mm_Vertical_Lock
+Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
+connector idc locked
+0
+42
 40
 Connector_IDC
 IDC-Header_2x25-1MP_P2.54mm_Latch6.5mm_Vertical
@@ -13146,6 +13440,13 @@ Through hole vertical IDC box header THT 2x25 2.54mm double row
 50
 50
 Connector_IDC
+IDC-Header_2x25_P2.54mm_Vertical_Lock
+Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
+connector idc locked
+0
+52
+50
+Connector_IDC
 IDC-Header_2x30-1MP_P2.54mm_Latch6.5mm_Vertical
 Through hole IDC header, 2x30, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, 6.5mm latches, mounting holes, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
 Through hole vertical IDC header THT 2x30 2.54mm double row
@@ -13230,6 +13531,13 @@ Through hole vertical IDC box header THT 2x30 2.54mm double row
 60
 60
 Connector_IDC
+IDC-Header_2x30_P2.54mm_Vertical_Lock
+Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
+connector idc locked
+0
+62
+60
+Connector_IDC
 IDC-Header_2x32-1MP_P2.54mm_Latch6.5mm_Vertical
 Through hole IDC header, 2x32, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, 6.5mm latches, mounting holes, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
 Through hole vertical IDC header THT 2x32 2.54mm double row
@@ -13312,6 +13620,13 @@ Through hole IDC box header, 2x32, 2.54mm pitch, DIN 41651 / IEC 60603-13, doubl
 Through hole vertical IDC box header THT 2x32 2.54mm double row
 0
 64
+64
+Connector_IDC
+IDC-Header_2x32_P2.54mm_Vertical_Lock
+Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
+connector idc locked
+0
+66
 64
 Connector_JAE
 JAE_LY20-4P-DLT1_2x02_P2.00mm_Horizontal
@@ -22119,6 +22434,139 @@ connector Molex SlimStack side entry
 0
 80
 80
+Connector_Multicomp
+Multicomp_MC9A12-1034_2x05_P2.54mm_Vertical
+http://www.farnell.com/datasheets/1520732.pdf
+connector multicomp MC9A MC9A12
+0
+10
+10
+Connector_Multicomp
+Multicomp_MC9A12-1434_2x07_P2.54mm_Vertical
+http://www.farnell.com/datasheets/1520732.pdf
+connector multicomp MC9A MC9A12
+0
+14
+14
+Connector_Multicomp
+Multicomp_MC9A12-1634_2x08_P2.54mm_Vertical
+http://www.farnell.com/datasheets/1520732.pdf
+connector multicomp MC9A MC9A12
+0
+16
+16
+Connector_Multicomp
+Multicomp_MC9A12-2034_2x10_P2.54mm_Vertical
+http://www.farnell.com/datasheets/1520732.pdf
+connector multicomp MC9A MC9A12
+0
+20
+20
+Connector_Multicomp
+Multicomp_MC9A12-2634_2x13_P2.54mm_Vertical
+http://www.farnell.com/datasheets/1520732.pdf
+connector multicomp MC9A MC9A12
+0
+26
+26
+Connector_Multicomp
+Multicomp_MC9A12-3434_2x17_P2.54mm_Vertical
+http://www.farnell.com/datasheets/1520732.pdf
+connector multicomp MC9A MC9A12
+0
+34
+34
+Connector_Multicomp
+Multicomp_MC9A12-4034_2x20_P2.54mm_Vertical
+http://www.farnell.com/datasheets/1520732.pdf
+connector multicomp MC9A MC9A12
+0
+40
+40
+Connector_Multicomp
+Multicomp_MC9A12-5034_2x25_P2.54mm_Vertical
+http://www.farnell.com/datasheets/1520732.pdf
+connector multicomp MC9A MC9A12
+0
+50
+50
+Connector_Multicomp
+Multicomp_MC9A12-6034_2x30_P2.54mm_Vertical
+http://www.farnell.com/datasheets/1520732.pdf
+connector multicomp MC9A MC9A12
+0
+60
+60
+Connector_Multicomp
+Multicomp_MC9A12-6434_2x32_P2.54mm_Vertical
+http://www.farnell.com/datasheets/1520732.pdf
+connector multicomp MC9A MC9A12
+0
+64
+64
+Connector_Multicomp
+Multicomp_MC9A22-1034_2x05_P2.54mm_Horizontal
+http://www.farnell.com/cad/360651.pdf
+connector multicomp MC9A MC9A22
+0
+10
+10
+Connector_Multicomp
+Multicomp_MC9A22-1434_2x07_P2.54mm_Horizontal
+http://www.farnell.com/cad/360651.pdf
+connector multicomp MC9A MC9A22
+0
+14
+14
+Connector_Multicomp
+Multicomp_MC9A22-1634_2x08_P2.54mm_Horizontal
+http://www.farnell.com/cad/360651.pdf
+connector multicomp MC9A MC9A22
+0
+16
+16
+Connector_Multicomp
+Multicomp_MC9A22-2034_2x10_P2.54mm_Horizontal
+http://www.farnell.com/cad/360651.pdf
+connector multicomp MC9A MC9A22
+0
+20
+20
+Connector_Multicomp
+Multicomp_MC9A22-2634_2x13_P2.54mm_Horizontal
+http://www.farnell.com/cad/360651.pdf
+connector multicomp MC9A MC9A22
+0
+26
+26
+Connector_Multicomp
+Multicomp_MC9A22-3434_2x17_P2.54mm_Horizontal
+http://www.farnell.com/cad/360651.pdf
+connector multicomp MC9A MC9A22
+0
+34
+34
+Connector_Multicomp
+Multicomp_MC9A22-4034_2x20_P2.54mm_Horizontal
+http://www.farnell.com/cad/360651.pdf
+connector multicomp MC9A MC9A22
+0
+40
+40
+Connector_Multicomp
+Multicomp_MC9A22-5034_2x25_P2.54mm_Horizontal
+http://www.farnell.com/cad/360651.pdf
+connector multicomp MC9A MC9A22
+0
+50
+50
+Connector_Multicomp
+Multicomp_MC9A22-6034_2x30_P2.54mm_Horizontal
+http://www.farnell.com/cad/360651.pdf
+connector multicomp MC9A MC9A22
+0
+60
+60
 Connector_PCBEdge
 4UCON_10156_2x40_P1.27mm_Socket_Horizontal
 4UCON 10156 Card edge socket with 80 contacts (40 each side), through-hole, http://www.4uconnector.com/online/object/4udrawing/10156.pdf
@@ -22168,6 +22616,13 @@ mini pcie
 0
 54
 53
+Connector_PCBEdge
+BUS_PCIexpress
+PCIexpress Bus Edge Connector
+PCIexpress Bus Edge Connector
+0
+70
+36
 Connector_PCBEdge
 BUS_PCIexpress_x1
 PCIexpress Bus Edge Connector x1 http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=70
@@ -47306,6 +47761,48 @@ connector wire 2sqmm double-strain-relief
 6
 6
 Connector_Wire
+SolderWirePad_1x01_Drill0.8mm
+Wire solder connection
+connector
+0
+1
+1
+Connector_Wire
+SolderWirePad_1x01_Drill1.2mm
+Wire solder connection
+connector
+0
+1
+1
+Connector_Wire
+SolderWirePad_1x01_Drill1.5mm
+Wire solder connection
+connector
+0
+1
+1
+Connector_Wire
+SolderWirePad_1x01_Drill1mm
+Wire solder connection
+connector
+0
+1
+1
+Connector_Wire
+SolderWirePad_1x01_Drill2.5mm
+Wire solder connection
+connector
+0
+1
+1
+Connector_Wire
+SolderWirePad_1x01_Drill2mm
+Wire solder connection
+connector
+0
+1
+1
+Connector_Wire
 SolderWirePad_1x01_SMD_1x2mm
 Wire Pad, Square, SMD Pad,  5mm x 10mm,
 MesurementPoint Square SMDPad 5mmx10mm 
@@ -47319,6 +47816,174 @@ MesurementPoint Square SMDPad 5mmx10mm
 0
 1
 1
+Connector_Wire
+SolderWirePad_1x02_P3.81mm_Drill0.8mm
+Wire solder connection
+connector
+0
+2
+2
+Connector_Wire
+SolderWirePad_1x02_P3.81mm_Drill1.2mm
+Wire solder connection
+connector
+0
+2
+2
+Connector_Wire
+SolderWirePad_1x02_P3.81mm_Drill1mm
+Wire solder connection
+connector
+0
+2
+2
+Connector_Wire
+SolderWirePad_1x02_P5.08mm_Drill1.5mm
+Wire solder connection
+connector
+0
+2
+2
+Connector_Wire
+SolderWirePad_1x02_P7.62mm_Drill2.5mm
+Wire solder connection
+connector
+0
+2
+2
+Connector_Wire
+SolderWirePad_1x02_P7.62mm_Drill2mm
+Wire solder connection
+connector
+0
+2
+2
+Connector_Wire
+SolderWirePad_1x03_P3.81mm_Drill1.2mm
+Wire solder connection
+connector
+0
+3
+3
+Connector_Wire
+SolderWirePad_1x03_P3.175mm_Drill0.8mm
+Wire solder connection
+connector
+0
+3
+3
+Connector_Wire
+SolderWirePad_1x03_P3.175mm_Drill1mm
+Wire solder connection
+connector
+0
+3
+3
+Connector_Wire
+SolderWirePad_1x03_P4.445mm_Drill1.5mm
+Wire solder connection
+connector
+0
+3
+3
+Connector_Wire
+SolderWirePad_1x03_P5.715mm_Drill2mm
+Wire solder connection
+connector
+0
+3
+3
+Connector_Wire
+SolderWirePad_1x03_P7.62mm_Drill2.5mm
+Wire solder connection
+connector
+0
+3
+3
+Connector_Wire
+SolderWirePad_1x04_P3.81mm_Drill1.2mm
+Wire solder connection
+connector
+0
+4
+4
+Connector_Wire
+SolderWirePad_1x04_P3.81mm_Drill1mm
+Wire solder connection
+connector
+0
+4
+4
+Connector_Wire
+SolderWirePad_1x04_P3.175mm_Drill0.8mm
+Wire solder connection
+connector
+0
+4
+4
+Connector_Wire
+SolderWirePad_1x04_P5.08mm_Drill1.5mm
+Wire solder connection
+connector
+0
+4
+4
+Connector_Wire
+SolderWirePad_1x04_P6.35mm_Drill2mm
+Wire solder connection
+connector
+0
+4
+4
+Connector_Wire
+SolderWirePad_1x04_P7.62mm_Drill2.5mm
+Wire solder connection
+connector
+0
+4
+4
+Connector_Wire
+SolderWirePad_2x02_P2.54mm_Drill0.8mm
+Wire solder connection
+connector
+0
+4
+4
+Connector_Wire
+SolderWirePad_2x02_P3.81mm_Drill1.2mm
+Wire solder connection
+connector
+0
+4
+4
+Connector_Wire
+SolderWirePad_2x02_P3.81mm_Drill1mm
+Wire solder connection
+connector
+0
+4
+4
+Connector_Wire
+SolderWirePad_2x02_P5.08mm_Drill1.5mm
+Wire solder connection
+connector
+0
+4
+4
+Connector_Wire
+SolderWirePad_2x02_P6.35mm_Drill2mm
+Wire solder connection
+connector
+0
+4
+4
+Connector_Wire
+SolderWirePad_2x02_P7.62mm_Drill2.5mm
+Wire solder connection
+connector
+0
+4
+4
 Connector_Wuerth
 Wuerth_WR-WTB_64800211622_1x02_P1.50mm_Vertical
 Wuerth WR-WTB series connector, 64800211622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
@@ -47621,27 +48286,6 @@ MeanWell NID60
 11
 11
 Converter_DCDC
-Converter_DCDC_Murata_CRE1xxxxxx3C_THT
-Isolated 1W single output DC/DC, http://power.murata.com/data/power/ncl/kdc_cre1.pdf
-Isolated 1W single output DC/DC
-0
-4
-4
-Converter_DCDC
-Converter_DCDC_Murata_CRE1xxxxxxDC_THT
-Isloated DC-DC, http://power.murata.com/data/power/ncl/kdc_cre1.pdf
-Isloated DC-DC
-0
-4
-4
-Converter_DCDC
-Converter_DCDC_Murata_CRE1xxxxxxSC_THT
-http://power.murata.com/data/power/ncl/kdc_cre1.pdf
-murata dc-dc transformer
-0
-4
-4
-Converter_DCDC
 Converter_DCDC_Murata_MEE1SxxxxSC_THT
 https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
 murata dc-dc transformer
@@ -47676,41 +48320,6 @@ Murata NCS1SxxxxSC
 0
 5
 5
-Converter_DCDC
-Converter_DCDC_Murata_NMAxxxxDC_THT
-Isolated 1W DCDC-Converter, http://power.murata.com/data/power/ncl/kdc_nma.pdf
-Isolated 1W DCDC-Converter
-0
-6
-6
-Converter_DCDC
-Converter_DCDC_Murata_NMAxxxxSC_THT
-Murata NMAxxxxSC footprint based on SIP7, http://power.murata.com/data/power/ncl/kdc_nma.pdf
-Murata NMAxxxxSC DCDC-Converter
-0
-5
-5
-Converter_DCDC
-Converter_DCDC_Murata_NXExSxxxxMC_SMD
-Isolated 1W or 2W Single Output SM DC/DC Converters https://www.murata.com/products/productdata/8807031865374/kdc-nxe1.pdf#page=8 https://www.murata.com/products/productdata/8807031898142/kdc-nxe2.pdf#page=9
-Isolated 1W or 2W Single Output SM DC/DC Converters
-0
-5
-5
-Converter_DCDC
-Converter_DCDC_Murata_OKI-78SR_Horizontal
-https://power.murata.com/data/power/oki-78sr.pdf
-78sr3.3 78sr5 78sr9 78sr12 78srXX
-0
-3
-3
-Converter_DCDC
-Converter_DCDC_Murata_OKI-78SR_Vertical
-https://power.murata.com/data/power/oki-78sr.pdf
-78sr3.3 78sr5 78sr9 78sr12 78srXX
-0
-3
-3
 Converter_DCDC
 Converter_DCDC_RECOM_R-78B-2.0_THT
 DCDC-Converter, RECOM, RECOM_R-78B-2.0, SIP-3, pitch 2.54mm, package size 11.5x8.5x17.5mm^3, https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf
@@ -47963,6 +48572,69 @@ DCDC-Converter XP_POWER JTE06 Dual
 0
 8
 8
+Converter_DCDC
+Converter_DCDC_muRata_CRE1xxxxxx3C_THT
+Isolated 1W single output DC/DC, http://power.murata.com/data/power/ncl/kdc_cre1.pdf
+Isolated 1W single output DC/DC
+0
+4
+4
+Converter_DCDC
+Converter_DCDC_muRata_CRE1xxxxxxDC_THT
+Isloated DC-DC, http://power.murata.com/data/power/ncl/kdc_cre1.pdf
+Isloated DC-DC
+0
+4
+4
+Converter_DCDC
+Converter_DCDC_muRata_CRE1xxxxxxSC_THT
+http://power.murata.com/data/power/ncl/kdc_cre1.pdf
+murata dc-dc transformer
+0
+4
+4
+Converter_DCDC
+Converter_DCDC_muRata_NMAxxxxDC_THT
+Isolated 1W DCDC-Converter, http://power.murata.com/data/power/ncl/kdc_nma.pdf
+Isolated 1W DCDC-Converter
+0
+6
+6
+Converter_DCDC
+Converter_DCDC_muRata_NMAxxxxSC_THT
+Murata NMAxxxxSC footprint based on SIP7, http://power.murata.com/data/power/ncl/kdc_nma.pdf
+Murata NMAxxxxSC DCDC-Converter
+0
+5
+5
+Converter_DCDC
+Converter_DCDC_muRata_NXE2SxxxxMC_THT
+Isolated 2W Single Output SM DC/DC Converters, http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
+Isolated 2W Single Output SM DC/DC Converters
+0
+5
+5
+Converter_DCDC
+Converter_DCDC_muRata_NXExSxxxxMC_SMD
+Isolated 1W or 2W Single Output SM DC/DC Converters https://www.murata.com/products/productdata/8807031865374/kdc-nxe1.pdf#page=8 https://www.murata.com/products/productdata/8807031898142/kdc-nxe2.pdf#page=9
+Isolated 1W or 2W Single Output SM DC/DC Converters
+0
+5
+5
+Converter_DCDC
+Converter_DCDC_muRata_OKI-78SR_Horizontal
+https://power.murata.com/data/power/oki-78sr.pdf
+78sr3.3 78sr5 78sr9 78sr12 78srXX
+0
+3
+3
+Converter_DCDC
+Converter_DCDC_muRata_OKI-78SR_Vertical
+https://power.murata.com/data/power/oki-78sr.pdf
+78sr3.3 78sr5 78sr9 78sr12 78srXX
+0
+3
+3
 Crystal
 Crystal_AT310_D3.0mm_L10.0mm_Horizontal
 Crystal THT AT310 10.0mm-10.5mm length 3.0mm diameter http://www.cinetech.com.tw/upload/2011/04/20110401165201.pdf
@@ -49105,34 +49777,6 @@ THT ceramic resonator filter
 3
 3
 Crystal
-Resonator_Murata_CSTLSxxxG-3Pin_W8.0mm_H3.0mm
-Ceramic Resomator/Filter Murata CSTLSxxxG, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/timingdevice/ceralock/p17e.ashx, length*width=8.0x3.0mm^2 package, package length=8.0mm, package width=3.0mm, 3 pins
-THT ceramic resonator filter CSTLSxxxG
-0
-3
-3
-Crystal
-Resonator_Murata_CSTLSxxxX-3Pin_W5.5mm_H3.0mm
-Ceramic Resomator/Filter Murata CSTLSxxxX, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/timingdevice/ceralock/p17e.ashx, length*width=5.5x3.0mm^2 package, package length=5.5mm, package width=3.0mm, 3 pins
-THT ceramic resonator filter CSTLSxxxX
-0
-3
-3
-Crystal
-Resonator_Murata_DSN6-3Pin_W7.0mm_H2.5mm
-Ceramic Resomator/Filter Murata DSN6, http://cdn-reichelt.de/documents/datenblatt/B400/DSN6NC51H.pdf, length*width=7.0x2.5mm^2 package, package length=7.0mm, package width=2.5mm, 3 pins
-THT ceramic resonator filter DSN6
-0
-3
-3
-Crystal
-Resonator_Murata_DSS6-3Pin_W7.0mm_H2.5mm
-Ceramic Resomator/Filter Murata DSS6, http://cdn-reichelt.de/documents/datenblatt/B400/DSN6NC51H.pdf, length*width=7.0x2.5mm^2 package, package length=7.0mm, package width=2.5mm, 3 pins
-THT ceramic resonator filter DSS6
-0
-3
-3
-Crystal
 Resonator_SMD-3Pin_7.2x3.0mm
 SMD Resomator/Filter 7.2x3.0mm, Murata CSTCC8M00G53-R0; 8MHz resonator, SMD, Farnell (Element 14) #1170435, http://www.farnell.com/datasheets/19296.pdf?_ga=1.247244932.122297557.1475167906, 7.2x3.0mm^2 package
 SMD SMT ceramic resonator filter filter
@@ -49147,72 +49791,100 @@ SMD SMT ceramic resonator filter filter hand-soldering
 3
 3
 Crystal
-Resonator_SMD_Murata_CDSCB-2Pin_4.5x2.0mm
+Resonator_SMD_muRata_CDSCB-2Pin_4.5x2.0mm
 SMD Resomator/Filter Murata CDSCB, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, 4.5x2.0mm^2 package
 SMD SMT ceramic resonator filter filter
 0
 2
 2
 Crystal
-Resonator_SMD_Murata_CDSCB-2Pin_4.5x2.0mm_HandSoldering
+Resonator_SMD_muRata_CDSCB-2Pin_4.5x2.0mm_HandSoldering
 SMD Resomator/Filter Murata CDSCB, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, hand-soldering, 4.5x2.0mm^2 package
 SMD SMT ceramic resonator filter filter hand-soldering
 0
 2
 2
 Crystal
-Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm
+Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm
 SMD Resomator/Filter Murata CSTCE, https://www.murata.com/en-eu/products/productdata/8801162264606/SPEC-CSTNE16M0VH3C000R0.pdf
 SMD SMT ceramic resonator filter
 0
 3
 3
 Crystal
-Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering
+Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering
 SMD Resomator/Filter Murata CSTCE, https://www.murata.com/en-eu/products/productdata/8801162264606/SPEC-CSTNE16M0VH3C000R0.pdf
 SMD SMT ceramic resonator filter
 0
 3
 3
 Crystal
-Resonator_SMD_Murata_SFECV-3Pin_6.9x2.9mm
+Resonator_SMD_muRata_SFECV-3Pin_6.9x2.9mm
 SMD Resomator/Filter Murata SFECV, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, 6.9x2.9mm^2 package
 SMD SMT ceramic resonator filter filter
 0
 3
 3
 Crystal
-Resonator_SMD_Murata_SFECV-3Pin_6.9x2.9mm_HandSoldering
+Resonator_SMD_muRata_SFECV-3Pin_6.9x2.9mm_HandSoldering
 SMD Resomator/Filter Murata SFECV, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, hand-soldering, 6.9x2.9mm^2 package
 SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
 Crystal
-Resonator_SMD_Murata_SFSKA-3Pin_7.9x3.8mm
+Resonator_SMD_muRata_SFSKA-3Pin_7.9x3.8mm
 SMD Resomator/Filter Murata SFSKA, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, 7.9x3.8mm^2 package
 SMD SMT ceramic resonator filter filter
 0
 3
 3
 Crystal
-Resonator_SMD_Murata_SFSKA-3Pin_7.9x3.8mm_HandSoldering
+Resonator_SMD_muRata_SFSKA-3Pin_7.9x3.8mm_HandSoldering
 SMD Resomator/Filter Murata SFSKA, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, hand-soldering, 7.9x3.8mm^2 package
 SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
 Crystal
-Resonator_SMD_Murata_TPSKA-3Pin_7.9x3.8mm
+Resonator_SMD_muRata_TPSKA-3Pin_7.9x3.8mm
 SMD Resomator/Filter Murata TPSKA, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, 7.9x3.8mm^2 package
 SMD SMT ceramic resonator filter filter
 0
 3
 3
 Crystal
-Resonator_SMD_Murata_TPSKA-3Pin_7.9x3.8mm_HandSoldering
+Resonator_SMD_muRata_TPSKA-3Pin_7.9x3.8mm_HandSoldering
 SMD Resomator/Filter Murata TPSKA, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, hand-soldering, 7.9x3.8mm^2 package
 SMD SMT ceramic resonator filter filter hand-soldering
+0
+3
+3
+Crystal
+Resonator_muRata_CSTLSxxxG-3Pin_W8.0mm_H3.0mm
+Ceramic Resomator/Filter Murata CSTLSxxxG, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/timingdevice/ceralock/p17e.ashx, length*width=8.0x3.0mm^2 package, package length=8.0mm, package width=3.0mm, 3 pins
+THT ceramic resonator filter CSTLSxxxG
+0
+3
+3
+Crystal
+Resonator_muRata_CSTLSxxxX-3Pin_W5.5mm_H3.0mm
+Ceramic Resomator/Filter Murata CSTLSxxxX, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/timingdevice/ceralock/p17e.ashx, length*width=5.5x3.0mm^2 package, package length=5.5mm, package width=3.0mm, 3 pins
+THT ceramic resonator filter CSTLSxxxX
+0
+3
+3
+Crystal
+Resonator_muRata_DSN6-3Pin_W7.0mm_H2.5mm
+Ceramic Resomator/Filter Murata DSN6, http://cdn-reichelt.de/documents/datenblatt/B400/DSN6NC51H.pdf, length*width=7.0x2.5mm^2 package, package length=7.0mm, package width=2.5mm, 3 pins
+THT ceramic resonator filter DSN6
+0
+3
+3
+Crystal
+Resonator_muRata_DSS6-3Pin_W7.0mm_H2.5mm
+Ceramic Resomator/Filter Murata DSS6, http://cdn-reichelt.de/documents/datenblatt/B400/DSN6NC51H.pdf, length*width=7.0x2.5mm^2 package, package length=7.0mm, package width=2.5mm, 3 pins
+THT ceramic resonator filter DSS6
 0
 3
 3
@@ -49252,6 +49924,13 @@ diode
 2
 2
 Diode_SMD
+D_0603_1608Metric_Castellated
+Diode SMD 0603 (1608 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode castellated
+0
+2
+2
+Diode_SMD
 D_0603_1608Metric_Pad1.05x0.95mm_HandSolder
 Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 diode handsolder
@@ -49262,6 +49941,13 @@ Diode_SMD
 D_0805_2012Metric
 Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
 diode
+0
+2
+2
+Diode_SMD
+D_0805_2012Metric_Castellated
+Diode SMD 0805 (2012 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+diode castellated
 0
 2
 2
@@ -49294,6 +49980,13 @@ diode
 2
 2
 Diode_SMD
+D_1206_3216Metric_Castellated
+Diode SMD 1206 (3216 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode castellated
+0
+2
+2
+Diode_SMD
 D_1206_3216Metric_Pad1.42x1.75mm_HandSolder
 Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 diode handsolder
@@ -49308,8 +50001,36 @@ diode
 2
 2
 Diode_SMD
+D_1210_3225Metric_Castellated
+Diode SMD 1210 (3225 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode castellated
+0
+2
+2
+Diode_SMD
 D_1210_3225Metric_Pad1.42x2.65mm_HandSolder
 Diode SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode handsolder
+0
+2
+2
+Diode_SMD
+D_1806_4516Metric
+Diode SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator
+diode
+0
+2
+2
+Diode_SMD
+D_1806_4516Metric_Castellated
+Diode SMD 1806 (4516 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator
+diode castellated
+0
+2
+2
+Diode_SMD
+D_1806_4516Metric_Pad1.57x1.80mm_HandSolder
+Diode SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator
 diode handsolder
 0
 2
@@ -49318,6 +50039,13 @@ Diode_SMD
 D_1812_4532Metric
 Diode SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
 diode
+0
+2
+2
+Diode_SMD
+D_1812_4532Metric_Castellated
+Diode SMD 1812 (4532 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
+diode castellated
 0
 2
 2
@@ -49336,6 +50064,13 @@ diode
 2
 2
 Diode_SMD
+D_2010_5025Metric_Castellated
+Diode SMD 2010 (5025 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode castellated
+0
+2
+2
+Diode_SMD
 D_2010_5025Metric_Pad1.52x2.65mm_HandSolder
 Diode SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 diode handsolder
@@ -49346,6 +50081,13 @@ Diode_SMD
 D_2114_3652Metric
 Diode SMD 2114 (3652 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/schottky.pdf), generated with kicad-footprint-generator
 diode
+0
+2
+2
+Diode_SMD
+D_2114_3652Metric_Castellated
+Diode SMD 2114 (3652 Metric), castellated end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/schottky.pdf), generated with kicad-footprint-generator
+diode castellated
 0
 2
 2
@@ -49364,8 +50106,36 @@ diode
 2
 2
 Diode_SMD
+D_2512_6332Metric_Castellated
+Diode SMD 2512 (6332 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode castellated
+0
+2
+2
+Diode_SMD
 D_2512_6332Metric_Pad1.52x3.35mm_HandSolder
 Diode SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode handsolder
+0
+2
+2
+Diode_SMD
+D_2816_7142Metric
+Diode SMD 2816 (7142 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), generated with kicad-footprint-generator
+diode
+0
+2
+2
+Diode_SMD
+D_2816_7142Metric_Castellated
+Diode SMD 2816 (7142 Metric), castellated end terminal, IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), generated with kicad-footprint-generator
+diode castellated
+0
+2
+2
+Diode_SMD
+D_2816_7142Metric_Pad3.20x4.45mm_HandSolder
+Diode SMD 2816 (7142 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), generated with kicad-footprint-generator
 diode handsolder
 0
 2
@@ -49374,6 +50144,13 @@ Diode_SMD
 D_3220_8050Metric
 Diode SMD 3220 (8050 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/schottky.pdf), generated with kicad-footprint-generator
 diode
+0
+2
+2
+Diode_SMD
+D_3220_8050Metric_Castellated
+Diode SMD 3220 (8050 Metric), castellated end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/schottky.pdf), generated with kicad-footprint-generator
+diode castellated
 0
 2
 2
@@ -49408,6 +50185,13 @@ Diode MELF Handsoldering
 Diode_SMD
 D_MicroMELF
 Diode, MicroMELF, Reflow Soldering, http://www.vishay.com/docs/85597/bzm55.pdf
+MicroMELF Diode
+0
+2
+2
+Diode_SMD
+D_MicroMELF_Hadsoldering
+Diode, MicroMELF, hand-soldering, http://www.vishay.com/docs/85597/bzm55-se.pdf
 MicroMELF Diode
 0
 2
@@ -51282,6 +52066,13 @@ emi filter
 5
 5
 Fuse
+Fuse_0201_0603Metric
+Fuse SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
+resistor
+0
+4
+2
+Fuse
 Fuse_0402_1005Metric
 Fuse SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 fuse
@@ -51303,6 +52094,13 @@ fuse
 2
 2
 Fuse
+Fuse_0603_1608Metric_Castellated
+Fuse SMD 0603 (1608 Metric), castellated end terminal, IPC_7351. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+fuse castellated
+0
+2
+2
+Fuse
 Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder
 Fuse SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 fuse handsolder
@@ -51317,6 +52115,13 @@ fuse
 2
 2
 Fuse
+Fuse_0805_2012Metric_Castellated
+Fuse SMD 0805 (2012 Metric), castellated end terminal, IPC_7351. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+fuse castellated
+0
+2
+2
+Fuse
 Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder
 Fuse SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
 fuse handsolder
@@ -51324,9 +52129,23 @@ fuse handsolder
 2
 2
 Fuse
+Fuse_01005_0402Metric
+Fuse SMD 01005 (0402 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.vishay.com/docs/20056/crcw01005e3.pdf), generated with kicad-footprint-generator
+resistor
+0
+4
+2
+Fuse
 Fuse_1206_3216Metric
 Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 fuse
+0
+2
+2
+Fuse
+Fuse_1206_3216Metric_Castellated
+Fuse SMD 1206 (3216 Metric), castellated end terminal, IPC_7351. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+fuse castellated
 0
 2
 2
@@ -51345,6 +52164,13 @@ fuse
 2
 2
 Fuse
+Fuse_1210_3225Metric_Castellated
+Fuse SMD 1210 (3225 Metric), castellated end terminal, IPC_7351. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+fuse castellated
+0
+2
+2
+Fuse
 Fuse_1210_3225Metric_Pad1.42x2.65mm_HandSolder
 Fuse SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 fuse handsolder
@@ -51352,9 +52178,37 @@ fuse handsolder
 2
 2
 Fuse
+Fuse_1806_4516Metric
+Fuse SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Fuse
+Fuse_1806_4516Metric_Castellated
+Fuse SMD 1806 (4516 Metric), castellated end terminal, IPC_7351. (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator
+fuse castellated
+0
+2
+2
+Fuse
+Fuse_1806_4516Metric_Pad1.57x1.80mm_HandSolder
+Fuse SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+Fuse
 Fuse_1812_4532Metric
 Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
 fuse
+0
+2
+2
+Fuse
+Fuse_1812_4532Metric_Castellated
+Fuse SMD 1812 (4532 Metric), castellated end terminal, IPC_7351. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
+fuse castellated
 0
 2
 2
@@ -51373,6 +52227,13 @@ fuse
 2
 2
 Fuse
+Fuse_2010_5025Metric_Castellated
+Fuse SMD 2010 (5025 Metric), castellated end terminal, IPC_7351. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+fuse castellated
+0
+2
+2
+Fuse
 Fuse_2010_5025Metric_Pad1.52x2.65mm_HandSolder
 Fuse SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 fuse handsolder
@@ -51387,6 +52248,13 @@ fuse
 2
 2
 Fuse
+Fuse_2512_6332Metric_Castellated
+Fuse SMD 2512 (6332 Metric), castellated end terminal, IPC_7351. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+fuse castellated
+0
+2
+2
+Fuse
 Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder
 Fuse SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 fuse handsolder
@@ -51394,9 +52262,37 @@ fuse handsolder
 2
 2
 Fuse
+Fuse_2816_7142Metric
+Fuse SMD 2816 (7142 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Fuse
+Fuse_2816_7142Metric_Castellated
+Fuse SMD 2816 (7142 Metric), castellated end terminal, IPC_7351. (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), generated with kicad-footprint-generator
+fuse castellated
+0
+2
+2
+Fuse
+Fuse_2816_7142Metric_Pad3.20x4.45mm_HandSolder
+Fuse SMD 2816 (7142 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+Fuse
 Fuse_2920_7451Metric
 Fuse SMD 2920 (7451 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://www.megastar.com/products/fusetronic/polyswitch/PDF/smd2920.pdf), generated with kicad-footprint-generator
 fuse
+0
+2
+2
+Fuse
+Fuse_2920_7451Metric_Castellated
+Fuse SMD 2920 (7451 Metric), castellated end terminal, IPC_7351. (Body size from: http://www.megastar.com/products/fusetronic/polyswitch/PDF/smd2920.pdf), generated with kicad-footprint-generator
+fuse castellated
 0
 2
 2
@@ -52199,6 +53095,13 @@ inductor handsolder
 2
 2
 Inductor_SMD
+L_1806_4516Metric_Pad1.57x1.80mm_HandSolder
+Capacitor SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator
+inductor handsolder
+0
+2
+2
+Inductor_SMD
 L_1812_4532Metric
 Inductor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
 inductor
@@ -52236,6 +53139,20 @@ inductor
 Inductor_SMD
 L_2512_6332Metric_Pad1.52x3.35mm_HandSolder
 Inductor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor handsolder
+0
+2
+2
+Inductor_SMD
+L_2816_7142Metric
+Inductor SMD 2816 (7142 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+Inductor_SMD
+L_2816_7142Metric_Pad3.20x4.45mm_HandSolder
+Capacitor SMD 2816 (7142 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), generated with kicad-footprint-generator
 inductor handsolder
 0
 2
@@ -54215,14 +55132,14 @@ L_CommonMode_Toroid Vertical series Radial pin pitch 6.35*15.24mm^2  length 19.3
 4
 4
 Inductor_THT
-L_CommonMode_Toroid_Vertical_L21.0mm_W10.0mm_Px5.08mm_Py12.70mm_Murata_5100
+L_CommonMode_Toroid_Vertical_L21.0mm_W10.0mm_Px5.08mm_Py12.70mm_muRATA_5100
 L_CommonMode_Toroid, Vertical series, Radial, pin pitch=5.08*12.70mm^2, , length*width=21*10mm^2, muRATA, 5100, http://www.murata-ps.com/data/magnetics/kmp_5100.pdf
 L_CommonMode_Toroid Vertical series Radial pin pitch 5.08*12.70mm^2  length 21mm width 10mm muRATA 5100
 0
 4
 4
 Inductor_THT
-L_CommonMode_Toroid_Vertical_L24.0mm_W16.3mm_Px10.16mm_Py20.32mm_Murata_5200
+L_CommonMode_Toroid_Vertical_L24.0mm_W16.3mm_Px10.16mm_Py20.32mm_muRATA_5200
 L_CommonMode_Toroid, Vertical series, Radial, pin pitch=10.16*20.32mm^2, , length*width=24*16.3mm^2, muRATA, 5200, http://www.murata-ps.com/data/magnetics/kmp_5200.pdf
 L_CommonMode_Toroid Vertical series Radial pin pitch 10.16*20.32mm^2  length 24mm width 16.3mm muRATA 5200
 0
@@ -54369,7 +55286,7 @@ Inductor Radial series Radial pin pitch 3.00mm  diameter 7mm
 2
 2
 Inductor_THT
-L_Radial_D7.2mm_P3.00mm_Murata_1700
+L_Radial_D7.2mm_P3.00mm_MuRATA_1700
 Inductor, Radial series, Radial, pin pitch=3.00mm, , diameter=7.2mm, MuRATA, 1700, http://www.murata-ps.com/data/magnetics/kmp_1700.pdf
 Inductor Radial series Radial pin pitch 3.00mm  diameter 7.2mm MuRATA 1700
 0
@@ -54474,7 +55391,7 @@ Inductor Radial series Radial pin pitch 5.00mm  diameter 12.0mm Neosid SD12k sty
 2
 2
 Inductor_THT
-L_Radial_D12.0mm_P6.00mm_Murata_1900R
+L_Radial_D12.0mm_P6.00mm_MuRATA_1900R
 Inductor, Radial series, Radial, pin pitch=6.00mm, , diameter=12.0mm, MuRATA, 1900R, http://www.murata-ps.com/data/magnetics/kmp_1900r.pdf
 Inductor Radial series Radial pin pitch 6.00mm  diameter 12.0mm MuRATA 1900R
 0
@@ -54593,35 +55510,35 @@ Inductor Radial series Radial pin pitch 24.00mm  diameter 24mm
 2
 2
 Inductor_THT
-L_Radial_D24.4mm_P22.90mm_Murata_1400series
+L_Radial_D24.4mm_P22.90mm_muRATA_1400series
 Inductor, Radial series, Radial, pin pitch=22.90mm, , diameter=24.4mm, muRATA, 1400series, http://www.murata-ps.com/data/magnetics/kmp_1400.pdf
 Inductor Radial series Radial pin pitch 22.90mm  diameter 24.4mm muRATA 1400series
 0
 2
 2
 Inductor_THT
-L_Radial_D24.4mm_P23.10mm_Murata_1400series
+L_Radial_D24.4mm_P23.10mm_muRATA_1400series
 Inductor, Radial series, Radial, pin pitch=23.10mm, , diameter=24.4mm, muRATA, 1400series, http://www.murata-ps.com/data/magnetics/kmp_1400.pdf
 Inductor Radial series Radial pin pitch 23.10mm  diameter 24.4mm muRATA 1400series
 0
 2
 2
 Inductor_THT
-L_Radial_D24.4mm_P23.40mm_Murata_1400series
+L_Radial_D24.4mm_P23.40mm_muRATA_1400series
 Inductor, Radial series, Radial, pin pitch=23.40mm, , diameter=24.4mm, muRATA, 1400series, http://www.murata-ps.com/data/magnetics/kmp_1400.pdf
 Inductor Radial series Radial pin pitch 23.40mm  diameter 24.4mm muRATA 1400series
 0
 2
 2
 Inductor_THT
-L_Radial_D24.4mm_P23.70mm_Murata_1400series
+L_Radial_D24.4mm_P23.70mm_muRATA_1400series
 Inductor, Radial series, Radial, pin pitch=23.70mm, , diameter=24.4mm, muRATA, 1400series, http://www.murata-ps.com/data/magnetics/kmp_1400.pdf
 Inductor Radial series Radial pin pitch 23.70mm  diameter 24.4mm muRATA 1400series
 0
 2
 2
 Inductor_THT
-L_Radial_D24.4mm_P23.90mm_Murata_1400series
+L_Radial_D24.4mm_P23.90mm_muRATA_1400series
 Inductor, Radial series, Radial, pin pitch=23.90mm, , diameter=24.4mm, muRATA, 1400series, http://www.murata-ps.com/data/magnetics/kmp_1400.pdf
 Inductor Radial series Radial pin pitch 23.90mm  diameter 24.4mm muRATA 1400series
 0
@@ -54656,35 +55573,35 @@ Inductor Radial series Radial pin pitch 29.20mm  diameter 28mm
 2
 2
 Inductor_THT
-L_Radial_D29.8mm_P28.30mm_Murata_1400series
+L_Radial_D29.8mm_P28.30mm_muRATA_1400series
 Inductor, Radial series, Radial, pin pitch=28.30mm, , diameter=29.8mm, muRATA, 1400series, http://www.murata-ps.com/data/magnetics/kmp_1400.pdf
 Inductor Radial series Radial pin pitch 28.30mm  diameter 29.8mm muRATA 1400series
 0
 2
 2
 Inductor_THT
-L_Radial_D29.8mm_P28.50mm_Murata_1400series
+L_Radial_D29.8mm_P28.50mm_muRATA_1400series
 Inductor, Radial series, Radial, pin pitch=28.50mm, , diameter=29.8mm, muRATA, 1400series, http://www.murata-ps.com/data/magnetics/kmp_1400.pdf
 Inductor Radial series Radial pin pitch 28.50mm  diameter 29.8mm muRATA 1400series
 0
 2
 2
 Inductor_THT
-L_Radial_D29.8mm_P28.80mm_Murata_1400series
+L_Radial_D29.8mm_P28.80mm_muRATA_1400series
 Inductor, Radial series, Radial, pin pitch=28.80mm, , diameter=29.8mm, muRATA, 1400series, http://www.murata-ps.com/data/magnetics/kmp_1400.pdf
 Inductor Radial series Radial pin pitch 28.80mm  diameter 29.8mm muRATA 1400series
 0
 2
 2
 Inductor_THT
-L_Radial_D29.8mm_P29.00mm_Murata_1400series
+L_Radial_D29.8mm_P29.00mm_muRATA_1400series
 Inductor, Radial series, Radial, pin pitch=29.00mm, , diameter=29.8mm, muRATA, 1400series, http://www.murata-ps.com/data/magnetics/kmp_1400.pdf
 Inductor Radial series Radial pin pitch 29.00mm  diameter 29.8mm muRATA 1400series
 0
 2
 2
 Inductor_THT
-L_Radial_D29.8mm_P29.30mm_Murata_1400series
+L_Radial_D29.8mm_P29.30mm_muRATA_1400series
 Inductor, Radial series, Radial, pin pitch=29.30mm, , diameter=29.8mm, muRATA, 1400series, http://www.murata-ps.com/data/magnetics/kmp_1400.pdf
 Inductor Radial series Radial pin pitch 29.30mm  diameter 29.8mm muRATA 1400series
 0
@@ -55489,6 +56406,13 @@ LED
 2
 2
 LED_SMD
+LED_0603_1608Metric_Castellated
+LED SMD 0603 (1608 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED castellated
+0
+2
+2
+LED_SMD
 LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
 LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 LED handsolder
@@ -55503,6 +56427,13 @@ LED
 2
 2
 LED_SMD
+LED_0805_2012Metric_Castellated
+LED SMD 0805 (2012 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+LED castellated
+0
+2
+2
+LED_SMD
 LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
 LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
 LED handsolder
@@ -55510,9 +56441,23 @@ LED handsolder
 2
 2
 LED_SMD
+LED_01005_0402Metric
+LED SMD 01005 (0402 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.vishay.com/docs/20056/crcw01005e3.pdf), generated with kicad-footprint-generator
+LED
+0
+4
+2
+LED_SMD
 LED_1206_3216Metric
 LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 LED
+0
+2
+2
+LED_SMD
+LED_1206_3216Metric_Castellated
+LED SMD 1206 (3216 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED castellated
 0
 2
 2
@@ -55538,8 +56483,36 @@ LED
 2
 2
 LED_SMD
+LED_1210_3225Metric_Castellated
+LED SMD 1210 (3225 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED castellated
+0
+2
+2
+LED_SMD
 LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder
 LED SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED handsolder
+0
+2
+2
+LED_SMD
+LED_1806_4516Metric
+LED SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator
+diode
+0
+2
+2
+LED_SMD
+LED_1806_4516Metric_Castellated
+LED SMD 1806 (4516 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator
+LED castellated
+0
+2
+2
+LED_SMD
+LED_1806_4516Metric_Pad1.57x1.80mm_HandSolder
+LED SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator
 LED handsolder
 0
 2
@@ -55548,6 +56521,13 @@ LED_SMD
 LED_1812_4532Metric
 LED SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
 LED
+0
+2
+2
+LED_SMD
+LED_1812_4532Metric_Castellated
+LED SMD 1812 (4532 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
+LED castellated
 0
 2
 2
@@ -55566,6 +56546,13 @@ LED
 2
 2
 LED_SMD
+LED_2010_5025Metric_Castellated
+LED SMD 2010 (5025 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED castellated
+0
+2
+2
+LED_SMD
 LED_2010_5025Metric_Pad1.52x2.65mm_HandSolder
 LED SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 LED handsolder
@@ -55580,8 +56567,36 @@ LED
 2
 2
 LED_SMD
+LED_2512_6332Metric_Castellated
+LED SMD 2512 (6332 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED castellated
+0
+2
+2
+LED_SMD
 LED_2512_6332Metric_Pad1.52x3.35mm_HandSolder
 LED SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED handsolder
+0
+2
+2
+LED_SMD
+LED_2816_7142Metric
+LED SMD 2816 (7142 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), generated with kicad-footprint-generator
+diode
+0
+2
+2
+LED_SMD
+LED_2816_7142Metric_Castellated
+LED SMD 2816 (7142 Metric), castellated end terminal, IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), generated with kicad-footprint-generator
+LED castellated
+0
+2
+2
+LED_SMD
+LED_2816_7142Metric_Pad3.20x4.45mm_HandSolder
+LED SMD 2816 (7142 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), generated with kicad-footprint-generator
 LED handsolder
 0
 2
@@ -56482,6 +57497,1966 @@ Yellow 5381 Series LED
 0
 2
 2
+MLAB_ANT
+GPS_CGGP.35.3.A.02
+
+
+0
+1
+1
+MLAB_BUZZER
+MagneticBuzzer_LET9032ES-03L-2.7-16-R
+CST-931RP-A, http://www.cui.com/product/resource/cst-931rp-a.pdf
+CST-931RP-A
+0
+2
+2
+MLAB_LOGA
+TF
+
+
+0
+0
+0
+MLAB_SAW
+ABRACON_AFS
+
+
+0
+6
+6
+MLAB_SAW
+SAW DBP.1575.W.A.30
+
+
+0
+4
+3
+Mlab_Batery
+2LION
+
+
+0
+4
+4
+Mlab_Batery
+BH23APC
+23A
+23A
+0
+2
+2
+Mlab_Batery
+BX0037
+
+
+0
+2
+2
+Mlab_Batery
+BX0037_nez_sroubu
+
+
+0
+2
+2
+Mlab_Batery
+CH28-2032
+Baterka 2032
+
+0
+2
+2
+Mlab_C
+2pF_PCB
+
+
+0
+2
+2
+Mlab_C
+C2pF
+
+
+0
+2
+2
+Mlab_C
+C_Radial_D8_L11.5_P3.5
+Radial Electrolytic Capacitor Diameter 8mm x Length 11.5mm, Pitch 3.5mm
+Electrolytic Capacitor
+0
+2
+2
+Mlab_C
+C_Radial_D10_L13_P5
+Radial Electrolytic Capacitor Diameter 10mm x Length 13mm, Pitch 5mm
+Electrolytic Capacitor
+0
+2
+2
+Mlab_C
+C_Radial_D16_L25_P7.5
+Radial Electrolytic Capacitor Diameter 16mm x Length 25mm, Pitch 7.5mm
+Electrolytic Capacitor
+0
+2
+2
+Mlab_C
+C_Radial_D18_L25_P7.5_BAT
+Radial Electrolytic Capacitor Diameter 16mm x Length 25mm, Pitch 7.5mm
+Electrolytic Capacitor
+0
+2
+2
+Mlab_C
+SMD-0603
+
+
+0
+2
+2
+Mlab_C
+TantalC_SizeA_Reflow
+Tantal Cap. , Size A, EIA-3216, Reflow,
+Tantal Cap. , Size A, EIA-3216, reflow,
+0
+2
+2
+Mlab_C
+TantalC_SizeB_Reflow
+Tantal Cap. , Size B, EIA-3528, Reflow,
+Tantal Cap. , Size B, EIA-3528, Reflow,
+0
+2
+2
+Mlab_C
+TantalC_SizeC_Reflow
+Tantal Cap. , Size C, EIA-6032, Reflow,
+Tantal Cap. , Size C, EIA-6032, Reflow,
+0
+2
+2
+Mlab_C
+TantalC_SizeD_Reflow
+Tantal Cap. , Size D, EIA-7343, Reflow,
+Tantal Cap. , Size D, EIA-7343, Reflow,
+0
+2
+2
+Mlab_C
+TantalC_SizeE_Reflow
+Tantal Cap. , Size E, EIA-7360, Reflow,
+Tantal Cap. , Size E, EIA-7360, Reflow,
+0
+2
+2
+Mlab_CON
+1_kontakty
+Jeden samotný kontakt na vodič
+
+0
+1
+1
+Mlab_CON
+2_kontakty
+Pro vypínač do panelu na vodičích
+
+0
+2
+2
+Mlab_CON
+AVX_009175003001006
+Punch_down_block
+
+0
+3
+3
+Mlab_CON
+DC2,1MM
+
+DC2,1MM nap. konektor
+0
+3
+3
+Mlab_CON
+FPS009-4200-0
+SD card connector, top mount, SMT (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2041021%7FB%7Fpdf%7FEnglish%7FENG_CD_2041021_B_C_2041021_B.pdf%7F2041021-4)
+sd card
+0
+13
+10
+Mlab_CON
+MCC-SD
+SD card connector, top mount, SMT (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2041021%7FB%7Fpdf%7FEnglish%7FENG_CD_2041021_B_C_2041021_B.pdf%7F2041021-4)
+sd card
+0
+15
+12
+Mlab_CON
+MCSP-Q-08-A-SG
+
+
+0
+13
+10
+Mlab_CON
+RJ12GLP-AMP(RJ12)
+
+
+0
+8
+8
+Mlab_CON
+RJHSE-5384(RJ45)
+
+
+0
+14
+14
+Mlab_CON
+SAS_mini_1888174
+36pin mini SAS connector
+SAS mini connector
+0
+44
+44
+Mlab_CON
+SATA-7_THT_VERT_2
+
+
+0
+9
+9
+Mlab_CON
+SIMCN-8P
+
+SIM
+0
+8
+8
+Mlab_CON
+SMA6251A13G50
+
+
+0
+5
+2
+Mlab_CON
+USB3_0_A
+USB A connector
+USB USB_A
+0
+11
+10
+Mlab_CON
+USB3_0_B
+
+USB 3.0 B
+0
+11
+10
+Mlab_CON
+USBC GCT_USB4105-GF-A
+
+
+0
+16
+16
+Mlab_CON
+WAGO256
+WAGO-Series 236, 2Stift, 1pol, RM 5mm,
+WAGO-Series 236, 2Stift, 1pol, RM 5mm, Anreibare Leiterplattenklemme
+0
+2
+1
+Mlab_CON
+WAGO256_2
+WAGO-Series 236, 2Stift, 1pol, RM 5mm,
+WAGO-Series 236, 2Stift, 1pol, RM 5mm, Anreibare Leiterplattenklemme
+0
+2
+1
+Mlab_CON
+uUSB-B
+
+uUSB-B MOLEX 1050170001
+0
+11
+5
+Mlab_D
+ArrayC-60035-4P-BGA
+23A
+23A
+0
+9
+9
+Mlab_D
+BYQ28ED-200
+TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/
+DPAK TO-252 DPAK-3 TO-252-3 SOT-428
+0
+7
+3
+Mlab_D
+DIL
+DIL
+DIL - BPW34S 
+0
+2
+2
+Mlab_D
+Diode-MELF_Standard
+Diode, MELF, Standard,
+Diode, MELF, Standard,
+0
+2
+2
+Mlab_D
+Diode-MiniMELF_Standard
+Diode Mini-MELF
+Diode Mini-MELF
+0
+2
+2
+Mlab_D
+Diode-SMA_Standard
+Diode SMA (DO-214AC)
+Diode SMA (DO-214AC)
+0
+2
+2
+Mlab_D
+Diode-SMB_Standard
+Diode SMB Standard
+Diode SMB Standard
+0
+2
+2
+Mlab_D
+Diode-SMC_Standard
+Diode SMC Standard
+Diode SMC Standard
+0
+2
+2
+Mlab_D
+FIX-LED-313
+
+
+0
+2
+2
+Mlab_D
+HAMAMATSU_S2744-09
+Diode SMA (DO-214AC)
+Diode SMA (DO-214AC)
+0
+2
+2
+Mlab_D
+HAMAMATSU_S2744-09_SMD
+Diode SMA (DO-214AC)
+Diode SMA (DO-214AC)
+0
+2
+2
+Mlab_D
+HAMAMATSU_S2744-09__otvor
+Diode SMA (DO-214AC)
+Diode SMA (DO-214AC)
+0
+1
+1
+Mlab_D
+HAMAMATSU_S2744-09_rozs
+Diode SMA (DO-214AC)
+Diode SMA (DO-214AC)
+0
+3
+2
+Mlab_D
+HAMAMATSU_S11773-02
+Diode SMA (DO-214AC)
+Diode SMA (DO-214AC)
+0
+2
+2
+Mlab_D
+LED-10MM
+LED 10mm - Lead pitch 100mil (2,54mm)
+LED led 10mm 10MM 100mil 2.54mm
+0
+2
+2
+Mlab_D
+LED_0805
+
+
+0
+2
+2
+Mlab_D
+LED_1206
+Diode Mini-MELF Standard
+Diode Mini-MELF Standard
+0
+2
+2
+Mlab_DISPLAY
+FYS-40011DS-11
+
+
+0
+10
+10
+Mlab_F
+2xFaston
+RM 5.08mm -fastony
+RM 5.08mm - fastony
+0
+4
+2
+Mlab_F
+1812
+Diode Mini-MELF Standard
+Diode Mini-MELF Standard
+0
+2
+2
+Mlab_F
+2410
+Diode Mini-MELF Standard
+Diode Mini-MELF Standard
+0
+2
+2
+Mlab_F
+Drzak_2410
+F 2410 s držákem
+F 2410 s držákem
+0
+2
+2
+Mlab_IO
+D2PAK-TO-263-2Lead
+D2PAK / TO-263 3-lead smd package
+D2PAK D2PAK-3 TO-263AB TO-263
+0
+3
+3
+Mlab_IO
+DFN-8-1EP_2.4x2.4mm_Pitch0.5mm
+DFN8 2x2, 0.5mm pin
+DFN 0.5
+0
+9
+9
+Mlab_IO
+DFN-12-1EP_3x4mm_Pitch0.5mm
+DE/UE Package; 12-Lead Plastic DFN (4mm x 3mm) (see Linear Technology DFN_12_05-08-1695.pdf)
+DFN 0.5
+0
+20
+13
+Mlab_IO
+DPAK-TO-252-2Lead
+TO-252-2Lead DPAK
+
+0
+3
+3
+Mlab_IO
+FN
+
+ TCS37717
+0
+6
+6
+Mlab_IO
+HSOP-8
+
+
+0
+15
+9
+Mlab_IO
+HTQFP-64_10x10mm_Pitch0.5mm
+64-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1 mm Body, 2.00 mm Footprint [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.5
+0
+65
+65
+Mlab_IO
+HTSSOP28
+
+
+0
+44
+29
+Mlab_IO
+LEON-G1
+
+GSM, LEON-G1
+0
+50
+50
+Mlab_IO
+LQFP64
+
+
+0
+64
+64
+Mlab_IO
+MLPQ-16
+
+
+0
+17
+17
+Mlab_IO
+MSOP-8-1EP_3x3mm_Pitch0.65mm
+MS8E Package; 8-Lead Plastic MSOP, Exposed Die Pad (see Linear Technology 05081662_K_MS8E.pdf)
+SSOP 0.65
+0
+12
+9
+Mlab_IO
+MSOP-8_3x3mm_Pitch0.65mm
+8-Lead Plastic Micro Small Outline Package (MS) [MSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+8
+8
+Mlab_IO
+MicroFC−60035−SMT
+
+
+0
+4
+4
+Mlab_IO
+POWERSO36
+36 LEADS POWER SMALL OUTLINE PACKAGE
+36 LEADS POWER SMALL OUTLINE PACKAGE
+0
+39
+39
+Mlab_IO
+PowerSSO-16
+
+
+0
+25
+17
+Mlab_IO
+QFN-20-1EP_5x5mm_Pitch0.65mm
+20-Lead Plastic Quad Flat, No Lead Package (MQ) - 5x5x0.9 mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)
+QFN 0.65
+0
+24
+21
+Mlab_IO
+SC-70-5
+SC70-8
+SC70-8
+0
+5
+5
+Mlab_IO
+SC-70-6
+SC70-8
+SC70-8
+0
+6
+6
+Mlab_IO
+SDP3x
+
+
+0
+18
+18
+Mlab_IO
+SO-8
+SO-8 Surface Mount Small Outline 150mil 8pin Package
+Power Integrations D Package
+0
+8
+8
+Mlab_IO
+SO-14
+SO-8 Surface Mount Small Outline 150mil 8pin Package
+Power Integrations D Package
+0
+14
+14
+Mlab_IO
+SOIC-8_3.9x4.9mm_Pitch1.27mm
+8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+8
+8
+Mlab_IO
+SOIC-14
+Module CMS SOJ 14 pins Large
+CMS SOJ
+0
+14
+14
+Mlab_IO
+SOIC-24
+
+
+0
+24
+24
+Mlab_IO
+SOIC-28
+Module CMS SOJ 28 pins large
+CMS SOJ
+0
+28
+28
+Mlab_IO
+SON45P300X300X80-13N-D
+DPD0012A
+Integrated Circuit
+0
+13
+13
+Mlab_IO
+SOP-8_EP_3.9x4.9mm_Pitch1.27mm
+8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+9
+9
+Mlab_IO
+SOT-23
+
+SOT23
+0
+3
+3
+Mlab_IO
+SOT-23-6
+
+
+0
+6
+6
+Mlab_IO
+SOT-223
+module CMS SOT223 4 pins
+CMS SOT
+0
+4
+4
+Mlab_IO
+SOT-553
+SOT553
+
+0
+5
+5
+Mlab_IO
+SOT176-1
+SO-8 Surface Mount Small Outline 150mil 8pin Package
+
+0
+8
+8
+Mlab_IO
+SSOP-20_5.3x7.2mm_Pitch0.65mm
+20-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+20
+20
+Mlab_IO
+TSSOP-8_4.4x3mm_Pitch0.65mm
+8-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+8
+8
+Mlab_IO
+TSSOP-10_3x3mm_Pitch0.5mm
+TSSOP10: plastic thin shrink small outline package; 10 leads; body width 3 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot552-1_po.pdf)
+SSOP 0.5
+0
+10
+10
+Mlab_IO
+TSSOP-14_4.4x5mm_Pitch0.65mm
+14-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+14
+14
+Mlab_IO
+TSSOP-16_4.4x5mm_Pitch0.65mm
+16-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+16
+16
+Mlab_IO
+TSSOP-24
+TSSOP-28
+
+0
+24
+24
+Mlab_IO
+TSSOP28
+
+
+0
+28
+28
+Mlab_IO
+UFF_QFN34
+
+
+0
+37
+35
+Mlab_IO
+VEML6030
+
+
+0
+6
+6
+Mlab_IO
+VQFN-20
+SO-8 Surface Mount Small Outline 150mil 8pin Package
+Power Integrations D Package
+0
+32
+21
+Mlab_IO
+VSON-8
+SO-8 Surface Mount Small Outline 150mil 8pin Package
+Power Integrations D Package
+0
+9
+9
+Mlab_IO
+WSON-12
+WSON 12
+DRV8835
+0
+20
+13
+Mlab_IO
+XDCR_VCNT2020
+
+
+0
+4
+4
+Mlab_IO
+tsot-5
+TSOT-5
+
+0
+5
+5
+Mlab_L
+ASFL1
+
+
+0
+4
+4
+Mlab_L
+Coilcraft_MA5532-AE_RFID
+RFID Transponder Coil
+antenna rfid coilcraft
+0
+2
+2
+Mlab_L
+DE0703
+
+
+0
+2
+2
+Mlab_L
+DE1205-10
+L DE1207
+
+0
+2
+2
+Mlab_L
+DER0705
+L DE1207
+
+0
+2
+2
+Mlab_L
+DJNR5040
+DJNR5040
+
+0
+2
+2
+Mlab_L
+DLG0504
+L DE1207
+
+0
+2
+2
+Mlab_L
+FIR_0805
+
+
+0
+3
+3
+Mlab_L
+FIR_1806
+Capacitor SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+3
+3
+Mlab_L
+LQH2MCN100K02L
+LQH2M
+Inductor
+0
+2
+2
+Mlab_Mechanical
+BMI-S-210-F
+
+
+0
+24
+1
+Mlab_Mechanical
+BMIS-209-C
+
+
+0
+4
+1
+Mlab_Mechanical
+MountingHole_3mm
+Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,
+Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,
+0
+1
+1
+Mlab_Mechanical
+SMD_1_2_4x2
+
+
+0
+2
+2
+Mlab_Mechanical
+Straight_2x01
+pin header straight 2x01
+pin header straight 2x01
+0
+2
+2
+Mlab_Mechanical
+dira_3mm
+
+
+0
+0
+0
+Mlab_Pin_Headers
+Angled_1x01
+pin header angled 1x01
+pin header angled 1x01
+0
+1
+1
+Mlab_Pin_Headers
+Angled_1x02
+pin header angled 1x02
+pin header angled 1x02
+0
+2
+2
+Mlab_Pin_Headers
+Angled_1x03
+pin header angled 1x03
+pin header angled 1x03
+0
+3
+3
+Mlab_Pin_Headers
+Angled_1x04
+pin header angled 1x04
+pin header angled 1x04
+0
+4
+4
+Mlab_Pin_Headers
+Angled_1x05
+pin header angled 1x05
+pin header angled 1x05
+0
+5
+5
+Mlab_Pin_Headers
+Angled_1x06
+pin header angled 1x06
+pin header angled 1x06
+0
+6
+6
+Mlab_Pin_Headers
+Angled_1x07
+pin header angled 1x07
+pin header angled 1x07
+0
+7
+7
+Mlab_Pin_Headers
+Angled_1x08
+pin header angled 1x08
+pin header angled 1x08
+0
+8
+8
+Mlab_Pin_Headers
+Angled_1x09
+pin header angled 1x09
+pin header angled 1x09
+0
+9
+9
+Mlab_Pin_Headers
+Angled_1x10
+pin header angled 1x10
+pin header angled 1x10
+0
+10
+10
+Mlab_Pin_Headers
+Angled_1x11
+pin header angled 1x11
+pin header angled 1x11
+0
+11
+11
+Mlab_Pin_Headers
+Angled_1x12
+pin header angled 1x12
+pin header angled 1x12
+0
+12
+12
+Mlab_Pin_Headers
+Angled_1x13
+pin header angled 1x13
+pin header angled 1x13
+0
+13
+13
+Mlab_Pin_Headers
+Angled_1x14
+pin header angled 1x14
+pin header angled 1x14
+0
+14
+14
+Mlab_Pin_Headers
+Angled_1x15
+pin header angled 1x15
+pin header angled 1x15
+0
+15
+15
+Mlab_Pin_Headers
+Angled_1x16
+pin header angled 1x16
+pin header angled 1x16
+0
+16
+16
+Mlab_Pin_Headers
+Angled_1x17
+pin header angled 1x17
+pin header angled 1x17
+0
+17
+17
+Mlab_Pin_Headers
+Angled_1x18
+pin header angled 1x18
+pin header angled 1x18
+0
+18
+18
+Mlab_Pin_Headers
+Angled_1x19
+pin header angled 1x19
+pin header angled 1x19
+0
+19
+19
+Mlab_Pin_Headers
+Angled_1x20
+pin header angled 1x20
+pin header angled 1x20
+0
+20
+20
+Mlab_Pin_Headers
+Angled_1x21
+pin header angled 1x21
+pin header angled 1x21
+0
+21
+21
+Mlab_Pin_Headers
+Angled_1x22
+pin header angled 1x22
+pin header angled 1x22
+0
+22
+22
+Mlab_Pin_Headers
+Angled_1x23
+pin header angled 1x23
+pin header angled 1x23
+0
+23
+23
+Mlab_Pin_Headers
+Angled_1x24
+pin header angled 1x24
+pin header angled 1x24
+0
+24
+24
+Mlab_Pin_Headers
+Angled_1x25
+pin header angled 1x25
+pin header angled 1x25
+0
+25
+25
+Mlab_Pin_Headers
+Angled_1x26
+pin header angled 1x26
+pin header angled 1x26
+0
+26
+26
+Mlab_Pin_Headers
+Angled_1x27
+pin header angled 1x27
+pin header angled 1x27
+0
+27
+27
+Mlab_Pin_Headers
+Angled_1x28
+pin header angled 1x28
+pin header angled 1x28
+0
+28
+28
+Mlab_Pin_Headers
+Angled_1x29
+pin header angled 1x29
+pin header angled 1x29
+0
+29
+29
+Mlab_Pin_Headers
+Angled_1x30
+pin header angled 1x30
+pin header angled 1x30
+0
+30
+30
+Mlab_Pin_Headers
+Angled_1x31
+pin header angled 1x31
+pin header angled 1x31
+0
+31
+31
+Mlab_Pin_Headers
+Angled_1x32
+pin header angled 1x32
+pin header angled 1x32
+0
+32
+32
+Mlab_Pin_Headers
+Angled_1x33
+pin header angled 1x33
+pin header angled 1x33
+0
+33
+33
+Mlab_Pin_Headers
+Angled_1x34
+pin header angled 1x34
+pin header angled 1x34
+0
+34
+34
+Mlab_Pin_Headers
+Angled_1x35
+pin header angled 1x35
+pin header angled 1x35
+0
+35
+35
+Mlab_Pin_Headers
+Angled_1x36
+pin header angled 1x36
+pin header angled 1x36
+0
+36
+36
+Mlab_Pin_Headers
+Angled_1x37
+pin header angled 1x37
+pin header angled 1x37
+0
+37
+37
+Mlab_Pin_Headers
+Angled_1x38
+pin header angled 1x38
+pin header angled 1x38
+0
+38
+38
+Mlab_Pin_Headers
+Angled_1x39
+pin header angled 1x39
+pin header angled 1x39
+0
+39
+39
+Mlab_Pin_Headers
+Angled_1x40
+pin header angled 1x40
+pin header angled 1x40
+0
+40
+40
+Mlab_Pin_Headers
+SMD_1_2_4x2
+
+
+0
+2
+2
+Mlab_Pin_Headers
+SMD_1_2x1
+
+
+0
+1
+1
+Mlab_Pin_Headers
+SMD_1_2x2
+
+
+0
+2
+2
+Mlab_Pin_Headers
+SMD_1x1
+
+
+0
+1
+1
+Mlab_Pin_Headers
+SMD_2x03
+pin header straight 2x03
+pin header straight 2x03
+0
+6
+6
+Mlab_Pin_Headers
+Straight_1x01
+pin header straight 1x01
+pin header straight 1x01
+0
+1
+1
+Mlab_Pin_Headers
+Straight_1x02
+pin header straight 1x02
+pin header straight 1x02
+0
+2
+2
+Mlab_Pin_Headers
+Straight_1x03
+pin header straight 1x03
+pin header straight 1x03
+0
+3
+3
+Mlab_Pin_Headers
+Straight_1x04
+pin header straight 1x04
+pin header straight 1x04
+0
+4
+4
+Mlab_Pin_Headers
+Straight_1x05
+pin header straight 1x05
+pin header straight 1x05
+0
+5
+5
+Mlab_Pin_Headers
+Straight_1x06
+pin header straight 1x06
+pin header straight 1x06
+0
+6
+6
+Mlab_Pin_Headers
+Straight_1x07
+pin header straight 1x07
+pin header straight 1x07
+0
+7
+7
+Mlab_Pin_Headers
+Straight_1x08
+pin header straight 1x08
+pin header straight 1x08
+0
+8
+8
+Mlab_Pin_Headers
+Straight_1x09
+pin header straight 1x09
+pin header straight 1x09
+0
+9
+9
+Mlab_Pin_Headers
+Straight_1x10
+pin header straight 1x10
+pin header straight 1x10
+0
+10
+10
+Mlab_Pin_Headers
+Straight_1x11
+pin header straight 1x11
+pin header straight 1x11
+0
+11
+11
+Mlab_Pin_Headers
+Straight_1x12
+pin header straight 1x12
+pin header straight 1x12
+0
+12
+12
+Mlab_Pin_Headers
+Straight_1x13
+pin header straight 1x13
+pin header straight 1x13
+0
+13
+13
+Mlab_Pin_Headers
+Straight_1x14
+pin header straight 1x14
+pin header straight 1x14
+0
+14
+14
+Mlab_Pin_Headers
+Straight_1x15
+pin header straight 1x15
+pin header straight 1x15
+0
+15
+15
+Mlab_Pin_Headers
+Straight_1x16
+pin header straight 1x16
+pin header straight 1x16
+0
+16
+16
+Mlab_Pin_Headers
+Straight_1x17
+pin header straight 1x17
+pin header straight 1x17
+0
+17
+17
+Mlab_Pin_Headers
+Straight_1x18
+pin header straight 1x18
+pin header straight 1x18
+0
+18
+18
+Mlab_Pin_Headers
+Straight_1x19
+pin header straight 1x19
+pin header straight 1x19
+0
+19
+19
+Mlab_Pin_Headers
+Straight_1x20
+pin header straight 1x20
+pin header straight 1x20
+0
+20
+20
+Mlab_Pin_Headers
+Straight_1x21
+pin header straight 1x21
+pin header straight 1x21
+0
+21
+21
+Mlab_Pin_Headers
+Straight_1x22
+pin header straight 1x22
+pin header straight 1x22
+0
+22
+22
+Mlab_Pin_Headers
+Straight_1x23
+pin header straight 1x23
+pin header straight 1x23
+0
+23
+23
+Mlab_Pin_Headers
+Straight_1x24
+pin header straight 1x24
+pin header straight 1x24
+0
+24
+24
+Mlab_Pin_Headers
+Straight_1x25
+pin header straight 1x25
+pin header straight 1x25
+0
+25
+25
+Mlab_Pin_Headers
+Straight_1x26
+pin header straight 1x26
+pin header straight 1x26
+0
+26
+26
+Mlab_Pin_Headers
+Straight_1x27
+pin header straight 1x27
+pin header straight 1x27
+0
+27
+27
+Mlab_Pin_Headers
+Straight_1x28
+pin header straight 1x28
+pin header straight 1x28
+0
+28
+28
+Mlab_Pin_Headers
+Straight_1x29
+pin header straight 1x29
+pin header straight 1x29
+0
+29
+29
+Mlab_Pin_Headers
+Straight_1x30
+pin header straight 1x30
+pin header straight 1x30
+0
+30
+30
+Mlab_Pin_Headers
+Straight_1x31
+pin header straight 1x31
+pin header straight 1x31
+0
+31
+31
+Mlab_Pin_Headers
+Straight_1x32
+pin header straight 1x32
+pin header straight 1x32
+0
+32
+32
+Mlab_Pin_Headers
+Straight_1x33
+pin header straight 1x33
+pin header straight 1x33
+0
+33
+33
+Mlab_Pin_Headers
+Straight_1x34
+pin header straight 1x34
+pin header straight 1x34
+0
+34
+34
+Mlab_Pin_Headers
+Straight_1x35
+pin header straight 1x35
+pin header straight 1x35
+0
+35
+35
+Mlab_Pin_Headers
+Straight_1x36
+pin header straight 1x36
+pin header straight 1x36
+0
+36
+36
+Mlab_Pin_Headers
+Straight_1x37
+pin header straight 1x37
+pin header straight 1x37
+0
+37
+37
+Mlab_Pin_Headers
+Straight_1x38
+pin header straight 1x38
+pin header straight 1x38
+0
+38
+38
+Mlab_Pin_Headers
+Straight_1x39
+pin header straight 1x39
+pin header straight 1x39
+0
+39
+39
+Mlab_Pin_Headers
+Straight_1x40
+pin header straight 1x40
+pin header straight 1x40
+0
+40
+40
+Mlab_Pin_Headers
+Straight_2x01
+pin header straight 2x01
+pin header straight 2x01
+0
+2
+2
+Mlab_Pin_Headers
+Straight_2x02
+pin header straight 2x02
+pin header straight 2x02
+0
+4
+4
+Mlab_Pin_Headers
+Straight_2x03
+pin header straight 2x03
+pin header straight 2x03
+0
+6
+6
+Mlab_Pin_Headers
+Straight_2x04
+pin header straight 2x04
+pin header straight 2x04
+0
+8
+8
+Mlab_Pin_Headers
+Straight_2x05
+pin header straight 2x05
+pin header straight 2x05
+0
+10
+10
+Mlab_Pin_Headers
+Straight_2x06
+pin header straight 2x06
+pin header straight 2x06
+0
+12
+12
+Mlab_Pin_Headers
+Straight_2x07
+pin header straight 2x07
+pin header straight 2x07
+0
+14
+14
+Mlab_Pin_Headers
+Straight_2x08
+pin header straight 2x08
+pin header straight 2x08
+0
+16
+16
+Mlab_Pin_Headers
+Straight_2x09
+pin header straight 2x09
+pin header straight 2x09
+0
+18
+18
+Mlab_Pin_Headers
+Straight_2x10
+pin header straight 2x10
+pin header straight 2x10
+0
+20
+20
+Mlab_Pin_Headers
+Straight_2x11
+pin header straight 2x11
+pin header straight 2x11
+0
+22
+22
+Mlab_Pin_Headers
+Straight_2x12
+pin header straight 2x12
+pin header straight 2x12
+0
+24
+24
+Mlab_Pin_Headers
+Straight_2x13
+pin header straight 2x13
+pin header straight 2x13
+0
+26
+26
+Mlab_Pin_Headers
+Straight_2x14
+pin header straight 2x14
+pin header straight 2x14
+0
+28
+28
+Mlab_Pin_Headers
+Straight_2x15
+pin header straight 2x15
+pin header straight 2x15
+0
+30
+30
+Mlab_Pin_Headers
+Straight_2x16
+pin header straight 2x16
+pin header straight 2x16
+0
+32
+32
+Mlab_Pin_Headers
+Straight_2x17
+pin header straight 2x17
+pin header straight 2x17
+0
+34
+34
+Mlab_Pin_Headers
+Straight_2x18
+pin header straight 2x18
+pin header straight 2x18
+0
+36
+36
+Mlab_Pin_Headers
+Straight_2x19
+pin header straight 2x19
+pin header straight 2x19
+0
+38
+38
+Mlab_Pin_Headers
+Straight_2x20
+pin header straight 2x20
+pin header straight 2x20
+0
+40
+40
+Mlab_Pin_Headers
+Straight_2x21
+pin header straight 2x21
+pin header straight 2x21
+0
+42
+42
+Mlab_Pin_Headers
+Straight_2x22
+pin header straight 2x22
+pin header straight 2x22
+0
+44
+44
+Mlab_Pin_Headers
+Straight_2x23
+pin header straight 2x23
+pin header straight 2x23
+0
+46
+46
+Mlab_Pin_Headers
+Straight_2x24
+pin header straight 2x24
+pin header straight 2x24
+0
+48
+48
+Mlab_Pin_Headers
+Straight_2x25
+pin header straight 2x25
+pin header straight 2x25
+0
+50
+50
+Mlab_Pin_Headers
+Straight_2x26
+pin header straight 2x26
+pin header straight 2x26
+0
+52
+52
+Mlab_Pin_Headers
+Straight_2x27
+pin header straight 2x27
+pin header straight 2x27
+0
+54
+54
+Mlab_Pin_Headers
+Straight_2x28
+pin header straight 2x28
+pin header straight 2x28
+0
+56
+56
+Mlab_Pin_Headers
+Straight_2x29
+pin header straight 2x29
+pin header straight 2x29
+0
+58
+58
+Mlab_Pin_Headers
+Straight_2x30
+pin header straight 2x30
+pin header straight 2x30
+0
+60
+60
+Mlab_Pin_Headers
+Straight_2x31
+pin header straight 2x31
+pin header straight 2x31
+0
+62
+62
+Mlab_Pin_Headers
+Straight_2x32
+pin header straight 2x32
+pin header straight 2x32
+0
+64
+64
+Mlab_Pin_Headers
+Straight_2x33
+pin header straight 2x33
+pin header straight 2x33
+0
+66
+66
+Mlab_Pin_Headers
+Straight_2x34
+pin header straight 2x34
+pin header straight 2x34
+0
+68
+68
+Mlab_Pin_Headers
+Straight_2x35
+pin header straight 2x35
+pin header straight 2x35
+0
+70
+70
+Mlab_Pin_Headers
+Straight_2x36
+pin header straight 2x36
+pin header straight 2x36
+0
+72
+72
+Mlab_Pin_Headers
+Straight_2x37
+pin header straight 2x37
+pin header straight 2x37
+0
+74
+74
+Mlab_Pin_Headers
+Straight_2x38
+pin header straight 2x38
+pin header straight 2x38
+0
+76
+76
+Mlab_Pin_Headers
+Straight_2x39
+pin header straight 2x39
+pin header straight 2x39
+0
+78
+78
+Mlab_Pin_Headers
+Straight_2x40
+pin header straight 2x40
+pin header straight 2x40
+0
+80
+80
+Mlab_Pin_Headers
+Zkrat
+
+
+0
+2
+2
+Mlab_Pot
+TRIM_CA9MTV10
+Potentiometer, Trimmer, Piher, PT15, Type V15, horizontal, Rev A, 02 Aug 2010,
+Potentiometer, Trimmer, Piher, PT15, Type V15, horizontal, Rev A, 02 Aug 2010,
+0
+3
+3
+Mlab_R
+SMD-0402
+
+
+0
+2
+2
+Mlab_R
+SMD-0603
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Mlab_R
+SMD-0805
+
+
+0
+2
+2
+Mlab_R
+SMD-1206
+
+
+0
+2
+2
+Mlab_R
+SMD-1210
+
+CMS SM
+0
+2
+2
+Mlab_R
+SMD-1812
+
+CMS SMD
+0
+2
+2
+Mlab_R
+SMD-2512
+Resistor SMD 2512, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 2512
+0
+2
+2
+Mlab_SW
+5MS1S102AM6QE
+
+
+0
+5
+4
+Mlab_SW
+Prepinaci_3A_SL19121
+
+Prepinaci tlacitko 3A
+0
+3
+3
+Mlab_SW
+SW_PUSH_SMALL
+
+
+0
+4
+2
+Mlab_T
+QFN-20-1EP_5x5mm_Pitch0.65mm
+20-Lead Plastic Quad Flat, No Lead Package (MQ) - 5x5x0.9 mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)
+QFN 0.65
+0
+24
+21
+Mlab_T
+SOT-23
+
+SOT23
+0
+3
+3
+Mlab_T
+TO-263-5
+
+
+0
+6
+5
+Mlab_TR
+H110X_H1121_HX1188
+
+
+0
+16
+16
+Mlab_XTAL
+ABS07
+
+
+0
+2
+2
+Mlab_XTAL
+ASFL1
+
+
+0
+4
+4
+Mlab_XTAL
+CFPS-72,73
+
+CFPS-72,73
+0
+4
+4
+Mlab_XTAL
+Crystal_HC49-4H_Vertical
+Crystal THT HC-49-4H http://5hertz.com/pdfs/04404_D.pdf
+THT crystalHC-49-4H
+0
+2
+2
+Mlab_XTAL
+Crystal_HC49-U_Vertical
+Crystal, Quarz, HC49/U, vertical, stehend,
+Crystal, Quarz, HC49/U, vertical, stehend,
+0
+2
+2
+Mlab_XTAL
+Crystal_SMD_NX2016SA
+
+NX2016SA
+0
+4
+4
+Mlab_XTAL
+I533_1534_1733_1734
+
+I533/1534/1733/1734
+0
+4
+4
+Mlab_XTAL
+ISM81
+
+ISM81
+0
+4
+4
+Mlab_XTAL
+ISM92
+
+ISM92
+0
+4
+4
+Mlab_XTAL
+ISM95
+
+ISM95
+0
+4
+4
+Mlab_XTAL
+ISM97
+
+ISM97
+0
+4
+4
+Mlab_XTAL
+OSC-F
+
+OSC-F
+0
+4
+4
+Mlab_XTAL
+OSC-H
+
+OSC-H
+0
+4
+4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -59038,6 +62013,13 @@ BGA-121
 121
 121
 Package_BGA
+BGA-132_12x18mm_Layout11x17_P0.5mm
+BGA-132 11x17 12x18mm 0.5pitch
+BGA-132
+0
+132
+132
+Package_BGA
 BGA-132_12x18mm_Layout11x17_P1.0mm
 BGA-132 11x17 12x18mm 1.0pitch
 BGA-132
@@ -59261,6 +62243,13 @@ BGA 756 0.8
 0
 756
 756
+Package_BGA
+Linear_BGA-133_15.0x15.0_Layout12x12_P1.27mm
+Analog Devices (Linear Tech), 133-pin BGA uModule, 15.0x15.0x4.92mm, https://www.analog.com/media/en/technical-documentation/data-sheets/4637fc.pdf
+133 pin bga
+0
+134
+134
 Package_BGA
 Linear_BGA-133_15.0x15.0mm_Layout12x12_P1.27mm
 Analog Devices (Linear Tech), 133-pin BGA uModule, 15.0x15.0x4.92mm, https://www.analog.com/media/en/technical-documentation/data-sheets/4637fc.pdf
@@ -61411,6 +64400,13 @@ QFN NoLead
 17
 13
 Package_DFN_QFN
+QFN-14-1EP_1.6x1.6mm_P0.4mm_EP0.74x0.74mm
+QFN, 14 Pin (http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+19
+15
+Package_DFN_QFN
 QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm
 QFN, 16 Pin (https://www.st.com/resource/en/datasheet/tsv521.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
@@ -62839,6 +65835,13 @@ UQFN DFN 0.5 ST
 6
 6
 Package_DFN_QFN
+SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm
+20-Lead Plastic Quad Flat, No Lead Package - 3x3 mm Body [QFN] with corner pads; see figure 8.2 of https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
+QFN 0.5
+0
+25
+21
+Package_DFN_QFN
 SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm
 20-Lead Plastic Quad Flat, No Lead Package - 3x3 mm Body [QFN] with corner pads; see figure 8.2 of https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
 QFN 0.5
@@ -62847,6 +65850,13 @@ QFN 0.5
 21
 Package_DFN_QFN
 SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm_ThermalVias
+20-Lead Plastic Quad Flat, No Lead Package - 3x3 mm Body [QFN] with corner pads and thermal vias; see figure 8.2 of https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
+QFN 0.5
+0
+31
+21
+Package_DFN_QFN
+SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_ThermalVias
 20-Lead Plastic Quad Flat, No Lead Package - 3x3 mm Body [QFN] with corner pads and thermal vias; see figure 8.2 of https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
 QFN 0.5
 0
@@ -63609,6 +66619,13 @@ UDFN-4_1x1mm_P0.65mm
 5
 5
 Package_DFN_QFN
+UDFN-4_1x1mm_P0.65mm
+UDFN-4_1x1mm_P0.65mm
+UDFN-4_1x1mm_P0.65mm
+0
+16
+5
+Package_DFN_QFN
 UDFN-9_1.0x3.8mm_P0.5mm
 9-pin UDFN package, 1.0x3.8mm, (Ref: https://katalog.we-online.de/pbs/datasheet/824014881.pdf)
 UDFN SMD
@@ -63933,20 +66950,6 @@ VQFN NoLead
 Package_DFN_QFN
 VQFN-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm_ThermalVias
 VQFN, 32 Pin (https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4222H.pdf#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
-VQFN NoLead
-0
-47
-33
-Package_DFN_QFN
-VQFN-32-1EP_5x5mm_P0.5mm_EP3.15x3.15mm
-VQFN, 32 Pin (https://www.ti.com/lit/ds/slvs589d/slvs589d.pdf#page=33), generated with kicad-footprint-generator ipc_noLead_generator.py
-VQFN NoLead
-0
-37
-33
-Package_DFN_QFN
-VQFN-32-1EP_5x5mm_P0.5mm_EP3.15x3.15mm_ThermalVias
-VQFN, 32 Pin (https://www.ti.com/lit/ds/slvs589d/slvs589d.pdf#page=33), generated with kicad-footprint-generator ipc_noLead_generator.py
 VQFN NoLead
 0
 47
@@ -66332,6 +69335,13 @@ LGA 28 5.2x3.8mm Pitch 0.5mm
 28
 28
 Package_LGA
+Linear_LGA-133_15.0x15.0_Layout12x12_P1.27mm
+Analog Devices (Linear Tech), 133-pin LGA uModule, 15.0x15.0x4.32mm, https://www.analog.com/media/en/technical-documentation/data-sheets/4637fc.pdf
+133 pin lga
+0
+133
+133
+Package_LGA
 Linear_LGA-133_15.0x15.0mm_Layout12x12_P1.27mm
 Analog Devices (Linear Tech), 133-pin LGA uModule, 15.0x15.0x4.32mm, https://www.analog.com/media/en/technical-documentation/data-sheets/4637fc.pdf
 133 pin lga
@@ -68187,6 +71197,13 @@ SOIC SO
 28
 28
 Package_SO
+SOIJ-8_5.3x5.3mm_P1.27mm
+8-Lead Plastic Small Outline (SM) - Medium, 5.28 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+8
+8
+Package_SO
 SOJ-36_10.16x23.49mm_P1.27mm
 SOJ, 36 Pin (http://www.issi.com/WW/pdf/61-64C5128AL.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOJ SO
@@ -69398,6 +72415,20 @@ Texas_S-PVSON-N10_ThermalVias
 39
 11
 Package_SON
+Texas_S-PWSON-N8_EP1.2x2mm
+WSON, 8 Pin (http://www.ti.com/lit/ds/symlink/lp2951.pdf#page=27), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+11
+9
+Package_SON
+Texas_S-PWSON-N8_EP1.2x2mm_ThermalVias
+WSON, 8 Pin (http://www.ti.com/lit/ds/symlink/lp2951.pdf#page=27), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+18
+9
+Package_SON
 Texas_S-PWSON-N10
 3x3mm Body, 0.5mm Pitch, S-PWSON-N10, DSC, http://www.ti.com/lit/ds/symlink/tps63060.pdf
 0.5 S-PWSON-N10 DSC
@@ -69622,6 +72653,13 @@ WSON NoLead
 13
 9
 Package_SON
+WSON-8_4x4mm_P0.8mm
+http://www.ti.com/lit/ml/mpds406/mpds406.pdf
+WSON8_4x4mm_P0.8mm
+0
+9
+9
+Package_SON
 WSON-10-1EP_2.5x2.5mm_P0.5mm_EP1.2x2mm
 WSON, 10 Pin (http://www.ti.com/lit/gpn/tps63030#page=24), generated with kicad-footprint-generator ipc_noLead_generator.py
 WSON NoLead
@@ -69823,6 +72861,20 @@ LFPAK56 https://assets.nexperia.com/documents/outline-drawing/SOT669.pdf
 LFPAK56 SOT-669 Power-SO8
 0
 18
+5
+Package_TO_SOT_SMD
+LFPAK56_ThermalVias-1
+LFPAK56 https://assets.nexperia.com/documents/outline-drawing/SOT669.pdf
+LFPAK56 SOT669 Thermal Vias 0.4mm Power-SO8
+0
+63
+5
+Package_TO_SOT_SMD
+LFPAK56_ThermalVias-2
+LFPAK56 https://assets.nexperia.com/documents/outline-drawing/SOT669.pdf
+LFPAK56 SOT669 Thermical Vias Power-SO8
+0
+30
 5
 Package_TO_SOT_SMD
 Nexperia_CFP15_SOT-1289
@@ -70285,6 +73337,13 @@ Power MOSFET package, TDSON-8-1, 5.15x5.9mm (https://www.infineon.com/cms/en/pro
 tdson 
 0
 14
+5
+Package_TO_SOT_SMD
+TDSON-8-1_HandSoldering
+Power MOSFET package, TDSON-8-1, SuperS08, SON-8_5x6mm
+tdson 
+0
+13
 5
 Package_TO_SOT_SMD
 TO-50-3_LongPad-NoHole_Housing
@@ -74872,6 +77931,13 @@ resistor handsolder
 2
 2
 Resistor_SMD
+R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+Resistor_SMD
 R_0612_1632Metric
 Resistor SMD 0612 (1632 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20019/rcwe.pdf), generated with kicad-footprint-generator
 resistor
@@ -74893,6 +77959,13 @@ resistor
 2
 2
 Resistor_SMD
+R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+Resistor_SMD
 R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
 Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 resistor handsolder
@@ -74909,6 +77982,13 @@ resistor
 Resistor_SMD
 R_0815_2038Metric_Pad1.20x4.05mm_HandSolder
 Resistor SMD 0815 (2038 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.susumu.co.jp/common/pdf/n_catalog_partition07_en.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+Resistor_SMD
+R_0815_2038Metric_Pad1.53x4.00mm_HandSolder
+Resistor SMD 0815 (2038 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.yageo.com/documents/recent/PYu-PRPFPH_521_RoHS_L_0.pdf), generated with kicad-footprint-generator
 resistor handsolder
 0
 2
@@ -74956,6 +78036,13 @@ resistor handsolder
 2
 2
 Resistor_SMD
+R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+Resistor_SMD
 R_1210_3225Metric
 Resistor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 resistor
@@ -74970,6 +78057,13 @@ resistor handsolder
 2
 2
 Resistor_SMD
+R_1210_3225Metric_Pad1.42x2.65mm_HandSolder
+Resistor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+Resistor_SMD
 R_1218_3246Metric
 Resistor SMD 1218 (3246 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20035/dcrcwe3.pdf), generated with kicad-footprint-generator
 resistor
@@ -74979,6 +78073,20 @@ resistor
 Resistor_SMD
 R_1218_3246Metric_Pad1.22x4.75mm_HandSolder
 Resistor SMD 1218 (3246 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20035/dcrcwe3.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+Resistor_SMD
+R_1806_4516Metric
+Resistor SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Resistor_SMD
+R_1806_4516Metric_Pad1.57x1.80mm_HandSolder
+Resistor SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator
 resistor handsolder
 0
 2
@@ -75012,6 +78120,13 @@ resistor handsolder
 2
 2
 Resistor_SMD
+R_2010_5025Metric_Pad1.52x2.65mm_HandSolder
+Resistor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+Resistor_SMD
 R_2512_6332Metric
 Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 resistor
@@ -75021,6 +78136,13 @@ resistor
 Resistor_SMD
 R_2512_6332Metric_Pad1.40x3.35mm_HandSolder
 Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+Resistor_SMD
+R_2512_6332Metric_Pad1.52x3.35mm_HandSolder
+Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 resistor handsolder
 0
 2
@@ -80361,10 +83483,10 @@ THT Terminal Block WAGO 236-104 45Degree pitch 5mm size 22.3x14mm^2 drill 1.15mm
 4
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-105_1x05_P5.00mm_45Degree
-Terminal Block WAGO 236-105, 45Degree (cable under 45degree), 5 pins, pitch 5mm, size 27.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
-THT Terminal Block WAGO 236-105 45Degree pitch 5mm size 27.3x14mm^2 drill 1.15mm pad 3mm
+Terminal Block WAGO 236-105, 45Degree (cable under 45degree), 5 pins, pitch 5mm, size 26.5x14mm^2, drill diamater 1mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-105 45Degree pitch 5mm size 26.5x14mm^2 drill 1mm pad 3mm
 0
-5
+10
 5
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree
@@ -80375,10 +83497,10 @@ THT Terminal Block WAGO 236-106 45Degree pitch 5mm size 32.3x14mm^2 drill 1.15mm
 6
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-107_1x07_P5.00mm_45Degree
-Terminal Block WAGO 236-107, 45Degree (cable under 45degree), 7 pins, pitch 5mm, size 37.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
-THT Terminal Block WAGO 236-107 45Degree pitch 5mm size 37.3x14mm^2 drill 1.15mm pad 3mm
+Terminal Block WAGO 236-107, 45Degree (cable under 45degree), 7 pins, pitch 5mm, size 36.5x14mm^2, drill diamater 1mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-107 45Degree pitch 5mm size 36.5x14mm^2 drill 1mm pad 3mm
 0
-7
+14
 7
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-108_1x08_P5.00mm_45Degree
@@ -80389,11 +83511,18 @@ THT Terminal Block WAGO 236-108 45Degree pitch 5mm size 42.3x14mm^2 drill 1.15mm
 8
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-109_1x09_P5.00mm_45Degree
-Terminal Block WAGO 236-109, 45Degree (cable under 45degree), 9 pins, pitch 5mm, size 47.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
-THT Terminal Block WAGO 236-109 45Degree pitch 5mm size 47.3x14mm^2 drill 1.15mm pad 3mm
+Terminal Block WAGO 236-109, 45Degree (cable under 45degree), 9 pins, pitch 5mm, size 46.5x14mm^2, drill diamater 1mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-109 45Degree pitch 5mm size 46.5x14mm^2 drill 1mm pad 3mm
 0
+18
 9
-9
+TerminalBlock_WAGO
+TerminalBlock_WAGO_236-110_1x10_P5.00mm_45Degree
+Terminal Block WAGO 236-110, 45Degree (cable under 45degree), 10 pins, pitch 5mm, size 51.5x14mm^2, drill diamater 1mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-110 45Degree pitch 5mm size 51.5x14mm^2 drill 1mm pad 3mm
+0
+20
+10
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-112_1x12_P5.00mm_45Degree
 Terminal Block WAGO 236-112, 45Degree (cable under 45degree), 12 pins, pitch 5mm, size 62.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
@@ -80401,13 +83530,6 @@ THT Terminal Block WAGO 236-112 45Degree pitch 5mm size 62.3x14mm^2 drill 1.15mm
 0
 12
 12
-TerminalBlock_WAGO
-TerminalBlock_WAGO_236-114_1x14_P5.00mm_45Degree
-Terminal Block WAGO 236-114, 45Degree (cable under 45degree), 14 pins, pitch 5mm, size 72.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
-THT Terminal Block WAGO 236-114 45Degree pitch 5mm size 72.3x14mm^2 drill 1.15mm pad 3mm
-0
-14
-14
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-116_1x16_P5.00mm_45Degree
 Terminal Block WAGO 236-116, 45Degree (cable under 45degree), 16 pins, pitch 5mm, size 82.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
@@ -80466,10 +83588,10 @@ THT Terminal Block WAGO 236-204 45Degree pitch 7.5mm size 32.3x14mm^2 drill 1.15
 4
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-205_1x05_P7.50mm_45Degree
-Terminal Block WAGO 236-205, 45Degree (cable under 45degree), 5 pins, pitch 7.5mm, size 39.8x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
-THT Terminal Block WAGO 236-205 45Degree pitch 7.5mm size 39.8x14mm^2 drill 1.15mm pad 3mm
+Terminal Block WAGO 236-205, 45Degree (cable under 45degree), 5 pins, pitch 7.5mm, size 39x14mm^2, drill diamater 1mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-205 45Degree pitch 7.5mm size 39x14mm^2 drill 1mm pad 3mm
 0
-5
+10
 5
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-206_1x06_P7.50mm_45Degree
@@ -80480,10 +83602,10 @@ THT Terminal Block WAGO 236-206 45Degree pitch 7.5mm size 47.3x14mm^2 drill 1.15
 6
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-207_1x07_P7.50mm_45Degree
-Terminal Block WAGO 236-207, 45Degree (cable under 45degree), 7 pins, pitch 7.5mm, size 54.8x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
-THT Terminal Block WAGO 236-207 45Degree pitch 7.5mm size 54.8x14mm^2 drill 1.15mm pad 3mm
+Terminal Block WAGO 236-207, 45Degree (cable under 45degree), 7 pins, pitch 7.5mm, size 54x14mm^2, drill diamater 1mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-207 45Degree pitch 7.5mm size 54x14mm^2 drill 1mm pad 3mm
 0
-7
+14
 7
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-208_1x08_P7.50mm_45Degree
@@ -80494,11 +83616,18 @@ THT Terminal Block WAGO 236-208 45Degree pitch 7.5mm size 62.3x14mm^2 drill 1.15
 8
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-209_1x09_P7.50mm_45Degree
-Terminal Block WAGO 236-209, 45Degree (cable under 45degree), 9 pins, pitch 7.5mm, size 69.8x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
-THT Terminal Block WAGO 236-209 45Degree pitch 7.5mm size 69.8x14mm^2 drill 1.15mm pad 3mm
+Terminal Block WAGO 236-209, 45Degree (cable under 45degree), 9 pins, pitch 7.5mm, size 69x14mm^2, drill diamater 1mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-209 45Degree pitch 7.5mm size 69x14mm^2 drill 1mm pad 3mm
 0
+18
 9
-9
+TerminalBlock_WAGO
+TerminalBlock_WAGO_236-210_1x10_P7.50mm_45Degree
+Terminal Block WAGO 236-210, 45Degree (cable under 45degree), 10 pins, pitch 7.5mm, size 76.5x14mm^2, drill diamater 1mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-210 45Degree pitch 7.5mm size 76.5x14mm^2 drill 1mm pad 3mm
+0
+20
+10
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-212_1x12_P7.50mm_45Degree
 Terminal Block WAGO 236-212, 45Degree (cable under 45degree), 12 pins, pitch 7.5mm, size 92.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
@@ -80550,10 +83679,10 @@ THT Terminal Block WAGO 236-304 45Degree pitch 10mm size 42.3x14mm^2 drill 1.15m
 4
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-305_1x05_P10.00mm_45Degree
-Terminal Block WAGO 236-305, 45Degree (cable under 45degree), 5 pins, pitch 10mm, size 52.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
-THT Terminal Block WAGO 236-305 45Degree pitch 10mm size 52.3x14mm^2 drill 1.15mm pad 3mm
+Terminal Block WAGO 236-305, 45Degree (cable under 45degree), 5 pins, pitch 10mm, size 51.5x14mm^2, drill diamater 1mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-305 45Degree pitch 10mm size 51.5x14mm^2 drill 1mm pad 3mm
 0
-5
+10
 5
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-306_1x06_P10.00mm_45Degree
@@ -80563,6 +83692,13 @@ THT Terminal Block WAGO 236-306 45Degree pitch 10mm size 62.3x14mm^2 drill 1.15m
 6
 6
 TerminalBlock_WAGO
+TerminalBlock_WAGO_236-307_1x07_P10.00mm_45Degree
+Terminal Block WAGO 236-307, 45Degree (cable under 45degree), 7 pins, pitch 10mm, size 71.5x14mm^2, drill diamater 1mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-307 45Degree pitch 10mm size 71.5x14mm^2 drill 1mm pad 3mm
+0
+14
+7
+TerminalBlock_WAGO
 TerminalBlock_WAGO_236-308_1x08_P10.00mm_45Degree
 Terminal Block WAGO 236-308, 45Degree (cable under 45degree), 8 pins, pitch 10mm, size 82.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
 THT Terminal Block WAGO 236-308 45Degree pitch 10mm size 82.3x14mm^2 drill 1.15mm pad 3mm
@@ -80571,11 +83707,18 @@ THT Terminal Block WAGO 236-308 45Degree pitch 10mm size 82.3x14mm^2 drill 1.15m
 8
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-309_1x09_P10.00mm_45Degree
-Terminal Block WAGO 236-309, 45Degree (cable under 45degree), 9 pins, pitch 10mm, size 92.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
-THT Terminal Block WAGO 236-309 45Degree pitch 10mm size 92.3x14mm^2 drill 1.15mm pad 3mm
+Terminal Block WAGO 236-309, 45Degree (cable under 45degree), 9 pins, pitch 10mm, size 91.5x14mm^2, drill diamater 1mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-309 45Degree pitch 10mm size 91.5x14mm^2 drill 1mm pad 3mm
 0
+18
 9
-9
+TerminalBlock_WAGO
+TerminalBlock_WAGO_236-310_1x10_P10.00mm_45Degree
+Terminal Block WAGO 236-310, 45Degree (cable under 45degree), 10 pins, pitch 10mm, size 102x14mm^2, drill diamater 1mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-310 45Degree pitch 10mm size 102x14mm^2 drill 1mm pad 3mm
+0
+20
+10
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-312_1x12_P10.00mm_45Degree
 Terminal Block WAGO 236-312, 45Degree (cable under 45degree), 12 pins, pitch 10mm, size 122x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
@@ -80626,26 +83769,12 @@ THT Terminal Block WAGO 236-404 45Degree pitch 5mm size 22.3x14mm^2 drill 1.15mm
 8
 4
 TerminalBlock_WAGO
-TerminalBlock_WAGO_236-405_1x05_P5.00mm_45Degree
-Terminal Block WAGO 236-405, 45Degree (cable under 45degree), 5 pins, pitch 5mm, size 27.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
-THT Terminal Block WAGO 236-405 45Degree pitch 5mm size 27.3x14mm^2 drill 1.15mm pad 3mm
-0
-10
-5
-TerminalBlock_WAGO
 TerminalBlock_WAGO_236-406_1x06_P5.00mm_45Degree
 Terminal Block WAGO 236-406, 45Degree (cable under 45degree), 6 pins, pitch 5mm, size 32.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
 THT Terminal Block WAGO 236-406 45Degree pitch 5mm size 32.3x14mm^2 drill 1.15mm pad 3mm
 0
 12
 6
-TerminalBlock_WAGO
-TerminalBlock_WAGO_236-407_1x07_P5.00mm_45Degree
-Terminal Block WAGO 236-407, 45Degree (cable under 45degree), 7 pins, pitch 5mm, size 37.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
-THT Terminal Block WAGO 236-407 45Degree pitch 5mm size 37.3x14mm^2 drill 1.15mm pad 3mm
-0
-14
-7
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-408_1x08_P5.00mm_45Degree
 Terminal Block WAGO 236-408, 45Degree (cable under 45degree), 8 pins, pitch 5mm, size 42.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
@@ -80654,26 +83783,12 @@ THT Terminal Block WAGO 236-408 45Degree pitch 5mm size 42.3x14mm^2 drill 1.15mm
 16
 8
 TerminalBlock_WAGO
-TerminalBlock_WAGO_236-409_1x09_P5.00mm_45Degree
-Terminal Block WAGO 236-409, 45Degree (cable under 45degree), 9 pins, pitch 5mm, size 47.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
-THT Terminal Block WAGO 236-409 45Degree pitch 5mm size 47.3x14mm^2 drill 1.15mm pad 3mm
-0
-18
-9
-TerminalBlock_WAGO
 TerminalBlock_WAGO_236-412_1x12_P5.00mm_45Degree
 Terminal Block WAGO 236-412, 45Degree (cable under 45degree), 12 pins, pitch 5mm, size 62.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
 THT Terminal Block WAGO 236-412 45Degree pitch 5mm size 62.3x14mm^2 drill 1.15mm pad 3mm
 0
 24
 12
-TerminalBlock_WAGO
-TerminalBlock_WAGO_236-414_1x14_P5.00mm_45Degree
-Terminal Block WAGO 236-414, 45Degree (cable under 45degree), 14 pins, pitch 5mm, size 72.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
-THT Terminal Block WAGO 236-414 45Degree pitch 5mm size 72.3x14mm^2 drill 1.15mm pad 3mm
-0
-28
-14
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-416_1x16_P5.00mm_45Degree
 Terminal Block WAGO 236-416, 45Degree (cable under 45degree), 16 pins, pitch 5mm, size 82.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
@@ -80731,13 +83846,6 @@ THT Terminal Block WAGO 236-504 45Degree pitch 7.5mm size 32.3x14mm^2 drill 1.15
 8
 4
 TerminalBlock_WAGO
-TerminalBlock_WAGO_236-505_1x05_P7.50mm_45Degree
-Terminal Block WAGO 236-505, 45Degree (cable under 45degree), 5 pins, pitch 7.5mm, size 39.8x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
-THT Terminal Block WAGO 236-505 45Degree pitch 7.5mm size 39.8x14mm^2 drill 1.15mm pad 3mm
-0
-10
-5
-TerminalBlock_WAGO
 TerminalBlock_WAGO_236-506_1x06_P7.50mm_45Degree
 Terminal Block WAGO 236-506, 45Degree (cable under 45degree), 6 pins, pitch 7.5mm, size 47.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
 THT Terminal Block WAGO 236-506 45Degree pitch 7.5mm size 47.3x14mm^2 drill 1.15mm pad 3mm
@@ -80745,26 +83853,12 @@ THT Terminal Block WAGO 236-506 45Degree pitch 7.5mm size 47.3x14mm^2 drill 1.15
 12
 6
 TerminalBlock_WAGO
-TerminalBlock_WAGO_236-507_1x07_P7.50mm_45Degree
-Terminal Block WAGO 236-507, 45Degree (cable under 45degree), 7 pins, pitch 7.5mm, size 54.8x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
-THT Terminal Block WAGO 236-507 45Degree pitch 7.5mm size 54.8x14mm^2 drill 1.15mm pad 3mm
-0
-14
-7
-TerminalBlock_WAGO
 TerminalBlock_WAGO_236-508_1x08_P7.50mm_45Degree
 Terminal Block WAGO 236-508, 45Degree (cable under 45degree), 8 pins, pitch 7.5mm, size 62.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
 THT Terminal Block WAGO 236-508 45Degree pitch 7.5mm size 62.3x14mm^2 drill 1.15mm pad 3mm
 0
 16
 8
-TerminalBlock_WAGO
-TerminalBlock_WAGO_236-509_1x09_P7.50mm_45Degree
-Terminal Block WAGO 236-509, 45Degree (cable under 45degree), 9 pins, pitch 7.5mm, size 69.8x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
-THT Terminal Block WAGO 236-509 45Degree pitch 7.5mm size 69.8x14mm^2 drill 1.15mm pad 3mm
-0
-18
-9
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-512_1x12_P7.50mm_45Degree
 Terminal Block WAGO 236-512, 45Degree (cable under 45degree), 12 pins, pitch 7.5mm, size 92.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
@@ -80815,13 +83909,6 @@ THT Terminal Block WAGO 236-604 45Degree pitch 10mm size 42.3x14mm^2 drill 1.15m
 8
 4
 TerminalBlock_WAGO
-TerminalBlock_WAGO_236-605_1x05_P10.00mm_45Degree
-Terminal Block WAGO 236-605, 45Degree (cable under 45degree), 5 pins, pitch 10mm, size 52.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
-THT Terminal Block WAGO 236-605 45Degree pitch 10mm size 52.3x14mm^2 drill 1.15mm pad 3mm
-0
-10
-5
-TerminalBlock_WAGO
 TerminalBlock_WAGO_236-606_1x06_P10.00mm_45Degree
 Terminal Block WAGO 236-606, 45Degree (cable under 45degree), 6 pins, pitch 10mm, size 62.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
 THT Terminal Block WAGO 236-606 45Degree pitch 10mm size 62.3x14mm^2 drill 1.15mm pad 3mm
@@ -80835,13 +83922,6 @@ THT Terminal Block WAGO 236-608 45Degree pitch 10mm size 82.3x14mm^2 drill 1.15m
 0
 16
 8
-TerminalBlock_WAGO
-TerminalBlock_WAGO_236-609_1x09_P10.00mm_45Degree
-Terminal Block WAGO 236-609, 45Degree (cable under 45degree), 9 pins, pitch 10mm, size 92.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
-THT Terminal Block WAGO 236-609 45Degree pitch 10mm size 92.3x14mm^2 drill 1.15mm pad 3mm
-0
-18
-9
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-612_1x12_P10.00mm_45Degree
 Terminal Block WAGO 236-612, 45Degree (cable under 45degree), 12 pins, pitch 10mm, size 122x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
@@ -80934,40 +84014,12 @@ THT Terminal Block WAGO 804-110 45Degree pitch 5mm size 51.5x15mm^2 drill 1.2mm 
 20
 10
 TerminalBlock_WAGO
-TerminalBlock_WAGO_804-111_1x11_P5.00mm_45Degree
-Terminal Block WAGO 804-111, 45Degree (cable under 45degree), 11 pins, pitch 5mm, size 56.5x15mm^2, drill diamater 1.2mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
-THT Terminal Block WAGO 804-111 45Degree pitch 5mm size 56.5x15mm^2 drill 1.2mm pad 3mm
-0
-22
-11
-TerminalBlock_WAGO
 TerminalBlock_WAGO_804-112_1x12_P5.00mm_45Degree
 Terminal Block WAGO 804-112, 45Degree (cable under 45degree), 12 pins, pitch 5mm, size 61.5x15mm^2, drill diamater 1.2mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
 THT Terminal Block WAGO 804-112 45Degree pitch 5mm size 61.5x15mm^2 drill 1.2mm pad 3mm
 0
 24
 12
-TerminalBlock_WAGO
-TerminalBlock_WAGO_804-113_1x13_P5.00mm_45Degree
-Terminal Block WAGO 804-113, 45Degree (cable under 45degree), 13 pins, pitch 5mm, size 66.5x15mm^2, drill diamater 1.2mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
-THT Terminal Block WAGO 804-113 45Degree pitch 5mm size 66.5x15mm^2 drill 1.2mm pad 3mm
-0
-26
-13
-TerminalBlock_WAGO
-TerminalBlock_WAGO_804-114_1x14_P5.00mm_45Degree
-Terminal Block WAGO 804-114, 45Degree (cable under 45degree), 14 pins, pitch 5mm, size 71.5x15mm^2, drill diamater 1.2mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
-THT Terminal Block WAGO 804-114 45Degree pitch 5mm size 71.5x15mm^2 drill 1.2mm pad 3mm
-0
-28
-14
-TerminalBlock_WAGO
-TerminalBlock_WAGO_804-115_1x15_P5.00mm_45Degree
-Terminal Block WAGO 804-115, 45Degree (cable under 45degree), 15 pins, pitch 5mm, size 76.5x15mm^2, drill diamater 1.2mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
-THT Terminal Block WAGO 804-115 45Degree pitch 5mm size 76.5x15mm^2 drill 1.2mm pad 3mm
-0
-30
-15
 TerminalBlock_WAGO
 TerminalBlock_WAGO_804-116_1x16_P5.00mm_45Degree
 Terminal Block WAGO 804-116, 45Degree (cable under 45degree), 16 pins, pitch 5mm, size 81.5x15mm^2, drill diamater 1.2mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
@@ -81052,13 +84104,6 @@ THT Terminal Block WAGO 804-310 45Degree pitch 7.5mm size 74x15mm^2 drill 1.2mm 
 0
 20
 10
-TerminalBlock_WAGO
-TerminalBlock_WAGO_804-311_1x11_P7.50mm_45Degree
-Terminal Block WAGO 804-311, 45Degree (cable under 45degree), 11 pins, pitch 7.5mm, size 81.5x15mm^2, drill diamater 1.2mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
-THT Terminal Block WAGO 804-311 45Degree pitch 7.5mm size 81.5x15mm^2 drill 1.2mm pad 3mm
-0
-22
-11
 TerminalBlock_WAGO
 TerminalBlock_WAGO_804-312_1x12_P7.50mm_45Degree
 Terminal Block WAGO 804-312, 45Degree (cable under 45degree), 12 pins, pitch 7.5mm, size 89x15mm^2, drill diamater 1.2mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO

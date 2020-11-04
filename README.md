@@ -2,14 +2,14 @@
 
 The TFGPS01A module is based on multi-constellation uBlox NEO-9 with integrated high quality patch antenna. Module is capable to recieve GPS, GLONASS, Galileo and BeiDou navigation signals. It is designed primarily for use on small UAVs. Other uses are not excluded. Module can function as a standalone UART GPS or as a USB GPS receiver.
 
-> This module was developed by [ThunderFly s.r.o.](https://www.thunderfly.cz) and is published as OpenSource hardware with a [GPLv3](LICENSE) license.
 <p float="left">
 <img src="/doc/img/TFGPS01A_top_big.jpg" width="45%" />
 <img src="/doc/img/TFGPS01A_bot_big.jpg" width="45%" />
 </p>
 
-### Features 
+> This module (TFGPS01A) was developed by [ThunderFly s.r.o.](https://www.thunderfly.cz) and is published as OpenSource hardware with a [GPLv3](LICENSE) license.
 
+### Features 
   * RTK capability
   * Concurrent reception of 4 GNSS
   * Interface for external Payload connection 

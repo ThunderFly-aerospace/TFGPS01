@@ -104,4 +104,4 @@ The connector is labelled as `Payload GPS Interface`.
 | 8   | GND | Autopilot GND |
 
 #### USB-C 
-USB is connected to the uBlox module, used for its configuration.
+USB is connected to the uBlox module, used for its configuration. Configuration can be done via [u-center](https://www.u-blox.com/en/product/u-center) suite. 

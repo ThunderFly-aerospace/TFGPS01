@@ -1,6 +1,8 @@
 # TFGPS01A - RTK navigation capable GNSS module.  
 
-The TFGPS01A module is based on multi-constellation uBlox NEO-9 with integrated high quality patch antenna. Module is capable to recieve GPS, GLONASS, Galileo and BeiDou navigation signals. It is designed primarily for use on small UAVs. Other uses are not excluded. Module can function as a standalone UART GPS or as a USB GPS receiver.
+The TFGPS01A module is based on multi-constellation uBlox NEO-9 with integrated high-quality patch antenna. The module is capable of receiving GPS, GLONASS, Galileo and BeiDou navigation signals. It is designed primarily for use on small UAVs. Other uses are not excluded. Module can function as a standalone UART GPS or as a USB GPS receiver.
+
+The module has several features for UAVs. For example, it has a pass-through I2C port, payload interface, integrated beeper and safety LED or integrated connector for external safety switch and safety LED. 
 
 <p float="left">
 <img src="/doc/img/TFGPS01A_top_big.jpg" width="45%" />
@@ -10,6 +12,7 @@ The TFGPS01A module is based on multi-constellation uBlox NEO-9 with integrated 
 > This module (TFGPS01A) was developed by [ThunderFly s.r.o.](https://www.thunderfly.cz) and is published as OpenSource hardware with a [GPLv3](LICENSE) license.
 
 ### Features 
+  * Compatibile with PX4, Ardupilot and most of common flight stacks
   * RTK capability
   * Concurrent reception of 4 GNSS
   * Interface for external Payload connection 
@@ -51,7 +54,7 @@ Pinout of GPS&SAFETY connector conforms to the [pixhawk hardware standard](https
 | pin | Name | Description |
 |-----|------|-------------|
 | 1   | Vcc (+5V)  | Power for module |
-| 2   | RX         | Out from Autpilot |
+| 2   | RX         | Out from Autopilot |
 | 3   | TX         | Out from TFGPS01A |
 | 4   | I2C SCL    | I2C1 clock from autopilot; Passtrought to I2C connector |
 | 5   | I2C SDA    | I2C1 data from autopilot; Passtrought to I2C connector |
@@ -62,7 +65,7 @@ Pinout of GPS&SAFETY connector conforms to the [pixhawk hardware standard](https
 | 10  | GND        | Ground |
 
 #### I2C AUX
-I2C AUX is I2C1 output from autopilot. No other device is connected to I2C.
+I2C AUX is I2C1 output from the autopilot. No other device is connected to I2C.
 
 |Pin| Name|
 |---|-----
@@ -85,13 +88,13 @@ I2C AUX is I2C1 output from autopilot. No other device is connected to I2C.
 |6  | GND ||
 
 #### Payload conector
-The module is equipped with connector designed for payload connection this feature is usefull for time-sync and navigation data, time-stamping or geo-fencing. 
+The module is equipped with a connector designed for payload connection; this feature is useful for time-sync and navigation data, time-stamping or geo-fencing. 
 
-Connector is labeled as `Payload GPS Interface`.
+The connector is labelled as `Payload GPS Interface`.
 
 | pin | Name | Description |
 |-----|------|-------------|
-| 1   | TIMEPULSE | Time-pulse signal from uBlox GNSS reciever |
+| 1   | TIMEPULSE | Time-pulse signal from uBlox GNSS receiver |
 | 2   | EXTINT | Interrupt output from uBlox |
 | 3   | GEO_STAT | GeoStat output from uBlox |
 | 4   | SDA | I2C from uBlox |
@@ -101,4 +104,4 @@ Connector is labeled as `Payload GPS Interface`.
 | 8   | GND | Autopilot GND |
 
 #### USB-C 
-USB is connected to uBlox module. Used for its configuration.
+USB is connected to the uBlox module, used for its configuration.

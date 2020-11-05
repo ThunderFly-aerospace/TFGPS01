@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 41,
-    "active_layer_preset": "",
+    "active_layer": 0,
+    "active_layer_preset": "Front Assembly View",
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -60,7 +60,7 @@
       37,
       38
     ],
-    "visible_layers": "ffffff3_7ffffff9"
+    "visible_layers": "00290a0_00000000"
   },
   "meta": {
     "filename": "TFGPS01A.kicad_prl",

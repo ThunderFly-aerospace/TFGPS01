@@ -38,9 +38,13 @@ cp $2-F_Cu.gbr ./gatema/$2.top
 cp $2-B_Cu.gbr ./gatema/$2.bot
 cp $2-F_Mask.gbr ./gatema/$2.smt
 cp $2-B_Mask.gbr ./gatema/$2.smb
-#cp $2-B_Silkscreen.gbr ./gatema/$2.plb
+cp $2-F_Silkscreen.gbr ./gatema/$2.plt
+cp $2-B_Silkscreen.gbr ./gatema/$2.plb
+cp $2-In1_Cu.gbr ./gatema/$2.in2
+cp $2-In2_Cu.gbr ./gatema/$2.in3
 cp $2-Edge_Cuts.gbr ./gatema/$2.dim
 cp $2-PTH.drl ./gatema/$2.pth
+cp $2-mill_PTH.drl ./gatema/$2.mill_pth
 cp $2-NPTH.drl ./gatema/$2.mill   #non plated holes
 #cp $2-User_Eco2.gbr ./gatema/$2-pocket.mill   #non plated pockets
 

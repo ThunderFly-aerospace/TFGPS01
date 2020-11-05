@@ -3841,7 +3841,7 @@
   (dimension (type aligned) (layer "Cmts.User") (tstamp 00c9008e-a749-418d-b8df-976374cac59e)
     (pts (xy 50.3 -0.4) (xy 50.3 -50.4))
     (height 7.5)
-    (gr_text "50,0 mm" (at 58.95 -25.4 90) (layer "Cmts.User") (tstamp 34aec806-7225-460c-954d-edeeefa617fa)
+    (gr_text "50.0 mm" (at 58.95 -25.4 90) (layer "Cmts.User") (tstamp 00c9008e-a749-418d-b8df-976374cac59e)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (units 2) (units_format 1) (precision 1))

@@ -1,4 +1,4 @@
-# TFGPS01A - RTK navigation capable GNSS module.  
+# TFGPS01A - UAV GNSS navigation module with RTK capability
 
 The TFGPS01A module is based on multi-constellation uBlox NEO-9 with integrated high-quality patch antenna. The module is capable of receiving GPS, GLONASS, Galileo and BeiDou navigation signals. It is designed primarily for use on small UAVs. Other uses are not excluded. Module can function as a standalone UART GPS or as a USB GPS receiver.
 

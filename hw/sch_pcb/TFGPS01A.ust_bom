@@ -129,6 +129,14 @@
     }, 
     {
         "Datasheet": "~", 
+        "Footprint": "Mlab_R:SMD-0805", 
+        "Ref": "C15", 
+        "Tstamp": "e6b1fc9b-1c1b-455c-b5fc-20156193a722", 
+        "UST_ID": "5c70984812875079b91f8bbd", 
+        "Value": "10uF"
+    }, 
+    {
+        "Datasheet": "~", 
         "Footprint": "Diode_SMD:D_MiniMELF", 
         "Ref": "D1", 
         "Tstamp": "00000000-0000-0000-0000-00005e8355a7", 
@@ -156,8 +164,8 @@
         "Footprint": "Mlab_D:LED_1206", 
         "Ref": "D4", 
         "Tstamp": "00000000-0000-0000-0000-00005e880b05", 
-        "UST_ID": "5c70984512875079b91f8898", 
-        "Value": "BLUE"
+        "UST_ID": "5c70984412875079b91f8896", 
+        "Value": "RED"
     }, 
     {
         "Datasheet": "~", 
@@ -180,8 +188,16 @@
         "Footprint": "Mlab_D:LED_1206", 
         "Ref": "D7", 
         "Tstamp": "d046736c-6039-46c0-a433-52f0a4874786", 
-        "UST_ID": "5c70984412875079b91f8896", 
-        "Value": "RED"
+        "UST_ID": "5c70984512875079b91f8898", 
+        "Value": "BLUE"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Diode_SMD:D_SMA", 
+        "Ref": "D8", 
+        "Tstamp": "dcb557ac-adb8-4521-85bb-9643d76a3029", 
+        "UST_ID": "5c70984512875079b91f88ac", 
+        "Value": "M4"
     }, 
     {
         "Datasheet": "https://eu.mouser.com/datasheet/2/398/DBP.1575.W.A.30-1371847.pdf", 
@@ -288,6 +304,14 @@
         "Footprint": "Package_TO_SOT_SMD:SOT-23", 
         "Ref": "Q2", 
         "Tstamp": "dbba55c4-bdc9-4766-92db-5df00971577e", 
+        "UST_ID": "5c70984712875079b91f8aea", 
+        "Value": "BC817-25"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Package_TO_SOT_SMD:SOT-23", 
+        "Ref": "Q3", 
+        "Tstamp": "3ac0f7c4-df12-47ed-af64-f22496d2ac64", 
         "UST_ID": "5c70984712875079b91f8aea", 
         "Value": "BC817-25"
     }, 
@@ -440,32 +464,32 @@
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R19", 
         "Tstamp": "00000000-0000-0000-0000-00005e87cecd", 
-        "UST_ID": "5c70984512875079b91f8989", 
-        "Value": "620R"
+        "UST_ID": "5c70984512875079b91f897d", 
+        "Value": "200R"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R20", 
         "Tstamp": "00000000-0000-0000-0000-00005e873847", 
-        "UST_ID": "5c70984512875079b91f8989", 
-        "Value": "620R"
+        "UST_ID": "5c70984512875079b91f8977", 
+        "Value": "100R"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R21", 
         "Tstamp": "00000000-0000-0000-0000-00005e87bde8", 
-        "UST_ID": "5c70984512875079b91f8989", 
-        "Value": "620R"
+        "UST_ID": "5c70984512875079b91f8977", 
+        "Value": "100R"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R22", 
         "Tstamp": "f44c53ef-4a73-4de6-a9ba-573fa6ec21d4", 
-        "UST_ID": "5c70984512875079b91f8989", 
-        "Value": "620R"
+        "UST_ID": "5c70984512875079b91f8977", 
+        "Value": "100R"
     }, 
     {
         "Datasheet": "~", 
@@ -486,14 +510,6 @@
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
-        "Ref": "R25", 
-        "Tstamp": "c07fc06b-3b92-4227-90bf-93bfd2bcf815", 
-        "UST_ID": "5c70984612875079b91f899f", 
-        "Value": "10k"
-    }, 
-    {
-        "Datasheet": "~", 
-        "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R26", 
         "Tstamp": "d1585a21-b520-4562-97dd-1e6ebc7a6516", 
         "UST_ID": "5c70984612875079b91f89a1", 
@@ -506,6 +522,14 @@
         "Tstamp": "3fd6e552-1e3f-4e4d-ba3f-e82fe65bf46d", 
         "UST_ID": "5fa12b6012875025b3977a16", 
         "Value": "390R"
+    }, 
+    {
+        "Datasheet": "~", 
+        "Footprint": "Mlab_R:SMD-0805", 
+        "Ref": "R28", 
+        "Tstamp": "d6a4e04e-8df6-4986-9125-2e4dff9106e1", 
+        "UST_ID": "5c70984512875079b91f8977", 
+        "Value": "100R"
     }, 
     {
         "Datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf", 

@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 41,
+    "active_layer": 31,
     "active_layer_preset": "",
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -19,8 +19,8 @@
       "keepouts": true,
       "lockedItems": true,
       "otherItems": true,
-      "pads": true,
-      "text": true,
+      "pads": false,
+      "text": false,
       "tracks": true,
       "vias": true,
       "zones": true
@@ -60,7 +60,7 @@
       37,
       38
     ],
-    "visible_layers": "ffffff3_7ffffff9"
+    "visible_layers": "003f3fc_80000007"
   },
   "meta": {
     "filename": "TFGPS01A.kicad_prl",

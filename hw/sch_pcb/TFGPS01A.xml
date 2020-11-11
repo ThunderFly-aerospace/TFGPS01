@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Chroust\stare\TF_G\TFGPS01\hw\sch_pcb\TFGPS01A.kicad_sch</source>
-    <date>03.11.2020 11:05:58</date>
+    <date>09.11.2020 8:39:06</date>
     <tool>Eeschema (5.99.0-6591-gee6c8b60ac)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -248,6 +248,20 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>b830f0d4-d797-4b91-b70b-9b3a7a4c51f0</tstamp>
     </comp>
+    <comp ref="C15">
+      <value>10uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bbd</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bbd"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>e6b1fc9b-1c1b-455c-b5fc-20156193a722</tstamp>
+    </comp>
     <comp ref="D1">
       <value>BAS85</value>
       <footprint>Diode_SMD:D_MiniMELF</footprint>
@@ -291,14 +305,14 @@
       <tstamp>00000000-0000-0000-0000-00005e83ed6c</tstamp>
     </comp>
     <comp ref="D4">
-      <value>BLUE</value>
+      <value>RED</value>
       <footprint>Mlab_D:LED_1206</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f8898</field>
+        <field name="UST_ID">5c70984412875079b91f8896</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="UST_ID" value="5c70984512875079b91f8898"/>
+      <property name="UST_ID" value="5c70984412875079b91f8896"/>
       <property name="Název listu" value=""/>
       <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -333,18 +347,32 @@
       <tstamp>00000000-0000-0000-0000-00005e87f368</tstamp>
     </comp>
     <comp ref="D7">
-      <value>RED</value>
+      <value>BLUE</value>
       <footprint>Mlab_D:LED_1206</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID">5c70984412875079b91f8896</field>
+        <field name="UST_ID">5c70984512875079b91f8898</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="UST_ID" value="5c70984412875079b91f8896"/>
+      <property name="UST_ID" value="5c70984512875079b91f8898"/>
       <property name="Název listu" value=""/>
       <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>d046736c-6039-46c0-a433-52f0a4874786</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>M4</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f88ac</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="UST_ID" value="5c70984512875079b91f88ac"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>dcb557ac-adb8-4521-85bb-9643d76a3029</tstamp>
     </comp>
     <comp ref="FL1">
       <value>DBP.1575.W.A.30</value>
@@ -516,6 +544,20 @@
       <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>dbba55c4-bdc9-4766-92db-5df00971577e</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BC817-25</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8aea</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <property name="UST_ID" value="5c70984712875079b91f8aea"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>3ac0f7c4-df12-47ed-af64-f22496d2ac64</tstamp>
     </comp>
     <comp ref="R1">
       <value>22R</value>
@@ -770,56 +812,56 @@
       <tstamp>181136c6-142b-4030-9cba-0214ff7b9672</tstamp>
     </comp>
     <comp ref="R19">
-      <value>620R</value>
+      <value>200R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f8989</field>
+        <field name="UST_ID">5c70984512875079b91f897d</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="5c70984512875079b91f8989"/>
+      <property name="UST_ID" value="5c70984512875079b91f897d"/>
       <property name="Název listu" value=""/>
       <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005e87cecd</tstamp>
     </comp>
     <comp ref="R20">
-      <value>620R</value>
+      <value>100R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f8989</field>
+        <field name="UST_ID">5c70984512875079b91f8977</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="5c70984512875079b91f8989"/>
+      <property name="UST_ID" value="5c70984512875079b91f8977"/>
       <property name="Název listu" value=""/>
       <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005e873847</tstamp>
     </comp>
     <comp ref="R21">
-      <value>620R</value>
+      <value>100R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f8989</field>
+        <field name="UST_ID">5c70984512875079b91f8977</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="5c70984512875079b91f8989"/>
+      <property name="UST_ID" value="5c70984512875079b91f8977"/>
       <property name="Název listu" value=""/>
       <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000000-0000-0000-0000-00005e87bde8</tstamp>
     </comp>
     <comp ref="R22">
-      <value>620R</value>
+      <value>100R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f8989</field>
+        <field name="UST_ID">5c70984512875079b91f8977</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="5c70984512875079b91f8989"/>
+      <property name="UST_ID" value="5c70984512875079b91f8977"/>
       <property name="Název listu" value=""/>
       <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -853,20 +895,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>3be073a5-3cf2-4dcd-95e5-638b5ff126d4</tstamp>
     </comp>
-    <comp ref="R25">
-      <value>10k</value>
-      <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="UST_ID">5c70984612875079b91f899f</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="5c70984612875079b91f899f"/>
-      <property name="Název listu" value=""/>
-      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>c07fc06b-3b92-4227-90bf-93bfd2bcf815</tstamp>
-    </comp>
     <comp ref="R26">
       <value>12k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
@@ -894,6 +922,20 @@
       <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>3fd6e552-1e3f-4e4d-ba3f-e82fe65bf46d</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>100R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8977</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f8977"/>
+      <property name="Název listu" value=""/>
+      <property name="Sheet file" value="C:/Chroust/stare/TF_G/TFGPS01/hw/sch_pcb/TFGPS01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>d6a4e04e-8df6-4986-9125-2e4dff9106e1</tstamp>
     </comp>
     <comp ref="U1">
       <value>MIC5504-3.3YM5</value>
@@ -1371,7 +1413,6 @@
       <node ref="C6" pin="1"/>
       <node ref="C7" pin="1"/>
       <node ref="D3" pin="2" pinfunction="A"/>
-      <node ref="D4" pin="2" pinfunction="A"/>
       <node ref="R1" pin="1"/>
       <node ref="R5" pin="1"/>
       <node ref="R6" pin="1"/>
@@ -1382,13 +1423,14 @@
     <net code="2" name="+5V">
       <node ref="BZ1" pin="1" pinfunction="-"/>
       <node ref="D2" pin="1" pinfunction="K"/>
+      <node ref="D4" pin="2" pinfunction="A"/>
       <node ref="J1" pin="1"/>
       <node ref="J2" pin="A4/B9" pinfunction="VBUS"/>
       <node ref="J2" pin="B4/A9" pinfunction="VBUS"/>
-      <node ref="J3" pin="1"/>
       <node ref="J3" pin="5"/>
       <node ref="J4" pin="1"/>
       <node ref="L1" pin="1" pinfunction="1"/>
+      <node ref="R22" pin="1"/>
       <node ref="U2" pin="5" pinfunction="VBUS"/>
     </net>
     <net code="3" name="/1+">
@@ -1399,121 +1441,126 @@
       <node ref="R7" pin="1"/>
       <node ref="U3" pin="5" pinfunction="USB_DM"/>
     </net>
-    <net code="5" name="/BUZZER">
+    <net code="5" name="/ARM">
+      <node ref="D7" pin="2" pinfunction="A"/>
+      <node ref="Q3" pin="3" pinfunction="C"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="6" name="/BUZZER">
+      <node ref="C15" pin="1"/>
       <node ref="J1" pin="9"/>
       <node ref="J3" pin="4"/>
-      <node ref="R24" pin="1"/>
-      <node ref="R25" pin="1"/>
     </net>
-    <net code="6" name="/D+">
+    <net code="7" name="/D+">
       <node ref="J2" pin="A6" pinfunction="D+"/>
       <node ref="J2" pin="B6" pinfunction="D+"/>
       <node ref="U2" pin="6" pinfunction="IO1"/>
     </net>
-    <net code="7" name="/D-">
+    <net code="8" name="/D-">
       <node ref="J2" pin="A7" pinfunction="D-"/>
       <node ref="J2" pin="B7" pinfunction="D-"/>
       <node ref="U2" pin="4" pinfunction="IO2"/>
     </net>
-    <net code="8" name="/D1+">
+    <net code="9" name="/D1+">
       <node ref="R8" pin="2"/>
       <node ref="U2" pin="1" pinfunction="IO1"/>
     </net>
-    <net code="9" name="/D1-">
+    <net code="10" name="/D1-">
       <node ref="R7" pin="2"/>
       <node ref="U2" pin="3" pinfunction="IO2"/>
     </net>
-    <net code="10" name="/EXTINT">
+    <net code="11" name="/EXTINT">
       <node ref="R15" pin="1"/>
       <node ref="U3" pin="4" pinfunction="EXTINT"/>
     </net>
-    <net code="11" name="/GEO_STAT">
+    <net code="12" name="/GEO_STAT">
       <node ref="D5" pin="2" pinfunction="A"/>
       <node ref="R16" pin="1"/>
       <node ref="U3" pin="16" pinfunction="GEOFENCE_STAT"/>
     </net>
-    <net code="12" name="/RF1">
+    <net code="13" name="/RF1">
       <node ref="FL1" pin="2" pinfunction="IN/OUT"/>
       <node ref="U3" pin="11" pinfunction="RF_IN"/>
     </net>
-    <net code="13" name="/RF2">
+    <net code="14" name="/RF2">
       <node ref="C11" pin="1"/>
       <node ref="FL1" pin="1" pinfunction="IN/OUT"/>
     </net>
-    <net code="14" name="/RF3">
+    <net code="15" name="/RF3">
       <node ref="C11" pin="2"/>
       <node ref="R26" pin="2"/>
       <node ref="U4" pin="6" pinfunction="RFOUT"/>
     </net>
-    <net code="15" name="/RF4">
+    <net code="16" name="/RF4">
       <node ref="L2" pin="1" pinfunction="1"/>
       <node ref="U4" pin="3" pinfunction="RFIN"/>
     </net>
-    <net code="16" name="/RF5">
+    <net code="17" name="/RF5">
       <node ref="C13" pin="2"/>
       <node ref="C14" pin="1"/>
       <node ref="L2" pin="2" pinfunction="2"/>
     </net>
-    <net code="17" name="/RF6">
+    <net code="18" name="/RF6">
       <node ref="AE1" pin="1" pinfunction="A"/>
       <node ref="C14" pin="2"/>
     </net>
-    <net code="18" name="/RTK_STAT">
+    <net code="19" name="/RTK_STAT">
       <node ref="D6" pin="2" pinfunction="A"/>
       <node ref="U3" pin="15" pinfunction="RTK_STAT"/>
     </net>
-    <net code="19" name="/RX">
+    <net code="20" name="/RX">
       <node ref="J1" pin="2"/>
       <node ref="R10" pin="2"/>
       <node ref="R17" pin="1"/>
     </net>
-    <net code="20" name="/SAFETY_SW">
+    <net code="21" name="/SAFETY_SW">
       <node ref="J1" pin="6"/>
       <node ref="J3" pin="3"/>
     </net>
-    <net code="21" name="/SAFETY_SW_LED">
-      <node ref="D7" pin="2" pinfunction="A"/>
+    <net code="22" name="/SAFETY_SW_LED">
       <node ref="J1" pin="7"/>
       <node ref="J3" pin="2"/>
+      <node ref="R28" pin="1"/>
     </net>
-    <net code="22" name="/SAFE_VCC">
+    <net code="23" name="/SAFE_VCC">
       <node ref="J1" pin="8"/>
+      <node ref="J3" pin="1"/>
     </net>
-    <net code="23" name="/SCL">
+    <net code="24" name="/SCL">
       <node ref="J5" pin="5"/>
       <node ref="R12" pin="2"/>
       <node ref="R6" pin="2"/>
     </net>
-    <net code="24" name="/SCL1">
+    <net code="25" name="/SCL1">
       <node ref="J1" pin="4"/>
       <node ref="J4" pin="2"/>
     </net>
-    <net code="25" name="/SDA">
+    <net code="26" name="/SDA">
       <node ref="J5" pin="4"/>
       <node ref="R11" pin="2"/>
       <node ref="R5" pin="2"/>
     </net>
-    <net code="26" name="/SDA1">
+    <net code="27" name="/SDA1">
       <node ref="J1" pin="5"/>
       <node ref="J4" pin="3"/>
     </net>
-    <net code="27" name="/TIMEPULSE">
+    <net code="28" name="/TIMEPULSE">
       <node ref="R13" pin="1"/>
       <node ref="R14" pin="1"/>
       <node ref="U3" pin="3" pinfunction="TIMEPULSE"/>
     </net>
-    <net code="28" name="/TX">
+    <net code="29" name="/TX">
       <node ref="J1" pin="3"/>
       <node ref="R18" pin="1"/>
       <node ref="R9" pin="2"/>
     </net>
-    <net code="29" name="/VBACKUP">
+    <net code="30" name="/VBACKUP">
       <node ref="C1" pin="1"/>
       <node ref="C2" pin="1"/>
       <node ref="D1" pin="1" pinfunction="K"/>
       <node ref="U3" pin="22" pinfunction="V_BCKP"/>
     </net>
-    <net code="30" name="GND">
+    <net code="31" name="GND">
       <node ref="C1" pin="2"/>
       <node ref="C10" pin="2"/>
       <node ref="C12" pin="2"/>
@@ -1527,6 +1574,8 @@
       <node ref="C8" pin="2"/>
       <node ref="C9" pin="2"/>
       <node ref="D2" pin="2" pinfunction="A"/>
+      <node ref="D7" pin="1" pinfunction="K"/>
+      <node ref="D8" pin="2" pinfunction="A"/>
       <node ref="FL1" pin="3" pinfunction="GND"/>
       <node ref="J1" pin="10"/>
       <node ref="J1" pin="MP"/>
@@ -1548,11 +1597,10 @@
       <node ref="M4" pin="1"/>
       <node ref="Q1" pin="2" pinfunction="E"/>
       <node ref="Q2" pin="2" pinfunction="E"/>
+      <node ref="Q3" pin="2" pinfunction="E"/>
       <node ref="R2" pin="2"/>
       <node ref="R20" pin="2"/>
       <node ref="R21" pin="2"/>
-      <node ref="R22" pin="2"/>
-      <node ref="R25" pin="2"/>
       <node ref="R27" pin="2"/>
       <node ref="R3" pin="2"/>
       <node ref="R4" pin="2"/>
@@ -1565,135 +1613,140 @@
       <node ref="U4" pin="2" pinfunction="GND"/>
       <node ref="U4" pin="5" pinfunction="GND"/>
     </net>
-    <net code="31" name="Net-(BZ1-Pad2)">
+    <net code="32" name="Net-(BZ1-Pad2)">
       <node ref="BZ1" pin="2" pinfunction="+"/>
       <node ref="Q2" pin="3" pinfunction="C"/>
     </net>
-    <net code="32" name="Net-(C10-Pad1)">
+    <net code="33" name="Net-(C10-Pad1)">
       <node ref="C10" pin="1"/>
       <node ref="C9" pin="1"/>
       <node ref="R23" pin="1"/>
       <node ref="R26" pin="1"/>
       <node ref="U4" pin="4" pinfunction="VCC"/>
     </net>
-    <net code="33" name="Net-(C12-Pad1)">
+    <net code="34" name="Net-(C12-Pad1)">
       <node ref="C12" pin="1"/>
       <node ref="R27" pin="1"/>
       <node ref="U4" pin="1" pinfunction="BIAS"/>
     </net>
-    <net code="34" name="Net-(C3-Pad1)">
+    <net code="35" name="Net-(C15-Pad2)">
+      <node ref="C15" pin="2"/>
+      <node ref="D8" pin="1" pinfunction="K"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="36" name="Net-(C3-Pad1)">
       <node ref="C3" pin="1"/>
       <node ref="L1" pin="2" pinfunction="2"/>
       <node ref="U1" pin="1" pinfunction="VIN"/>
       <node ref="U1" pin="3" pinfunction="EN"/>
     </net>
-    <net code="35" name="Net-(C8-Pad1)">
+    <net code="37" name="Net-(C8-Pad1)">
       <node ref="C8" pin="1"/>
       <node ref="R23" pin="2"/>
       <node ref="U3" pin="9" pinfunction="VCC_RF"/>
     </net>
-    <net code="36" name="Net-(D1-Pad2)">
+    <net code="38" name="Net-(D1-Pad2)">
       <node ref="D1" pin="2" pinfunction="A"/>
       <node ref="R1" pin="2"/>
     </net>
-    <net code="37" name="Net-(D3-Pad1)">
+    <net code="39" name="Net-(D3-Pad1)">
       <node ref="D3" pin="1" pinfunction="K"/>
       <node ref="R4" pin="1"/>
     </net>
-    <net code="38" name="Net-(D4-Pad1)">
+    <net code="40" name="Net-(D4-Pad1)">
       <node ref="D4" pin="1" pinfunction="K"/>
       <node ref="R19" pin="1"/>
     </net>
-    <net code="39" name="Net-(D5-Pad1)">
+    <net code="41" name="Net-(D5-Pad1)">
       <node ref="D5" pin="1" pinfunction="K"/>
       <node ref="R20" pin="1"/>
     </net>
-    <net code="40" name="Net-(D6-Pad1)">
+    <net code="42" name="Net-(D6-Pad1)">
       <node ref="D6" pin="1" pinfunction="K"/>
       <node ref="R21" pin="1"/>
     </net>
-    <net code="41" name="Net-(D7-Pad1)">
-      <node ref="D7" pin="1" pinfunction="K"/>
-      <node ref="R22" pin="1"/>
-    </net>
-    <net code="42" name="Net-(J2-PadA5)">
+    <net code="43" name="Net-(J2-PadA5)">
       <node ref="J2" pin="A5" pinfunction="CC1"/>
       <node ref="R2" pin="1"/>
     </net>
-    <net code="43" name="Net-(J2-PadA8)">
+    <net code="44" name="Net-(J2-PadA8)">
       <node ref="J2" pin="A8" pinfunction="SBU1"/>
     </net>
-    <net code="44" name="Net-(J2-PadB5)">
+    <net code="45" name="Net-(J2-PadB5)">
       <node ref="J2" pin="B5" pinfunction="CC2"/>
       <node ref="R3" pin="1"/>
     </net>
-    <net code="45" name="Net-(J2-PadB8)">
+    <net code="46" name="Net-(J2-PadB8)">
       <node ref="J2" pin="B8" pinfunction="SBU2"/>
     </net>
-    <net code="46" name="Net-(J5-Pad1)">
+    <net code="47" name="Net-(J5-Pad1)">
       <node ref="J5" pin="1"/>
       <node ref="R14" pin="2"/>
     </net>
-    <net code="47" name="Net-(J5-Pad2)">
+    <net code="48" name="Net-(J5-Pad2)">
       <node ref="J5" pin="2"/>
       <node ref="R15" pin="2"/>
     </net>
-    <net code="48" name="Net-(J5-Pad3)">
+    <net code="49" name="Net-(J5-Pad3)">
       <node ref="J5" pin="3"/>
       <node ref="R16" pin="2"/>
     </net>
-    <net code="49" name="Net-(J5-Pad6)">
+    <net code="50" name="Net-(J5-Pad6)">
       <node ref="J5" pin="6"/>
       <node ref="R17" pin="2"/>
     </net>
-    <net code="50" name="Net-(J5-Pad7)">
+    <net code="51" name="Net-(J5-Pad7)">
       <node ref="J5" pin="7"/>
       <node ref="R18" pin="2"/>
     </net>
-    <net code="51" name="Net-(Q1-Pad1)">
+    <net code="52" name="Net-(Q1-Pad1)">
       <node ref="Q1" pin="1" pinfunction="B"/>
       <node ref="R13" pin="2"/>
     </net>
-    <net code="52" name="Net-(Q1-Pad3)">
+    <net code="53" name="Net-(Q1-Pad3)">
       <node ref="Q1" pin="3" pinfunction="C"/>
       <node ref="R19" pin="2"/>
     </net>
-    <net code="53" name="Net-(Q2-Pad1)">
+    <net code="54" name="Net-(Q2-Pad1)">
       <node ref="Q2" pin="1" pinfunction="B"/>
       <node ref="R24" pin="2"/>
     </net>
-    <net code="54" name="Net-(R10-Pad1)">
+    <net code="55" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1" pinfunction="B"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="56" name="Net-(R10-Pad1)">
       <node ref="R10" pin="1"/>
       <node ref="U3" pin="21" pinfunction="RXD/SPI_MOSI"/>
     </net>
-    <net code="55" name="Net-(R11-Pad1)">
+    <net code="57" name="Net-(R11-Pad1)">
       <node ref="R11" pin="1"/>
       <node ref="U3" pin="18" pinfunction="SDA/~SPI_CS"/>
     </net>
-    <net code="56" name="Net-(R12-Pad1)">
+    <net code="58" name="Net-(R12-Pad1)">
       <node ref="R12" pin="1"/>
       <node ref="U3" pin="19" pinfunction="SCL/SPI_CLK"/>
     </net>
-    <net code="57" name="Net-(R9-Pad1)">
+    <net code="59" name="Net-(R9-Pad1)">
       <node ref="R9" pin="1"/>
       <node ref="U3" pin="20" pinfunction="TXD/SPI_MISO"/>
     </net>
-    <net code="58" name="Net-(U1-Pad4)">
+    <net code="60" name="Net-(U1-Pad4)">
       <node ref="U1" pin="4" pinfunction="NC"/>
     </net>
-    <net code="59" name="Net-(U3-Pad1)">
+    <net code="61" name="Net-(U3-Pad1)">
       <node ref="U3" pin="1" pinfunction="~SAFEBOOT"/>
     </net>
-    <net code="60" name="Net-(U3-Pad14)">
+    <net code="62" name="Net-(U3-Pad14)">
       <node ref="U3" pin="14" pinfunction="LNA_EN"/>
     </net>
-    <net code="61" name="Net-(U3-Pad17)">
+    <net code="63" name="Net-(U3-Pad17)">
       <node ref="U3" pin="17" pinfunction="RESERVED"/>
     </net>
-    <net code="62" name="Net-(U3-Pad2)">
+    <net code="64" name="Net-(U3-Pad2)">
       <node ref="U3" pin="2" pinfunction="D_SEL"/>
     </net>
-    <net code="63" name="Net-(U3-Pad8)">
+    <net code="65" name="Net-(U3-Pad8)">
       <node ref="U3" pin="8" pinfunction="~RESET"/>
     </net>
   </nets>

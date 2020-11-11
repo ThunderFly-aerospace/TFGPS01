@@ -1,11 +1,11 @@
 on:
   push:
     paths:
-    - '**.sch'
+    - '**.kicad_sch'
     - '**.kicad_pcb'
   pull_request:
     paths:
-      - '**.sch'
+      - '**.kicad_sch'
       - '**.kicad_pcb'
   workflow_dispatch:
     inputs:
@@ -48,8 +48,11 @@ jobs:
     - uses: actions/checkout@v2
     - name: Kicad-schema
       # continue-on-error: true
+      if: ${{ always() }}
       uses: MLAB-project/kicad-exports@master
       with:
+        # Required - kibot config file
+        # config: docs.kibot.yaml
         config: .github/workflows/job/schematic.kibot.yaml
         dir: hw/cam
         schema: 'hw/sch_pcb/*.kicad_sch'

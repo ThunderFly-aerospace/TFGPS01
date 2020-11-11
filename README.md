@@ -1,5 +1,7 @@
 # TFGPS01A - UAV GNSS navigation module with RTK capability
 
+![.github/workflows/KiCad.yml](https://github.com/ThunderFly-aerospace/TFGPS01/workflows/.github/workflows/KiCad.yml/badge.svg?branch=TFGPS01A)
+
 The TFGPS01A module is based on multi-constellation uBlox NEO-9 with integrated high-quality patch antenna. The module is capable of receiving GPS, GLONASS, Galileo and BeiDou navigation signals. It is designed primarily for use on small UAVs. Other uses are not excluded. Module can function as a standalone UART GPS or as a USB GPS receiver.
 
 The module has several features for UAVs. For example, it has a pass-through I2C port, payload interface, integrated beeper and safety LED or integrated connector for external safety switch and safety LED. 

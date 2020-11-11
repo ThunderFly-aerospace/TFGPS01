@@ -31,9 +31,9 @@ Module is equipted with [uBlox NEO-9](https://www.u-blox.com/en/product/neo-m9n-
 > TODO 
 
 ### Eletronic schema
-Full schema is avialible in [PDF]().
+Full schema is avialible in [PDF](TFGPS01A_schematic.pdf)
 
-![Schema]()
+![schema](hw/cam/docs/TFGPS01A_schematic.svg)
 
 ### LED description
  | LED label | Description |

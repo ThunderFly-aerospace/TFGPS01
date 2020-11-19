@@ -82,7 +82,7 @@ I2C AUX is I2C1 output from the autopilot. No other device is connected to I2C.
 
 |Pin| Name| Description |
 |---|-----|-------------|
-|1 	| +5V ||
+|1 	| SAFETY_VCC| +3.3V (low current) |
 |2 	| SAFETY_LED | |
 |3 	| SAFETY_IN ||
 |4  | BUZZER ||

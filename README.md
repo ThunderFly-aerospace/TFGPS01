@@ -21,8 +21,15 @@ The module has several features for UAVs. For example, it has a pass-through I2C
   * CUAV V5/V5+/Nano compatible GPS&SAFETY connector
   * Integrated beeper and safety LED indicator
 
-### GNSS Reciever
-Module is equipted with [uBlox NEO-9](https://www.u-blox.com/en/product/neo-m9n-module) and high quality [Taoglas]() patch antenna.
+### Caution 
+
+The TFGPS01 is high-end and extremely sensitive device. The device must be handled with special care. The antenna ceramics and its silver plating is sensitive to acids contained in sweat, therefore touching on antenna should be avoided as possible. 
+
+### GNSS Recievers
+
+Module is equipted with [uBlox NEO-9](https://www.u-blox.com/en/product/neo-m9n-module) and high quality [Taoglas](https://www.taoglas.com/product/cggp-35-3-a-02-gpsglonass-dual-band-patch-antenna-35353-5mm-2/) patch antenna.
+
+It could also be equipped with [uBlox NEO-8](https://www.u-blox.com/en/product/neo-m8p-series) module, which has benefits in RTK capable GNSS receiver modes. 
 
 ## Hardware
 

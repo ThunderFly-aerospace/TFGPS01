@@ -53,18 +53,18 @@ All connector are JST-GH.
 Pinout of GPS&SAFETY connector conforms to the [pixhawk hardware standard](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf)
 
 
-| pin | Name | Description |
-|-----|------|-------------|
-| 1   | Vcc (+5V)  | Power for module |
-| 2   | RX         | Out from Autopilot |
-| 3   | TX         | Out from TFGPS01A |
-| 4   | I2C SCL    | I2C1 clock from autopilot; Passtrought to I2C connector |
-| 5   | I2C SDA    | I2C1 data from autopilot; Passtrought to I2C connector |
-| 6   | SAFETY_IN  | Safety switch IN |
-| 7   | SAFETY_LED | Safety LED signal |
-| 8   | VDD (+3v3) | Power for safety switch and safety LED |
-| 9   | BUZZER     | Signal for beeper |
-| 10  | GND        | Ground |
+| pin | Name | Colour | Description |
+|-----|------|-------|------------|
+| 1   | Vcc (+5V)  | Red | Power for module |
+| 2   | RX         | Black |Out from Autopilot |
+| 3   | TX         | Black |Out from TFGPS01A |
+| 4   | I2C SCL    | White |I2C1 clock from autopilot; Passtrought to I2C connector |
+| 5   | I2C SDA    | Yellow |I2C1 data from autopilot; Passtrought to I2C connector |
+| 6   | SAFETY_IN  | Blue | Safety switch IN |
+| 7   | SAFETY_LED | Blue |Safety LED signal |
+| 8   | VDD (+3v3) | Blue |Power for safety switch and safety LED |
+| 9   | BUZZER     | Blue |Signal for beeper |
+| 10  | GND        | Black|Ground |
 
 #### I2C AUX
 I2C AUX is I2C1 output from the autopilot. No other device is connected to I2C.

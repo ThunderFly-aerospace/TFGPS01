@@ -132,7 +132,7 @@ USB is connected to the uBlox module, used for its configuration and testing. Co
 
 ### Parameters 
 
-  * Dimensions 50x50x
-  * Weight
-  *
+  * Dimensions 50x50x11mm
+  * Weight 31g
+  * Power consumption 40mA (without beeper in use)
 

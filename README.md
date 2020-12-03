@@ -14,22 +14,31 @@ The module has several features for UAVs. For example, it has a pass-through I2C
 > This module (TFGPS01A) was developed by [ThunderFly s.r.o.](https://www.thunderfly.cz) and is published as OpenSource hardware with a [GPLv3](LICENSE) license. It is possible to buy on request. For a quote contact us by [email](https://www.thunderfly.cz).
 
 ### Features 
+
   * Compatibile with PX4, Ardupilot and most of common flight stacks
-  * RTK capability
+  * RTK capability (with NEO-M8P module)
   * Concurrent reception of 4 GNSS
-  * Interface for external Payload connection 
+  * Splitted interface for a Payload
   * CUAV V5/V5+/Nano compatible GPS&SAFETY connector
   * Integrated beeper and safety LED indicator
+  * Extremely high noise imunity (IIP3 +8 dBm)
+
+## Usage
 
 ### Caution 
 
 The TFGPS01 is high-end and extremely sensitive device. The device must be handled with special care. The antenna ceramics and its silver plating is sensitive to acids contained in sweat, therefore touching on antenna should be avoided as possible. 
 
-### GNSS Recievers
+### Compatible GNSS Reciever modules
 
-Module is equipted with [uBlox NEO-9](https://www.u-blox.com/en/product/neo-m9n-module) and high quality [Taoglas](https://www.taoglas.com/product/cggp-35-3-a-02-gpsglonass-dual-band-patch-antenna-35353-5mm-2/) patch antenna.
+TFGPS01 is by default equipted with [uBlox NEO-9](https://www.u-blox.com/en/product/neo-m9n-module) and high quality [Taoglas](https://www.taoglas.com/product/cggp-35-3-a-02-gpsglonass-dual-band-patch-antenna-35353-5mm-2/) patch antenna.
 
 It could also be equipped with [uBlox NEO-8](https://www.u-blox.com/en/product/neo-m8p-series) module, which has benefits in RTK capable GNSS receiver modes. 
+
+### High noise imunity
+
+The ThunderFly TFGPSO1 GNSS receiver is optimized to work in RF noisy environment. This feature is achieved by use of high-linearity LNA at RF input. 
+The tradeoff of this optimalization is quite high power usage and lower sensitivity compared to standard receivers used in UAV.   Technically these parameters can be optimized for a specific use case by altering the R27 and R26 resistors. 
 
 ## Hardware
 
@@ -40,6 +49,7 @@ It could also be equipped with [uBlox NEO-8](https://www.u-blox.com/en/product/n
 > TODO 
 
 ### Eletronic schema
+
 Full schema is avialible in [PDF](TFGPS01A_schematic.pdf)
 
 ![schema](hw/cam/docs/TFGPS01A_schematic.svg)
@@ -54,9 +64,11 @@ Full schema is avialible in [PDF](TFGPS01A_schematic.pdf)
  | TPL | Timepulse from uBlox |
 
 ### Pinout
+
 All connector are JST-GH. 
 
 #### GPS&SAFETY
+
 Pinout of GPS&SAFETY connector conforms to the [pixhawk hardware standard](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf)
 
 
@@ -74,6 +86,7 @@ Pinout of GPS&SAFETY connector conforms to the [pixhawk hardware standard](https
 | 10  | GND        | Black|Ground |
 
 #### I2C AUX
+
 I2C AUX is I2C1 output from the autopilot. No other device is connected to I2C.
 
 |Pin| Name|
@@ -97,6 +110,7 @@ I2C AUX is I2C1 output from the autopilot. No other device is connected to I2C.
 |6  | GND ||
 
 #### Payload conector
+
 The module is equipped with a connector designed for payload connection; this feature is useful for time-sync and navigation data, time-stamping or geo-fencing. 
 
 The connector is labelled as `Payload GPS Interface`.
@@ -113,4 +127,12 @@ The connector is labelled as `Payload GPS Interface`.
 | 8   | GND | Autopilot GND |
 
 #### USB-C 
-USB is connected to the uBlox module, used for its configuration. Configuration can be done via [u-center](https://www.u-blox.com/en/product/u-center) suite. 
+
+USB is connected to the uBlox module, used for its configuration and testing. Configuration can be done via [u-center](https://www.u-blox.com/en/product/u-center) suite. 
+
+### Parameters 
+
+  * Dimensions 50x50x11mm
+  * Weight 31g
+  * Power consumption 40mA (without beeper in use)
+

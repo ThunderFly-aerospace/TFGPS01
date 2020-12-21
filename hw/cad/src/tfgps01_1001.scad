@@ -28,7 +28,7 @@ D7 = true;
 wall = 2;
 
 antenna_size = 35+1;
-antenna_thickness = 4.5;
+antenna_thickness = 4.6;
 
 antenna_solid_layer = 0.5;
 led_solid_layer = 0.3;
@@ -46,9 +46,12 @@ module gps_krabicka(){
 
 
 		for (x = [1, -1], y=[1, -1])
-			translate([20*x, 20*y, (antenna_thickness+pcb_thickness+antenna_solid_layer+wall+1)/2 - antenna_solid_layer])
-				cylinder(d = M3_screw_diameter, h=antenna_thickness+pcb_thickness+antenna_solid_layer+wall+1+0.1, center = true, $fn = 21);
+			translate([20*x, 20*y, -antenna_solid_layer-0.1]){
+				translate([0, 0, 3.2]) cylinder(d = M3_screw_diameter, h=antenna_thickness+pcb_thickness+antenna_solid_layer+wall+1+0.1, $fn = 21);
+                
+                cylinder(d = 5.6, h=3, $fn = 21);
 
+                }
 
 		translate([0, 0, antenna_thickness/2])
 			cube([antenna_size, antenna_size, antenna_thickness], center = true);
@@ -57,7 +60,7 @@ module gps_krabicka(){
 			cube([pcb_size, pcb_size, pcb_thickness+wall+1+0.1], center = true);
 
 		//pípák
-		translate([-9.5-0.88, (pcb_size+wall)/2, 4.33+antenna_thickness+1.5/2-0.8])
+		translate([-9.5-0.88, (pcb_size+wall)/2, 4.33+antenna_thickness+1.5/2-0.8+0.5])
 			cube([4+0.88, wall+1, 1.5], center = true);
 
 		//otvor konektoru I2C
@@ -86,36 +89,34 @@ module gps_krabicka(){
 
 		//konektor_usb
 		if(konektor_usb)
-		translate([10+1+0.8, -(pcb_size+wall)/2, antenna_thickness + 0.7])
+		translate([10+1+0.8-.5, -(pcb_size+wall)/2, antenna_thickness + 0.7+0.3]){
 			translate([0, 0, 5.87/2])
-				cube([9.3+1, wall+1, 5.87], center = true);
+				cube([9.3+1, wall+1, 5.87-0.3-0.3], center = true);
 
-		translate([10+1+0.8, -(pcb_size+wall)/2-(wall+1)/2, antenna_thickness + 0.7-1])
-			translate([0, 0, 7.87/2])
-				cube([9.3+1+2, wall+1, 7.87], center = true);
-		//diody :DDDDDDDDD
+                translate([0, -(wall+1)/2, 7.87/2-1])
+                    cube([9.3+1+2, wall+1, 7.87-0.3-0.3], center = true);
+        }
+		//diody
 		translate([0, 0, -antenna_solid_layer]){
 			if(D3)
 				translate([3.17, -21.495, led_solid_layer])
-					cylinder(d = 2.7, h=20, $fn = 21);
+					cylinder(d = 2.8, h=20, $fn = 21);
 
 			if(D4)
 				translate([9.3, 20.86, led_solid_layer])
-					cylinder(d = 2.7, h=20, $fn = 21);
-
+					cylinder(d = 2.8, h=20, $fn = 21);
 			
 			if(D5)
 				translate([5.8, 20.86, led_solid_layer])
-					cylinder(d = 2.7, h=20, $fn = 21);
-
+					cylinder(d = 2.8, h=20, $fn = 21);
 
 			if(D6)
 				translate([2.4, 20.86, led_solid_layer])
-					cylinder(d = 2.7, h=20, $fn = 21);
+					cylinder(d = 2.8, h=20, $fn = 21);
 
 			if(D7)
 				translate([12.7, 20.86, led_solid_layer])
-					cylinder(d = 2.7, h=20, $fn = 21);
+					cylinder(d = 2.8, h=20, $fn = 21);
 		
 		}
 	}
@@ -145,13 +146,31 @@ module gps_pacicky(){
 
 module gps_vicko(){
 	difference(){
-		translate([0, 0, antenna_thickness+pcb_thickness+wall/2+wall])
-			cube([pcb_size+2*wall, pcb_size+2*wall, wall], center = true);
+        union(){
+            translate([0, 0, 7])
+                cube([pcb_size+2*wall, pcb_size+2*wall, wall], center = true);
+
+            translate([0, 0, antenna_thickness/2])
+                cube([pcb_size-0.2, pcb_size-0.2, 7.5], center = true);
+        }
+        cube([pcb_size-20, pcb_size+2, 7.5], center = true);
+        cube([pcb_size+2, 35, 7.5-4.5], center = true);
+        
+        for(y=[-1, 1])
+            translate([0, y*(pcb_size/2+5), 0])
+                cube([30, 10, 20], center=true);
+       
 		for (x = [1, -1], y=[1, -1])
-			translate([20*x, 20*y, (antenna_thickness+pcb_thickness+antenna_solid_layer+wall+1)/2 - antenna_solid_layer])
-				cylinder(d = M3_screw_diameter, h=20, center = true, $fn = 21);
+			translate([20*x, 20*y, 2]){
+				cylinder(d = M3_screw_diameter, h=12-2, center = true, $fn = 21);
+            }
 
-
+		for (x = [1, -1], y=[1, -1])
+			translate([20*x, 20*y, 2])
+                hull(){
+                    translate([0, -y*5, 0]) cylinder(d = M3_nut_diameter, h=3, center = true, $fn = 6);
+                    cylinder(d = M3_nut_diameter, h=3, center = true, $fn = 6);
+                }
 	}
 }
 

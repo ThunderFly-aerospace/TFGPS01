@@ -42,6 +42,6 @@ jobs:
         with:
           source_file_path: 'out'
           destination_repo: 'ThunderFly-aerospace/TFGPS01'
-          target_branch:  TFGPS01A/print_${{ matrix.printer }}
+          target_branch:  print/TFGPS01A_${{ matrix.printer }}
           token: ${{ secrets.API_TOKEN_GITHUB }}
       

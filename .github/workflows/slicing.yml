@@ -31,12 +31,6 @@ jobs:
           folders: "${{ env.folders }}"
           default_ini: ${{ env.default_ini }}
 
-      - name: Artifact
-        uses: actions/upload-artifact@v2.2.1
-        with:
-          name: "out"
-          path: "."
-
       - name: Upload
         uses: plocket/push-generated-file@master
         with:
@@ -44,4 +38,9 @@ jobs:
           destination_repo: 'ThunderFly-aerospace/gcodes'
           target_branch:  TFGPS01/TFGPS01A/${{ matrix.printer }}
           token: ${{ secrets.API_TOKEN_GITHUB }}
-      
+
+      - name: Artifact
+        uses: actions/upload-artifact@v2.2.1
+        with:
+          name: "out"
+          path: "."

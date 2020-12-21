@@ -31,6 +31,12 @@ jobs:
           folders: "${{ env.folders }}"
           default_ini: ${{ env.default_ini }}
 
+      - name: Artifact
+        uses: actions/upload-artifact@v2.2.1
+        with:
+          name: "out"
+          path: "."
+
       - name: Upload
         uses: plocket/push-generated-file@master
         with:
@@ -39,8 +45,3 @@ jobs:
           target_branch:  TFGPS01A/print_${{ matrix.printer }}
           token: ${{ secrets.API_TOKEN_GITHUB }}
       
-      - name: Artifact
-        uses: actions/upload-artifact@v2.2.1
-        with:
-          name: "out"
-          path: "."

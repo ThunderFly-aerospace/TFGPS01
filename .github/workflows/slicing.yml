@@ -34,8 +34,8 @@ jobs:
       - name: Upload
         uses: plocket/push-generated-file@master
         with:
-          source_file_path: 'out/'
-          destination_repo: 'ThunderFly-aerospace/gcodes'
+          source_file_path: "out"
+          destination_repo: "ThunderFly-aerospace/gcodes"
           target_branch:  TFGPS01/TFGPS01A/${{ matrix.printer }}
           token: ${{ secrets.API_TOKEN_GITHUB }}
 

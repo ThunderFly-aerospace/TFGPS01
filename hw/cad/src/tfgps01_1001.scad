@@ -168,8 +168,10 @@ module gps_vicko(){
             translate([0, 0, antenna_thickness/2])
                 cube([pcb_size-0.2, pcb_size-0.2, 7.5], center = true);
         }
+        cube([pcb_size-20, pcb_size-10, 7.5+7], center = true);
         cube([pcb_size-20, pcb_size+2, 7.5], center = true);
         cube([pcb_size+2, 35, 7.5-4.5], center = true);
+        cube([pcb_size-5, 35, 7.5-4.5+4], center = true);
 
         for(y=[-1, 1])
             translate([0, y*(pcb_size/2+5), 0])

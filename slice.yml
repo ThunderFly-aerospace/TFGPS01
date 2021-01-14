@@ -1,0 +1,6 @@
+default:
+  config: /hw/cad/slicing/default.ini
+
+path:
+ - /hw/cad/stl
+ - /hw/cad/amf

@@ -3964,6 +3964,8 @@
   )
 
   (gr_rect (start -0.096 -50.896) (end 50.896 0.096) (layer "Edge.Cuts") (width 0.15) (tstamp 9e8ec0f9-0417-4a60-8f6f-e22105b18086))
+  (gr_line (start 66.04 -25.4) (end -15.24 -25.4) (layer "B.Fab") (width 0.1) (tstamp 038cbf26-2ded-4ce2-ae27-ce1a6330a28d))
+  (gr_line (start 25.4 -60.96) (end 25.4 10.16) (layer "B.Fab") (width 0.1) (tstamp c22a433f-d580-4563-a4af-997c4d5593f2))
   (gr_text "RTK" (at 46.228 -24.892) (layer "F.SilkS") (tstamp 2654f9cc-925a-4fd6-988e-4d37ecf370db)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )

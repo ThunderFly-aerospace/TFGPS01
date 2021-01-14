@@ -43,6 +43,12 @@ The tradeoff of this optimalization is quite high power usage and lower sensitiv
 
 ## Hardware
 
+
+<p float="left">
+<img src="/doc/img/TFGPS01A_top.jpg" width="45%" />
+<img src="/doc/img/TFGPS01A_bottom.jpg" width="45%" />
+</p>
+
 ### Mechanical drawing
 > TODO
 

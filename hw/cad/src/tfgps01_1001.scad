@@ -101,9 +101,12 @@ module gps_krabicka(){
 
 		//konektor_usb
 		if(konektor_usb)
-  		translate([10+1+0.8-2, -(pcb_size+wall)/2, antenna_thickness + 1.5]){
+  		translate([10+1+0.8-2+0.5, -(pcb_size+wall)/2, antenna_thickness + 1.5]){
   			translate([0, 0, 5.87/2-0.3])
-  				cube([9.3+1, wall+1, 5.87-1.2], center = true);
+  				minkowski(){
+  					cube([9.3+1-3, wall+1, 5.87-1.2-3], center = true);
+  					rotate([90, 0, 0]) cylinder(d=3, h=1, $fn=30);
+  				}
 
         translate([0, -(wall+1)/2, 7.87/2-1-0.3])
             minkowski(){
@@ -178,8 +181,13 @@ module gps_vicko(){
                 cube([30, 10, 20], center=true);
 
 		for (x = [1, -1], y=[1, -1])
-			translate([20*x, 20*y, 2]){
-				cylinder(d = M3_screw_diameter, h=12-2, center = true, $fn = 21);
+			translate([20*x, 20*y, 5.5-1]){
+				cylinder(d = M3_screw_diameter, 5, center = true, $fn = 21);
+            }
+
+		for (x = [1, -1], y=[1, -1])
+			translate([20*x, 20*y, 2-6.1]){
+				cylinder(d = M3_screw_diameter, 7, center = true, $fn = 21);
             }
 
 		for (x = [1, -1], y=[1, -1])

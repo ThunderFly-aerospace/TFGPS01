@@ -36,7 +36,7 @@ lock_clearence = 1;
 
 lock_around_wall = (holder_width-lock_join_width)/2-1;
 
-lock_height = 18;
+lock_height = 18+3;
 
 
 module gps_holder(){

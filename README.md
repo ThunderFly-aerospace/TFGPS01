@@ -12,7 +12,7 @@ The module has several features for UAVs. For example, it has a pass-through I2C
 <img src="/doc/img/TFGPS01A_bottom.jpg" width="45%" />
 </p>
 
-> This module (TFGPS01A) was developed by [ThunderFly s.r.o.](https://www.thunderfly.cz) and is published as OpenSource hardware with a [GPLv3](LICENSE) license. It is possible to buy on request. For a quote contact us by [email](https://www.thunderfly.cz).
+> This module (TFGPS01A) was developed by [ThunderFly s.r.o.](https://www.thunderfly.cz) and is published as OpenSource hardware with a [GPLv3](LICENSE) license. It is possible to buy on request. For a quote contact us by email info@thunderfly.cz.
 
 ### Features 
 

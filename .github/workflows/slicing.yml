@@ -1,0 +1,46 @@
+name: Slicing
+
+on:
+  push:
+    paths:
+    - '**.stl'
+    - '**.amf'
+    - '**.STL'
+    - '**.AMF'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      folders: 'hw/cad/stl/printplate'
+      default_ini: 'hw/cad/slicing/default.ini'
+    strategy:
+      matrix:
+        printer: ['3d']
+    
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+
+      - name: Slicovani pro ${{ matrix.printer }}
+        uses: roman-dvorak/Slice@master
+        with:
+          printer: ${{ matrix.printer }}
+          folders: "${{ env.folders }}"
+          default_ini: ${{ env.default_ini }}
+
+      - name: Upload
+        uses: plocket/push-generated-file@master
+        with:
+          source_file_path: "out"
+          destination_repo: "ThunderFly-aerospace/gcodes"
+          target_branch:  TFGPS01/TFGPS01A/${{ matrix.printer }}
+          token: ${{ secrets.API_TOKEN_GITHUB }}
+
+      - name: Artifact
+        uses: actions/upload-artifact@v2.2.1
+        with:
+          name: "out"
+          path: "out"

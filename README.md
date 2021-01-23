@@ -8,8 +8,8 @@ The TFGPS01A module is based on multi-constellation uBlox NEO-9 with integrated 
 The module has several features for UAVs. For example, it has a pass-through I2C port, payload interface, integrated beeper and safety LED or integrated connector for external safety switch and safety LED. 
 
 <p float="left">
-<img src="/doc/img/TFGPS01A_top_big.jpg" width="45%" />
-<img src="/doc/img/TFGPS01A_bot_big.jpg" width="45%" />
+<img src="/doc/img/TFGPS01A_top.jpg" width="45%" />
+<img src="/doc/img/TFGPS01A_bottom.jpg" width="45%" />
 </p>
 
 > This module (TFGPS01A) was developed by [ThunderFly s.r.o.](https://www.thunderfly.cz) and is published as OpenSource hardware with a [GPLv3](LICENSE) license. It is possible to buy on request. For a quote contact us by [email](https://www.thunderfly.cz).
@@ -43,10 +43,9 @@ The tradeoff of this optimalization is quite high power usage and lower sensitiv
 
 ## Hardware
 
-
 <p float="left">
-<img src="/doc/img/TFGPS01A_top.jpg" width="45%" />
-<img src="/doc/img/TFGPS01A_bottom.jpg" width="45%" />
+<img src="/doc/img/TFGPS01A_top_big.jpg" width="45%" />
+<img src="/doc/img/TFGPS01A_bot_big.jpg" width="45%" />
 </p>
 
 ### Mechanical drawing

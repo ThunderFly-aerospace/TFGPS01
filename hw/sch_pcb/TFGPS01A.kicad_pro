@@ -160,6 +160,7 @@
     "equivalence_files": []
   },
   "erc": {
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -327,6 +328,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -446,7 +448,7 @@
       "version": 0
     },
     "net_format_name": "",
-    "page_layout_descr_file": "module.kicad_wks",
+    "page_layout_descr_file": "page_layout.kicad_wks",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
@@ -455,7 +457,7 @@
   },
   "sheets": [
     [
-      "a29f489d-2aca-4776-a230-2d57bec6dfdd",
+      "6521ed94-4f89-4723-be42-fd33935b9a30",
       ""
     ]
   ],

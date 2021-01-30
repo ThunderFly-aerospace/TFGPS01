@@ -8,11 +8,11 @@ The TFGPS01A module is based on multi-constellation uBlox NEO-9 with integrated 
 The module has several features for UAVs. For example, it has a pass-through I2C port, payload interface, integrated beeper and safety LED or integrated connector for external safety switch and safety LED. 
 
 <p float="left">
-<img src="/doc/img/TFGPS01A_top_big.jpg" width="45%" />
-<img src="/doc/img/TFGPS01A_bot_big.jpg" width="45%" />
+<img src="/doc/img/TFGPS01A_top.jpg" width="45%" />
+<img src="/doc/img/TFGPS01A_bottom.jpg" width="45%" />
 </p>
 
-> This module (TFGPS01A) was developed by [ThunderFly s.r.o.](https://www.thunderfly.cz) and is published as OpenSource hardware with a [GPLv3](LICENSE) license. It is possible to buy on request. For a quote contact us by [email](https://www.thunderfly.cz).
+> This module (TFGPS01A) was developed by [ThunderFly s.r.o.](https://www.thunderfly.cz) and is published as OpenSource hardware with a [GPLv3](LICENSE) license. It is possible to buy on request. For a quote contact us by email info@thunderfly.cz.
 
 ### Features 
 
@@ -42,12 +42,23 @@ The ThunderFly TFGPSO1 GNSS receiver is optimized to work in RF noisy environmen
 The tradeoff of this optimalization is quite high power usage and lower sensitivity compared to standard receivers used in UAV.   Technically these parameters can be optimized for a specific use case by altering the R27 and R26 resistors. 
 
 ## Hardware
+TFGPS01 is designed as Open-Hardware (GPL v3). All documentation is located in this repository. 
 
-
+### PCB
 <p float="left">
-<img src="/doc/img/TFGPS01A_top.jpg" width="45%" />
-<img src="/doc/img/TFGPS01A_bottom.jpg" width="45%" />
+<img src="/doc/img/TFGPS01A_top_big.jpg" width="45%" />
+<img src="/doc/img/TFGPS01A_bot_big.jpg" width="45%" />
 </p>
+
+### Box
+To protect against external conditions, we have prepared a 3D printed box. The box is designed in OpenSCAD and it allows customization according to the use of reciemer and for the needs of mounting. 
+
+> TODO - image of the 3D printed box
+
+Here are examples of various modifications of the box:
+
+> TODO - 
+
 
 ### Mechanical drawing
 > TODO

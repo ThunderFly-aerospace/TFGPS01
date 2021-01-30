@@ -167,18 +167,25 @@ module gps_vicko(){
         union(){
             translate([0, 0, 7])
                 cube([pcb_size+2*wall, pcb_size+2*wall, wall], center = true);
-
             translate([0, 0, antenna_thickness/2])
                 cube([pcb_size-0.2, pcb_size-0.2, 7.5], center = true);
         }
-        cube([pcb_size-20, pcb_size-10, 7.5+7], center = true);
+
+    // Zkoseni rohu pro lepsi tisk a vzhled
+      for(x = [-1, 1], y = [-1, 1]) translate([x/2*(pcb_size+2*wall), y/2*(pcb_size+2*wall), -antenna_solid_layer]) cylinder(d=2, h = 100, $fn=4, center = true);
+
+
+        cube([pcb_size-20, pcb_size-3, 7.5+7], center = true);
         cube([pcb_size-20, pcb_size+2, 7.5], center = true);
         cube([pcb_size+2, 35, 7.5-4.5], center = true);
-        cube([pcb_size-5, 35, 7.5-4.5+4], center = true);
+        cube([pcb_size-3, 35, 7.5+7], center = true);
 
         for(y=[-1, 1])
             translate([0, y*(pcb_size/2+5), 0])
-                cube([30, 10, 20], center=true);
+                minkowski(){
+                    cylinder(d = 2, h = 1, $fn=20);
+                    cube([30-2, 10-2, 20], center=true);
+                }
 
 		for (x = [1, -1], y=[1, -1])
 			translate([20*x, 20*y, 5.5-1]){
@@ -186,7 +193,7 @@ module gps_vicko(){
             }
 
 		for (x = [1, -1], y=[1, -1])
-			translate([20*x, 20*y, 2-6.1]){
+			translate([20*x, 20*y, 2-5.2]){
 				cylinder(d = M3_screw_diameter, 7, center = true, $fn = 21);
             }
 

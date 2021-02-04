@@ -70,6 +70,14 @@ module gps_krabicka(){
 		translate([0, 0, (pcb_thickness+wall+1)/2+antenna_thickness])
 			cube([pcb_size, pcb_size, pcb_thickness+wall+1+0.1], center = true);
 
+		// Box bottom wall Warping elimination
+		translate([0, 0, (pcb_thickness+wall+1)/2 + antenna_thickness/5])
+		{
+			translate([-pcb_size/6, 0, 0])
+				cube([pcb_size/5, pcb_size, pcb_thickness+wall+1+0.1], center = true);
+			cube([pcb_size, pcb_size/4, pcb_thickness+wall+1+0.1], center = true);
+		}
+
 		//pípák
 		if(buzzer)
   		translate([-9.5-0.88, (pcb_size+wall)/2, 4.33+antenna_thickness+1.5/2-0.8+0.5])

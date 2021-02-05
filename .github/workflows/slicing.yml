@@ -7,10 +7,20 @@ on:
     - '**.amf'
     - '**.STL'
     - '**.AMF'
+    - '**.scad'
+    - '**.SCAD'
   workflow_dispatch:
 
 jobs:
-  build:
+  render:
+    runs-on: ubuntu-latest
+    env:
+      source: 'hw/cad/**.scad'
+      destination: 'hw/cad/stl'
+    steps:
+      - uses: roman-dvorak/Slice@master
+      - run: ./render_stl.sh
+  slice:
     runs-on: ubuntu-latest
     env:
       folders: 'hw/cad/stl/printplate'

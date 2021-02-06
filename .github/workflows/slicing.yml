@@ -20,7 +20,7 @@ jobs:
       destination: 'hw/cad/stl'
     steps:
       - uses: roman-dvorak/Slice@master
-      - run: ./render_stl.sh
+      - run: ./render.sh
   slice:
     runs-on: ubuntu-latest
     needs: render

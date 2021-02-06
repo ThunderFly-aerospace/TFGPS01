@@ -17,10 +17,9 @@ jobs:
     name: "Renderování STL"
     env:
       source: 'hw/cad/**.scad'
-      destination: 'hw/cad/stl'
+      destination: 'out/hw/cad/stl'
     steps:
-      - uses: roman-dvorak/Slice@master
-      - run: ./render.sh
+      - uses: roman-dvorak/Slice@render
   slice:
     runs-on: ubuntu-latest
     needs: render

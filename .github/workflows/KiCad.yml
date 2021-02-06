@@ -1,3 +1,5 @@
+name: KiCad
+
 on:
   push:
     paths:

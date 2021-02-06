@@ -19,6 +19,9 @@ jobs:
       source: 'hw/cad/**.scad'
       destination: 'out/hw/cad/stl'
     steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
       - uses: roman-dvorak/Slice@render
   slice:
     runs-on: ubuntu-latest

@@ -22,6 +22,7 @@ The module has several features for UAVs. For example, it has a pass-through I2C
   * CUAV V5/V5+/Nano compatible GPS&SAFETY connector
   * Integrated beeper and safety LED indicator
   * Extremely high noise imunity (IIP3 +8 dBm)
+  * Daylight visible indicator LEDs
 
 ## Usage
 

@@ -70,6 +70,14 @@ module gps_krabicka(){
 		translate([0, 0, (pcb_thickness+wall+1)/2+antenna_thickness])
 			cube([pcb_size, pcb_size, pcb_thickness+wall+1+0.1], center = true);
 
+		// Box bottom wall Warping elimination
+		translate([0, 0, (pcb_thickness+wall+1)/2 + antenna_thickness/5])
+		{
+			translate([-pcb_size/6, 0, 0])
+				cube([pcb_size/5, pcb_size, pcb_thickness+wall+1+0.1], center = true);
+			cube([pcb_size, pcb_size/4, pcb_thickness+wall+1+0.1], center = true);
+		}
+
 		//pípák
 		if(buzzer)
   		translate([-9.5-0.88, (pcb_size+wall)/2, 4.33+antenna_thickness+1.5/2-0.8+0.5])
@@ -101,9 +109,12 @@ module gps_krabicka(){
 
 		//konektor_usb
 		if(konektor_usb)
-  		translate([10+1+0.8-2, -(pcb_size+wall)/2, antenna_thickness + 1.5]){
+  		translate([10+1+0.8-2+0.5, -(pcb_size+wall)/2, antenna_thickness + 1.5]){
   			translate([0, 0, 5.87/2-0.3])
-  				cube([9.3+1, wall+1, 5.87-1.2], center = true);
+  				minkowski(){
+  					cube([9.3+1-3, wall+1, 5.87-1.2-3], center = true);
+  					rotate([90, 0, 0]) cylinder(d=3, h=1, $fn=30);
+  				}
 
         translate([0, -(wall+1)/2, 7.87/2-1-0.3])
             minkowski(){
@@ -164,22 +175,34 @@ module gps_vicko(){
         union(){
             translate([0, 0, 7])
                 cube([pcb_size+2*wall, pcb_size+2*wall, wall], center = true);
-
             translate([0, 0, antenna_thickness/2])
                 cube([pcb_size-0.2, pcb_size-0.2, 7.5], center = true);
         }
-        cube([pcb_size-20, pcb_size-10, 7.5+7], center = true);
+
+    // Zkoseni rohu pro lepsi tisk a vzhled
+      for(x = [-1, 1], y = [-1, 1]) translate([x/2*(pcb_size+2*wall), y/2*(pcb_size+2*wall), -antenna_solid_layer]) cylinder(d=2, h = 100, $fn=4, center = true);
+
+
+        cube([pcb_size-20, pcb_size-3, 7.5+7], center = true);
         cube([pcb_size-20, pcb_size+2, 7.5], center = true);
         cube([pcb_size+2, 35, 7.5-4.5], center = true);
-        cube([pcb_size-5, 35, 7.5-4.5+4], center = true);
+        cube([pcb_size-3, 35, 7.5+7], center = true);
 
         for(y=[-1, 1])
             translate([0, y*(pcb_size/2+5), 0])
-                cube([30, 10, 20], center=true);
+                minkowski(){
+                    cylinder(d = 2, h = 1, $fn=20);
+                    cube([30-2, 10-2, 20], center=true);
+                }
 
 		for (x = [1, -1], y=[1, -1])
-			translate([20*x, 20*y, 2]){
-				cylinder(d = M3_screw_diameter, h=12-2, center = true, $fn = 21);
+			translate([20*x, 20*y, 5.5-1]){
+				cylinder(d = M3_screw_diameter, 5, center = true, $fn = 21);
+            }
+
+		for (x = [1, -1], y=[1, -1])
+			translate([20*x, 20*y, 2-5.2]){
+				cylinder(d = M3_screw_diameter, 7, center = true, $fn = 21);
             }
 
 		for (x = [1, -1], y=[1, -1])

@@ -7,11 +7,32 @@ on:
     - '**.amf'
     - '**.STL'
     - '**.AMF'
+    - '**.scad'
+    - '**.SCAD'
   workflow_dispatch:
 
 jobs:
-  build:
+  render:
     runs-on: ubuntu-latest
+    name: "Renderování STL"
+    env:
+      source: 'hw/cad/**.scad'
+      destination: 'out/hw/cad/stl'
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+      - name: Slicovani
+        uses: roman-dvorak/Slice@render
+      - name: Artifact
+        uses: actions/upload-artifact@v2.2.1
+        with:
+          name: "Out_render"
+          path: "out"
+  slice:
+    runs-on: ubuntu-latest
+    needs: render
+    name: "Slicování"
     env:
       folders: 'hw/cad/stl/printplate'
       default_ini: 'hw/cad/slicing/default.ini'
@@ -42,5 +63,5 @@ jobs:
       - name: Artifact
         uses: actions/upload-artifact@v2.2.1
         with:
-          name: "out"
+          name: "Out_slice"
           path: "out"

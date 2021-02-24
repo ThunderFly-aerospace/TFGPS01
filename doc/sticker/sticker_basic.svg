@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="252.41312"
-     inkscape:cy="122.66451"
+     inkscape:zoom="2.8"
+     inkscape:cx="204.36911"
+     inkscape:cy="181.22185"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -62,7 +62,7 @@
        rx="2" />
     <g
        id="g1609"
-       transform="matrix(1.117535,0,0,1.117535,-9.9818423,-4.8120761)"
+       transform="matrix(1.117535,0,0,1.117535,-9.9818423,-3.8604619)"
        style="stroke-width:0.894827">
       <g
          id="g12"
@@ -159,11 +159,18 @@
            id="tspan1586"
            x="34.095722"
            y="43.448463"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:Cabin;-inkscape-font-specification:Cabin;fill:#ffffff;fill-opacity:1;stroke-width:0.236756">TFGPS01</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889px;font-family:Cabin;-inkscape-font-specification:'Cabin Bold';fill:#a6a6a6;fill-opacity:1;stroke-width:0.236756">TFGPS01</tspan></text>
+      <rect
+         style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.236756;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect3900"
+         width="3.7773786"
+         height="4.3097281"
+         x="56.080303"
+         y="43.517609" />
     </g>
     <text
        xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
        x="29.471733"
        y="64.120102"
        id="text1613"><tspan
@@ -171,10 +178,10 @@
          id="tspan1611"
          x="29.471733"
          y="64.120102"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Cabin;-inkscape-font-specification:Cabin;fill:#a6a6a6;fill-opacity:1;stroke-width:0.264583">USB</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cabin;-inkscape-font-specification:Cabin;fill:#a6a6a6;fill-opacity:1;stroke-width:0.264583">USB</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
        x="44.739212"
        y="-21.722044"
        id="text1613-7"
@@ -183,7 +190,7 @@
          id="tspan1611-5"
          x="44.739212"
          y="-21.722044"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Cabin;-inkscape-font-specification:Cabin;fill:#a6a6a6;fill-opacity:1;stroke-width:0.264583">Autopilot</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cabin;-inkscape-font-specification:Cabin;fill:#a6a6a6;fill-opacity:1;stroke-width:0.264583">Autopilot</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -201,7 +208,7 @@
    id="tspan1346-2">Czech Republic</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
        x="24.076458"
        y="-21.61186"
        id="text1613-7-9"
@@ -210,10 +217,10 @@
          id="tspan1611-5-1"
          x="24.076458"
          y="-21.61186"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Cabin;-inkscape-font-specification:Cabin;fill:#a6a6a6;fill-opacity:1;stroke-width:0.264583">I2C pass</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cabin;-inkscape-font-specification:Cabin;fill:#a6a6a6;fill-opacity:1;stroke-width:0.264583">I2C pass</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
        x="-57.611446"
        y="68.705399"
        id="text1613-7-2"
@@ -222,10 +229,10 @@
          id="tspan1611-5-7"
          x="-57.611446"
          y="68.705399"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Cabin;-inkscape-font-specification:Cabin;fill:#a6a6a6;fill-opacity:1;stroke-width:0.264583">Safety SW</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cabin;-inkscape-font-specification:Cabin;fill:#a6a6a6;fill-opacity:1;stroke-width:0.264583">Safety SW</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
        x="-34.965412"
        y="68.891006"
        id="text1613-7-2-0"
@@ -234,7 +241,7 @@
          id="tspan1611-5-7-9"
          x="-34.965412"
          y="68.891006"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Cabin;-inkscape-font-specification:Cabin;fill:#a6a6a6;fill-opacity:1;stroke-width:0.264583">Payload</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cabin;-inkscape-font-specification:Cabin;fill:#a6a6a6;fill-opacity:1;stroke-width:0.264583">Payload</tspan></text>
     <circle
        style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path1713"
@@ -267,7 +274,7 @@
        r="1.3825498" />
     <text
        xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
        x="37.18491"
        y="60.335804"
        id="text1613-6"><tspan
@@ -275,65 +282,65 @@
          id="tspan1611-1"
          x="37.18491"
          y="60.335804"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Cabin;-inkscape-font-specification:Cabin;fill:#a6a6a6;fill-opacity:1;stroke-width:0.264583">PWR</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Cabin;-inkscape-font-specification:Cabin;fill:#a6a6a6;fill-opacity:1;stroke-width:0.264583">PWR</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
-       x="34.116131"
-       y="-10.471934"
+       style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="34.938343"
+       y="-11.539206"
        id="text1613-8"
        transform="rotate(60)"><tspan
          sodipodi:role="line"
          id="tspan1611-7"
-         x="34.116131"
-         y="-10.471934"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Cabin;-inkscape-font-specification:Cabin;fill:#a6a6a6;fill-opacity:1;stroke-width:0.264583">ARM</tspan></text>
+         x="34.938343"
+         y="-11.539206"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Cabin;-inkscape-font-specification:Cabin;fill:#a6a6a6;fill-opacity:1;stroke-width:0.264583">ARM</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
-       x="37.186798"
-       y="-14.365597"
+       style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="37.009411"
+       y="-15.527842"
        id="text1613-8-9"
        transform="rotate(60)"
        inkscape:transform-center-x="-0.12368189"
        inkscape:transform-center-y="2.3452395"><tspan
          sodipodi:role="line"
          id="tspan1611-7-2"
-         x="37.186798"
-         y="-14.365597"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Cabin;-inkscape-font-specification:Cabin;fill:#a6a6a6;fill-opacity:1;stroke-width:0.264583">FIX</tspan></text>
+         x="37.009411"
+         y="-15.527842"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Cabin;-inkscape-font-specification:Cabin;fill:#a6a6a6;fill-opacity:1;stroke-width:0.264583">FIX</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
-       x="41.869602"
-       y="-22.799885"
+       style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="41.424213"
+       y="-23.174503"
        id="text1613-8-0"
        transform="rotate(60)"><tspan
          sodipodi:role="line"
          id="tspan1611-7-23"
-         x="41.869602"
-         y="-22.799885"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Cabin;-inkscape-font-specification:Cabin;fill:#a6a6a6;fill-opacity:1;stroke-width:0.264583">RTK</tspan></text>
+         x="41.424213"
+         y="-23.174503"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Cabin;-inkscape-font-specification:Cabin;fill:#a6a6a6;fill-opacity:1;stroke-width:0.264583">RTK</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
-       x="39.583965"
-       y="-18.281082"
+       style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="39.226379"
+       y="-19.097822"
        id="text1613-8-7"
        transform="rotate(60)"
        inkscape:transform-center-x="3.5858859"
        inkscape:transform-center-y="3.3393928"><tspan
          sodipodi:role="line"
          id="tspan1611-7-5"
-         x="39.583965"
-         y="-18.281082"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Cabin;-inkscape-font-specification:Cabin;fill:#a6a6a6;fill-opacity:1;stroke-width:0.264583">GEO</tspan></text>
+         x="39.226379"
+         y="-19.097822"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Cabin;-inkscape-font-specification:Cabin;fill:#a6a6a6;fill-opacity:1;stroke-width:0.264583">GEO</tspan></text>
     <rect
        style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect1808"
        width="13.216416"
        height="13.216416"
-       x="48.840897"
-       y="50.301708" />
+       x="49.385719"
+       y="49.173264" />
   </g>
 </svg>

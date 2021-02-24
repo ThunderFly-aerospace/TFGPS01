@@ -68,7 +68,7 @@ Here are examples of various modifications of the box:
 
 ### Eletronic schema
 
-Full schema is avialible in [PDF](TFGPS01A_schematic.pdf)
+Full schema is avialible in [PDF](hw/cam/docs/TFGPS01A_schematic.pdf)
 
 ![schema](hw/cam/docs/TFGPS01A_schematic.svg)
 

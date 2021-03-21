@@ -157,7 +157,7 @@ module gps_pacicky(){
 		translate([0, 0, -antenna_solid_layer+(wall+5)/2+wall*1.5])
 			cube([pacicky_cube-4, pcb_size+2*wall, wall+8.5], center = true);
 
-			cube([pcb_size+2*wall, pcb_size+2*wall, +100], center = true);
+			cube([pcb_size, pcb_size+2*wall, 100], center = true);
 
 			for(x = [-1, 1])
 			translate([0, x*((pcb_size)/2-5), (wall+5)/2])

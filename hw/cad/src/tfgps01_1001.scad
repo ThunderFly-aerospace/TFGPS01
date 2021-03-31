@@ -1,5 +1,6 @@
 
 include <bolt_parameters.scad>
+include <parameters.scad>
 
 /*
 vyska = 20;
@@ -12,34 +13,19 @@ translate([0, 0, vyska/2]) cube([5, 5, vyska], center = true);
 
 */
 
-
-connector_i2c = true;
-connector_autopilot = true;
-switch = true;
-Payload = true;
-konektor_usb = true;
-buzzer = true;
-
-D3 = true;
-D4 = true;
-D5 = true;
-D6 = true;
-D7 = true;
-
-wall = 2;
-
-antenna_size = 35+1;
-antenna_thickness = 4.6;
-
-antenna_solid_layer = 0.5;
-led_solid_layer = 0.3;
-
-pcb_size = 51+1;
-pcb_thickness = 7.3;
-
-pacicky_cube = 70;
-
-module gps_krabicka(){
+module gps_krabicka(
+	connector_i2c = true,
+	connector_autopilot = true,
+	switch = true,
+	Payload = true,
+	konektor_usb = true,
+	buzzer = true,
+	D3 = true,
+	D4 = true,
+	D5 = true,
+	D6 = true,
+	D7 = true
+){
 
 	difference(){
 		translate([0, 0, (antenna_thickness+pcb_thickness+wall-antenna_solid_layer)/2])
@@ -218,5 +204,5 @@ module gps_vicko(){
 
 
 //gps_pacicky();
-//gps_krabicka();
-//gps_vicko();
+gps_krabicka();
+translate([0,0,30])gps_vicko();

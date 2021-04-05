@@ -1,0 +1,3 @@
+[submodule "doc/assets"]
+	path = doc/assets
+	url = git@github.com:ThunderFly-aerospace/TFassets.git

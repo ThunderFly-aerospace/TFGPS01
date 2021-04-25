@@ -136,25 +136,41 @@ module gps_krabicka(
 
 
 module gps_pacicky(){
+	tunnel_length = (pacicky_cube-pcb_size)/2;
 	difference(){
-		translate([0, 0, -antenna_solid_layer+(wall+5)/2])
-			cube([pacicky_cube, pcb_size+2*wall, wall+5], center = true);
+		union(){
+
+	difference(){
+		translate([0, 0, -antenna_solid_layer+(wall+1)/2])
+			cube([pacicky_cube, pcb_size+2*wall, wall+1], center = true);
 
 		translate([0, 0, -antenna_solid_layer+(wall+5)/2+wall*1.5])
 			cube([pacicky_cube-4, pcb_size+2*wall, wall+8.5], center = true);
 
 			cube([pcb_size, pcb_size+2*wall, 100], center = true);
 
-			for(x = [-1, 1])
-			translate([0, x*((pcb_size)/2-5), (wall+5)/2])
-				rotate([0, 90, 0]){
-					cylinder(d = M3_screw_diameter, h = 77, $fn = 21, center = true);
-					rotate([0,0,30]) cylinder(d = M3_nut_diameter, h = 70-2, $fn = 6, center = true);
-				}
+	}
+	for(y = [0, 1]) mirror([y, 0, 0])
+	for(x = [-1, 1])
+		translate([pcb_size/2, x*((pcb_size)/2-5), -antenna_solid_layer]){	
+				translate([0, -M3_screw_diameter-1, 0])	
+					cube([tunnel_length, 2*M3_screw_diameter+2, 2*M3_screw_diameter]);
 	}
 }
-
-
+	for(y = [0, 1]) mirror([y, 0, 0])
+	for(x = [-1, 1])
+		translate([pacicky_cube/2-3, x*((pcb_size)/2-5), -antenna_solid_layer])				
+		translate([0, 0, 0.5*M3_nut_diameter]) rotate([0, 90, 0]) {
+			cylinder(d = M3_screw_diameter, h = 77, $fn = 21, center = true);
+			rotate([0,0, 90]) 
+				hull(){
+					cylinder(d = M3_nut_diameter, h = M3_nut_height, $fn = 6, center = true);
+					translate([0, -5, 0])
+						cylinder(d = M3_nut_diameter, h = M3_nut_height, $fn = 6, center = true);				
+				}			
+					}	
+}
+}
 
 module gps_vicko(){
 	difference(){

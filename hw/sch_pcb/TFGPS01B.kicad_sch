@@ -3997,14 +3997,14 @@
     (in_bom yes) (on_board yes)
     (uuid 4df28642-4338-4e55-b154-9d794c85815c)
     (property "Reference" "L2" (id 0) (at 250.19 94.3418 90))
-    (property "Value" "4n7H" (id 1) (at 250.19 96.64 90))
+    (property "Value" "5n6H" (id 1) (at 250.19 96.64 90))
     (property "Footprint" "Mlab_R:SMD-0805" (id 2) (at 250.19 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 250.19 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UST_ID" "5fa100d812875025b39779cf" (id 4) (at 250.19 99.06 0)
+    (property "UST_ID" "" (id 4) (at 250.19 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f0b090fe-2f2f-48f4-96b0-f6c984781efd))
@@ -4247,14 +4247,14 @@
     (in_bom yes) (on_board yes)
     (uuid cdd98aa8-39c3-4902-a0e7-b4479d95ffc5)
     (property "Reference" "R13" (id 0) (at 127 177.6538 90))
-    (property "Value" "100R" (id 1) (at 128.27 182.493 90))
+    (property "Value" "10k" (id 1) (at 128.27 182.493 90))
     (property "Footprint" "Mlab_R:SMD-0805" (id 2) (at 128.27 182.118 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 128.27 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UST_ID" "5c70984512875079b91f8977" (id 4) (at 128.27 180.34 0)
+    (property "UST_ID" "" (id 4) (at 128.27 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e61ffdb1-5db8-4b27-8286-187462dc1372))
@@ -4398,7 +4398,7 @@
   (symbol (lib_id "Device:R") (at 152.4 37.465 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2895353c-22c9-4754-9433-fb9ee36359e3)
-    (property "Reference" "R?" (id 0) (at 149.7138 38.735 90))
+    (property "Reference" "R25" (id 0) (at 149.7138 38.735 90))
     (property "Value" "10k" (id 1) (at 154.553 37.465 90))
     (property "Footprint" "Mlab_R:SMD-0805" (id 2) (at 154.178 37.465 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -5040,7 +5040,7 @@
     (property "Reference" "C13" (id 0) (at 259.4611 104.2606 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1pF" (id 1) (at 259.461 106.559 0)
+    (property "Value" "1p5F" (id 1) (at 259.461 106.559 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Mlab_R:SMD-0805" (id 2) (at 255.5748 101.6 0)
@@ -5049,7 +5049,7 @@
     (property "Datasheet" "~" (id 3) (at 256.54 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UST_ID" "5c70984712875079b91f8b26" (id 4) (at 256.54 105.41 0)
+    (property "UST_ID" "" (id 4) (at 256.54 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2e4c104f-ee0b-4d06-b9b4-1879e713b8dd))
@@ -5323,7 +5323,7 @@
     (property "Reference" "U4" (id 0) (at 224.5361 90.9256 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "MAX2656" (id 1) (at 233.4261 91.9543 0)
+    (property "Value" "MAX2655" (id 1) (at 233.4261 91.9543 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6" (id 2) (at 232.41 99.06 0)
@@ -5626,7 +5626,7 @@
       (reference "C12") (unit 1) (value "100pF") (footprint "Mlab_R:SMD-0805")
     )
     (path "/86deb435-ac6f-4922-806a-0998ac1a3708"
-      (reference "C13") (unit 1) (value "1pF") (footprint "Mlab_R:SMD-0805")
+      (reference "C13") (unit 1) (value "1p5F") (footprint "Mlab_R:SMD-0805")
     )
     (path "/b830f0d4-d797-4b91-b70b-9b3a7a4c51f0"
       (reference "C14") (unit 1) (value "1n8F") (footprint "Mlab_R:SMD-0805")
@@ -5680,7 +5680,7 @@
       (reference "L1") (unit 1) (value "NL322522T-101K") (footprint "Inductor_SMD:L_1210_3225Metric")
     )
     (path "/4df28642-4338-4e55-b154-9d794c85815c"
-      (reference "L2") (unit 1) (value "4n7H") (footprint "Mlab_R:SMD-0805")
+      (reference "L2") (unit 1) (value "5n6H") (footprint "Mlab_R:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-0000549d7549"
       (reference "M1") (unit 1) (value "HOLE") (footprint "Mlab_Mechanical:MountingHole_3mm")
@@ -5740,7 +5740,7 @@
       (reference "R12") (unit 1) (value "33R") (footprint "Mlab_R:SMD-0805")
     )
     (path "/cdd98aa8-39c3-4902-a0e7-b4479d95ffc5"
-      (reference "R13") (unit 1) (value "100R") (footprint "Mlab_R:SMD-0805")
+      (reference "R13") (unit 1) (value "10k") (footprint "Mlab_R:SMD-0805")
     )
     (path "/7b4cb5de-acfc-4eb8-b423-1fe9cedbdaaf"
       (reference "R14") (unit 1) (value "33R") (footprint "Mlab_R:SMD-0805")
@@ -5775,6 +5775,9 @@
     (path "/3be073a5-3cf2-4dcd-95e5-638b5ff126d4"
       (reference "R24") (unit 1) (value "220R") (footprint "Mlab_R:SMD-0805")
     )
+    (path "/2895353c-22c9-4754-9433-fb9ee36359e3"
+      (reference "R25") (unit 1) (value "10k") (footprint "Mlab_R:SMD-0805")
+    )
     (path "/d1585a21-b520-4562-97dd-1e6ebc7a6516"
       (reference "R26") (unit 1) (value "12k") (footprint "Mlab_R:SMD-0805")
     )
@@ -5783,9 +5786,6 @@
     )
     (path "/d6a4e04e-8df6-4986-9125-2e4dff9106e1"
       (reference "R28") (unit 1) (value "20k") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/2895353c-22c9-4754-9433-fb9ee36359e3"
-      (reference "R?") (unit 1) (value "10k") (footprint "Mlab_R:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005e8337ab"
       (reference "U1") (unit 1) (value "MIC5504-3.3YM5") (footprint "Package_TO_SOT_SMD:SOT-23-5")
@@ -5797,7 +5797,7 @@
       (reference "U3") (unit 1) (value "NEO-M8P") (footprint "RF_GPS:ublox_NEO")
     )
     (path "/e9490243-5a68-4bbb-a1d9-29a68cf133c8"
-      (reference "U4") (unit 1) (value "MAX2656") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
+      (reference "U4") (unit 1) (value "MAX2655") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
     )
   )
 )

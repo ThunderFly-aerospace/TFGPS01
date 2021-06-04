@@ -363,7 +363,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "TFGPS01A.kicad_pro",
+    "filename": "TFGPS01B.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -488,7 +488,7 @@
   },
   "sheets": [
     [
-      "7a3df025-fc07-4c04-ad38-d08ba6aeba16",
+      "73a4ed73-0a5d-4a8d-ac5b-dfe222bafbe2",
       ""
     ]
   ],

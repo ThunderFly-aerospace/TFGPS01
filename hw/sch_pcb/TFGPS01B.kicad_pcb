@@ -54,7 +54,7 @@
       (copper_finish "None")
       (dielectric_constraints no)
     )
-    (pad_to_mask_clearance 0)
+    (pad_to_mask_clearance 0.2)
     (pcbplotparams
       (layerselection 0x00010e0_ffffffff)
       (disableapertmacros false)

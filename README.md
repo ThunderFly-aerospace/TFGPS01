@@ -142,12 +142,12 @@ The connector is labelled as `Payload GPS Interface`.
 | pin | Name | Description |
 |-----|------|-------------|
 | 1   | TIMEPULSE | Time-pulse signal from uBlox GNSS receiver |
-| 2   | EXTINT | Interrupt output from uBlox |
+| 2   | EXTINT | External interrupt pin - input of uBlox |
 | 3   | GEO_STAT | GeoStat output from uBlox |
 | 4   | SDA | I2C from uBlox |
 | 5   | SCL | I2C from uBlox |
-| 6   | RX | Rx of uBlox, parallel to the autopilot via a protective resistor|
-| 7   | TX | Tx of uBlox, parallel to the autopilot via a protective resistor|
+| 6   | RX | Rx input of uBlox, parallel to the autopilot via a protective resistor|
+| 7   | TX | Tx output of uBlox, parallel to the autopilot via a protective resistor|
 | 8   | GND | Autopilot GND |
 
 #### USB-C

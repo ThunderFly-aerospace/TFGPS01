@@ -46,3 +46,8 @@ M2_screw_diameter = 2.0;
 M2_nut_height = 1.8;
 M2_nut_diameter = 4.8;
 M2_nut_pocket = 3.95;
+
+plast_screw_2_5mm_loose=2.5;
+plast_screw_2_5mm_mount=2;
+plast_screw_2_5mm_head_diameter=4.6;
+plast_screw_2_5mm_head_height=2.5;

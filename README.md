@@ -137,7 +137,8 @@ I2C AUX is I2C1 output from the autopilot. No other device is connected to I2C.
 
 The module is equipped with a connector designed for payload connection; this feature is useful for time-sync and navigation data, time-stamping or geo-fencing.
 
-The connector is labelled as `Payload GPS Interface`.
+The connector is labelled as `Payload GPS Interface`. This connector is regulary used to provide GNSS data (precise positions and time) to [TF-ATMON payloads](https://www.thunderfly.cz/tf-atmon.html). 
+
 
 | pin | Name | Description |
 |-----|------|-------------|
@@ -149,6 +150,7 @@ The connector is labelled as `Payload GPS Interface`.
 | 6   | RX | Rx input of uBlox, parallel to the autopilot via a protective resistor|
 | 7   | TX | Tx output of uBlox, parallel to the autopilot via a protective resistor|
 | 8   | GND | Autopilot GND |
+
 
 #### USB-C
 

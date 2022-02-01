@@ -141,7 +141,7 @@ The connector is labelled as `Payload GPS Interface`.
 
 | pin | Name | Description |
 |-----|------|-------------|
-| 1   | TIMEPULSE | Time-pulse signal from uBlox GNSS receiver |
+| 1   | TIMEPULSE | Time-pulse signal (1PPS by default) from uBlox GNSS receiver |
 | 2   | EXTINT | External interrupt pin - input of uBlox |
 | 3   | GEO_STAT | GeoStat output from uBlox |
 | 4   | SDA | I2C from uBlox |

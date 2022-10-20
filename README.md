@@ -91,21 +91,21 @@ Full schema is avialible in [PDF](hw/cam/docs/TFGPS01A_schematic.pdf)
 
 All connector are JST-GH.
 
-#### Autopilot connector
+#### Autopilot GPS&SAFETY connector
 
 Pinout of GPS&SAFETY connector conforms to the [pixhawk hardware standard](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf)
 
 
 | pin | Name | Color | Description |
 |-----|------|-------|------------|
-| 1   | Vcc (+5V)  | Red | Power for module |
-| 2   | RX         | Black |Out from Autopilot |
-| 3   | TX         | Black |Out from TFGPS01A |
-| 4   | I2C SCL    | White |I2C1 clock from autopilot; Passtrought to I2C connector |
-| 5   | I2C SDA    | Yellow |I2C1 data from autopilot; Passtrought to I2C connector |
-| 6   | SAFETY_IN  |  ![blue](https://user-images.githubusercontent.com/5196729/102205102-ffbfae00-3eca-11eb-9372-8406f7a4aa9d.png)  Blue  | Safety switch IN |
+| 1   | Vcc (+5V)  | ![red](https://user-images.githubusercontent.com/5196729/102204855-ab1c3300-3eca-11eb-8083-646d633e3aef.png)  Red | Power for module |
+| 2   | RX         | ![white](https://user-images.githubusercontent.com/5196729/102204632-5e385c80-3eca-11eb-985d-a881acfae26a.png) White  |Out from Autopilot |
+| 3   | TX         | ![green](https://user-images.githubusercontent.com/5196729/102205114-04846200-3ecb-11eb-8eb8-251c7e564707.png) Green   |Out from TFGPS01A |
+| 4   | I2C SCL    | ![yellow](https://user-images.githubusercontent.com/5196729/102204908-bc653f80-3eca-11eb-9a1d-a02ea5481c03.png)  Yellow  |I2C1 clock from autopilot; Passtrought to I2C connector |
+| 5   | I2C SDA    | ![green](https://user-images.githubusercontent.com/5196729/102205114-04846200-3ecb-11eb-8eb8-251c7e564707.png) Green |I2C1 data from autopilot; Passtrought to I2C connector |
+| 6   | SAFETY_IN  |  ![white](https://user-images.githubusercontent.com/5196729/102204632-5e385c80-3eca-11eb-985d-a881acfae26a.png) White  | Safety switch IN |
 | 7   | SAFETY_LED |  ![blue](https://user-images.githubusercontent.com/5196729/102205102-ffbfae00-3eca-11eb-9372-8406f7a4aa9d.png)  Blue |Safety LED signal |
-| 8   | VDD (+3v3) |  ![blue](https://user-images.githubusercontent.com/5196729/102205102-ffbfae00-3eca-11eb-9372-8406f7a4aa9d.png)  Blue |Power for safety switch and safety LED |
+| 8   | VDD (+3v3) |  ![red](https://user-images.githubusercontent.com/5196729/102204855-ab1c3300-3eca-11eb-8083-646d633e3aef.png)  Red |Power for safety switch and safety LED |
 | 9   | BUZZER     |  ![blue](https://user-images.githubusercontent.com/5196729/102205102-ffbfae00-3eca-11eb-9372-8406f7a4aa9d.png)  Blue |Signal for beeper |
 | 10  | GND        | Black|Ground |
 

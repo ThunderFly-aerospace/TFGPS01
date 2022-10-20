@@ -91,25 +91,25 @@ Full schema is avialible in [PDF](hw/cam/docs/TFGPS01A_schematic.pdf)
 
 All connector are JST-GH.
 
-#### GPS&SAFETY
+#### Autopilot connector
 
 Pinout of GPS&SAFETY connector conforms to the [pixhawk hardware standard](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf)
 
 
-| pin | Name | Colour | Description |
+| pin | Name | Color | Description |
 |-----|------|-------|------------|
 | 1   | Vcc (+5V)  | Red | Power for module |
 | 2   | RX         | Black |Out from Autopilot |
 | 3   | TX         | Black |Out from TFGPS01A |
 | 4   | I2C SCL    | White |I2C1 clock from autopilot; Passtrought to I2C connector |
 | 5   | I2C SDA    | Yellow |I2C1 data from autopilot; Passtrought to I2C connector |
-| 6   | SAFETY_IN  | Blue | Safety switch IN |
-| 7   | SAFETY_LED | Blue |Safety LED signal |
-| 8   | VDD (+3v3) | Blue |Power for safety switch and safety LED |
-| 9   | BUZZER     | Blue |Signal for beeper |
+| 6   | SAFETY_IN  |  ![blue](https://user-images.githubusercontent.com/5196729/102205102-ffbfae00-3eca-11eb-9372-8406f7a4aa9d.png)  Blue  | Safety switch IN |
+| 7   | SAFETY_LED |  ![blue](https://user-images.githubusercontent.com/5196729/102205102-ffbfae00-3eca-11eb-9372-8406f7a4aa9d.png)  Blue |Safety LED signal |
+| 8   | VDD (+3v3) |  ![blue](https://user-images.githubusercontent.com/5196729/102205102-ffbfae00-3eca-11eb-9372-8406f7a4aa9d.png)  Blue |Power for safety switch and safety LED |
+| 9   | BUZZER     |  ![blue](https://user-images.githubusercontent.com/5196729/102205102-ffbfae00-3eca-11eb-9372-8406f7a4aa9d.png)  Blue |Signal for beeper |
 | 10  | GND        | Black|Ground |
 
-#### I2C AUX
+#### FMU I²C
 
 I2C AUX is I2C1 output from the autopilot. No other device is connected to I2C.
 

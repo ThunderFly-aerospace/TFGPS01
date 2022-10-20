@@ -107,7 +107,7 @@ Pinout of GPS&SAFETY connector conforms to the [pixhawk hardware standard](https
 | 7   | SAFETY_LED |  ![blue](https://user-images.githubusercontent.com/5196729/102205102-ffbfae00-3eca-11eb-9372-8406f7a4aa9d.png)  Blue |Safety LED signal |
 | 8   | VDD (+3v3) |  ![red](https://user-images.githubusercontent.com/5196729/102204855-ab1c3300-3eca-11eb-8083-646d633e3aef.png)  Red |Power for safety switch and safety LED |
 | 9   | BUZZER     |  ![blue](https://user-images.githubusercontent.com/5196729/102205102-ffbfae00-3eca-11eb-9372-8406f7a4aa9d.png)  Blue |Signal for beeper |
-| 10  | GND        | Black|Ground |
+| 10  | ![black](https://user-images.githubusercontent.com/5196729/102205213-28e03e80-3ecb-11eb-95bb-7ba207360541.png) Black | GND | Black|Ground |
 
 #### FMU I²C
 

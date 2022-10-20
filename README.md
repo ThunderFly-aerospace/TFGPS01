@@ -140,16 +140,16 @@ The module is equipped with a connector designed for payload connection; this fe
 The connector is labelled as `Payload GPS Interface`. This connector is regulary used to provide GNSS data (precise positions and time) to [TF-ATMON payloads](https://www.thunderfly.cz/tf-atmon.html). 
 
 
-| pin | Name | Description |
-|-----|------|-------------|
-| 1   | TIMEPULSE | Time-pulse signal (1PPS by default) from uBlox GNSS receiver |
-| 2   | EXTINT | External interrupt pin - input of uBlox |
-| 3   | GEO_STAT | GeoStat output from uBlox |
-| 4   | SDA | I2C from uBlox |
-| 5   | SCL | I2C from uBlox |
-| 6   | RX | Rx input of uBlox, parallel to the autopilot via a protective resistor|
-| 7   | TX | Tx output of uBlox, parallel to the autopilot via a protective resistor|
-| 8   | GND | Autopilot GND |
+| pin | Name | Color| Description |
+|-----|------|------|-------------|
+| 1   | TIMEPULSE | ![blue](https://user-images.githubusercontent.com/5196729/102205102-ffbfae00-3eca-11eb-9372-8406f7a4aa9d.png)  Blue | Time-pulse signal (1PPS by default) from uBlox GNSS receiver |
+| 2   | EXTINT | ![yellow](https://user-images.githubusercontent.com/5196729/102204908-bc653f80-3eca-11eb-9a1d-a02ea5481c03.png) Yellow  | External interrupt pin - input of uBlox |
+| 3   | GEO_STAT | ![white](https://user-images.githubusercontent.com/5196729/102204632-5e385c80-3eca-11eb-985d-a881acfae26a.png) White | GeoStat output from uBlox |
+| 4   | SDA | ![green](https://user-images.githubusercontent.com/5196729/102205114-04846200-3ecb-11eb-8eb8-251c7e564707.png) Green | I2C from uBlox |
+| 5   | SCL | ![yellow](https://user-images.githubusercontent.com/5196729/102204908-bc653f80-3eca-11eb-9a1d-a02ea5481c03.png) Yellow | I2C from uBlox |
+| 6   | RX | ![white](https://user-images.githubusercontent.com/5196729/102204632-5e385c80-3eca-11eb-985d-a881acfae26a.png) White | Rx input of uBlox, parallel to the autopilot via a protective resistor|
+| 7   | TX | ![green](https://user-images.githubusercontent.com/5196729/102205114-04846200-3ecb-11eb-8eb8-251c7e564707.png) Green | Tx output of uBlox, parallel to the autopilot via a protective resistor|
+| 8   | GND | ![black](https://user-images.githubusercontent.com/5196729/102205213-28e03e80-3ecb-11eb-95bb-7ba207360541.png) Black | Autopilot GND |
 
 
 #### USB-C

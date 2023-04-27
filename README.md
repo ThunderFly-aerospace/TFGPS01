@@ -19,7 +19,7 @@ TFGPS01 is commercially available from [ThunderFly s.r.o.](https://www.thunderfl
   * RTK capability (with NEO-M8P module)
   * Concurrent reception of 4 GNSS
   * Splitted interface for a Payload
-  * CUAV V5/V5+/Nano compatible GPS&SAFETY connector
+  * Compatible GPS&SAFETY connector according to [Pixhawk standard](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf). (Compatibile with CUAV V5/V5+/Nano, Pixhawk and other autopilots)
   * Integrated beeper and safety LED indicator
   * Extremely high noise imunity (IIP3 +8 dBm)
   * Daylight visible indicator LEDs

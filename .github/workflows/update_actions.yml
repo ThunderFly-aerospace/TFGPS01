@@ -1,0 +1,41 @@
+name: Update actions and assets repository
+on:
+  schedule:
+  - cron: "0 */24 * * *"
+  
+  push:
+    paths:
+      - '.gitmodules'
+
+  workflow_dispatch:
+  
+jobs:
+  Aktualizace:
+     name: Update repository actions and other tools
+     runs-on: ubuntu-latest
+     steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: recursive
+          token: ${{ secrets.pat }}
+          ref: ${{ github.head_ref }}
+          
+      - name: Update submodules
+        run: |
+          git -C doc/assets config remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*'
+          git submodule sync doc/assets
+          git submodule update --init --remote doc/assets
+          
+      - name: Update submodules
+        run: |
+          git submodule update --remote doc/assets/
+    
+      - name: Zaktualizovat skripty
+        run: |
+          cd doc/assets/workflows/ && ./copy_workflow_to_repo.sh && cd ${GITHUB_WORKSPACE}
+          
+      - uses: stefanzweifel/git-auto-commit-action@v4.16.0
+        with:
+          commit_message: Update workflow files
+          add_options: '-A'
+          commit_options: '-a'

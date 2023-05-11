@@ -11,7 +11,7 @@ The module has several features for UAVs. For example, it has a pass-through I2C
 <img src="/doc/img/TFGPS01A_bottom.jpg" width="45%" />
 </p>
 
-TFGPS01 is commercially available from [ThunderFly s.r.o.](https://www.thunderfly.cz/), write an email to info@thunderfly.cz or shop at [Tindie store](https://www.tindie.com/products/thunderfly/tfgps01-drone-multi-constellation-gnss-receiver/).
+TFGPS01 is commercially available from [ThunderFly s.r.o.](https://www.thunderfly.cz/), write an email to info@thunderfly.cz or shop at [Tindie store](https://www.tindie.com/products/21789/).
 
 ### Features
 

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/github/workspace/hw/sch_pcb/TFGPS01B.kicad_sch</source>
-    <date>Thu May 11 07:13:49 2023</date>
-    <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
+    <source>/github/workspace/hw/sch_pcb/TFGPS01.kicad_sch</source>
+    <date>Thu May 11 07:21:50 2023</date>
+    <tool>Eeschema 6.0.11+dfsg-1~bpo11+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>TFGPS01A</title>
         <company>ThunderFly s.r.o.</company>
         <rev>A</rev>
         <date>2021-04-05</date>
-        <source>TFGPS01B.kicad_sch</source>
+        <source>TFGPS01.kicad_sch</source>
         <comment number="1" value="UAV GNSS navigation module"/>
         <comment number="2" value="RTK and TF Payload ready"/>
         <comment number="3" value="Jacho &lt;info@thunderfly.cz&gt;"/>
@@ -34,7 +34,7 @@
       <libsource lib="Device" part="Antenna" description="Antenna"/>
       <property name="UST_ID" value="5fa0f07c12875025b397787a"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0b4eac50-9f3d-475a-b8a1-d225de746a22</tstamps>
     </comp>
@@ -47,7 +47,7 @@
       <libsource lib="Device" part="Buzzer" description="Buzzer, polarized"/>
       <property name="UST_ID" value="5fa0f13812875025b3977890"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>13b724d7-299d-4de7-9fb2-acf636a86732</tstamps>
     </comp>
@@ -61,7 +61,7 @@
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <property name="UST_ID" value="5fa0f22e12875025b39778a3"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e83848b</tstamps>
     </comp>
@@ -74,7 +74,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984812875079b91f8bbd"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>eba3ece1-4037-486a-b83d-0607675964b6</tstamps>
     </comp>
@@ -87,7 +87,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984812875079b91f8bbd"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e832309</tstamps>
     </comp>
@@ -100,7 +100,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984812875079b91f8bbd"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e8339dd</tstamps>
     </comp>
@@ -113,7 +113,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e8fc158</tstamps>
     </comp>
@@ -126,7 +126,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984812875079b91f8bbd"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e8e9a62</tstamps>
     </comp>
@@ -139,7 +139,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984812875079b91f8bbd"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>2ef4918e-cb90-4058-8b10-d84d1722cded</tstamps>
     </comp>
@@ -152,7 +152,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984812875079b91f8bbd"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1de8ff3f-a275-4d8d-bd6d-ad551f839369</tstamps>
     </comp>
@@ -165,7 +165,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984712875079b91f8b43"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>89fd5ad7-64b2-4a36-8757-647b5164b5a7</tstamps>
     </comp>
@@ -178,7 +178,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984712875079b91f8b3b"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>25551e2a-1877-4740-9d6c-1c40787556be</tstamps>
     </comp>
@@ -191,7 +191,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984712875079b91f8b3b"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7773a25a-4487-4aa2-b99f-420ac11ff5a2</tstamps>
     </comp>
@@ -204,7 +204,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984712875079b91f8b3b"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>37aebd5e-3bd0-4f3f-954f-0d2d26d07731</tstamps>
     </comp>
@@ -217,7 +217,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="60d587411287500165f85b5f"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>86deb435-ac6f-4922-806a-0998ac1a3708</tstamps>
     </comp>
@@ -230,7 +230,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5fa0ff6512875025b39779b1"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b830f0d4-d797-4b91-b70b-9b3a7a4c51f0</tstamps>
     </comp>
@@ -243,7 +243,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984812875079b91f8bbd"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e6b1fc9b-1c1b-455c-b5fc-20156193a722</tstamps>
     </comp>
@@ -256,7 +256,7 @@
       <libsource lib="Device" part="D_Zener" description="Zener diode"/>
       <property name="UST_ID" value="5c70984512875079b91f88b3"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e8355a7</tstamps>
     </comp>
@@ -269,7 +269,7 @@
       <libsource lib="Device" part="D" description="Diode"/>
       <property name="UST_ID" value="5c70984512875079b91f88ac"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e855fd7</tstamps>
     </comp>
@@ -282,7 +282,7 @@
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="UST_ID" value="5c70984412875079b91f8896"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e83ed6c</tstamps>
     </comp>
@@ -295,7 +295,7 @@
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="UST_ID" value="5c70984412875079b91f8896"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e880b05</tstamps>
     </comp>
@@ -308,7 +308,7 @@
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="UST_ID" value="5c70984412875079b91f8897"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e86723b</tstamps>
     </comp>
@@ -321,7 +321,7 @@
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="UST_ID" value="5c70984412875079b91f8895"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e87f368</tstamps>
     </comp>
@@ -334,7 +334,7 @@
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="UST_ID" value="5c70984512875079b91f8898"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d046736c-6039-46c0-a433-52f0a4874786</tstamps>
     </comp>
@@ -347,7 +347,7 @@
       <libsource lib="Device" part="D" description="Diode"/>
       <property name="UST_ID" value="5c70984512875079b91f88ac"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>dcb557ac-adb8-4521-85bb-9643d76a3029</tstamps>
     </comp>
@@ -361,7 +361,7 @@
       <property name="UST_id" value=""/>
       <property name="UST_ID" value="60879d38128750769ee58e48"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b39e5f53-ff8f-48d4-b4a2-f7a745f70c86</tstamps>
     </comp>
@@ -375,7 +375,7 @@
       <property name="UST_id" value=""/>
       <property name="UST_ID" value="60879d38128750769ee58e48"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0ba6d129-4e92-4e1f-a407-d764718c23b7</tstamps>
     </comp>
@@ -389,7 +389,7 @@
       <libsource lib="MLAB_IO" part="DBP.1575.W.A.30" description="Dielectric Band Pass Filter for 1575MHz"/>
       <property name="UST_ID" value="5fa0f56412875025b39778fc"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e78163e9-482e-4227-9608-722196227914</tstamps>
     </comp>
@@ -402,7 +402,7 @@
       <libsource lib="MLAB_CONNECTORS_JST" part="SM10B-GHS-TB" description="Zásuvka; kabel-pl.spoj; vidlice; GH; 1,25mm; PIN: 10; SMT; 50V; 1A"/>
       <property name="UST_ID" value="5fa0f69e12875025b397791d"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3827360e-c4ff-4d2a-96f5-de82e5f2c74b</tstamps>
     </comp>
@@ -415,7 +415,7 @@
       <libsource lib="MLAB_CONNECTORS" part="USBC_USB4105-GF-A" description="USB 2.0-only Type-C Receptacle connector"/>
       <property name="UST_ID" value="5fa0f94612875025b397795e"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1b5b7deb-7458-499b-a7df-6081dc132418</tstamps>
     </comp>
@@ -428,7 +428,7 @@
       <libsource lib="MLAB_CONNECTORS_JST" part="SM06B-GHS-TB" description="1x07 2.54 mm pitch header"/>
       <property name="UST_ID" value="5fa0f70212875025b3977932"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9f9c094f-5a63-4d94-afc5-34f9ea43c8df</tstamps>
     </comp>
@@ -441,7 +441,7 @@
       <libsource lib="MLAB_CONNECTORS_JST" part="SM04B-GHS-TB" description="1x05 2.54 mm pitch header"/>
       <property name="UST_ID" value="5c86273d1287500b4e0280be"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>29610f96-4dd1-478c-8206-4f9415f22588</tstamps>
     </comp>
@@ -454,7 +454,7 @@
       <libsource lib="MLAB_CONNECTORS_JST" part="SM08B-GHS-TB" description="1x08 2.54 mm pitch header"/>
       <property name="UST_ID" value="5fa0f75012875025b3977948"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4d470c2b-51cc-4195-9679-b60f8cb35fa0</tstamps>
     </comp>
@@ -467,7 +467,7 @@
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="UST_ID" value="5c70984412875079b91f87fb"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e853ebf</tstamps>
     </comp>
@@ -480,7 +480,7 @@
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="UST_ID" value="5c70984412875079b91f8803"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4df28642-4338-4e55-b154-9d794c85815c</tstamps>
     </comp>
@@ -489,7 +489,7 @@
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
       <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000549d7549</tstamps>
     </comp>
@@ -498,7 +498,7 @@
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
       <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000549d7628</tstamps>
     </comp>
@@ -507,7 +507,7 @@
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
       <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000549d7646</tstamps>
     </comp>
@@ -516,7 +516,7 @@
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
       <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000549d7665</tstamps>
     </comp>
@@ -529,7 +529,7 @@
       <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
       <property name="UST_ID" value="5c70984712875079b91f8aea"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0e21f791-9a6d-4511-aef7-35f0d83c37c6</tstamps>
     </comp>
@@ -542,7 +542,7 @@
       <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
       <property name="UST_ID" value="5c70984712875079b91f8aea"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>dbba55c4-bdc9-4766-92db-5df00971577e</tstamps>
     </comp>
@@ -555,7 +555,7 @@
       <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
       <property name="UST_ID" value="5c70984712875079b91f8aea"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3ac0f7c4-df12-47ed-af64-f22496d2ac64</tstamps>
     </comp>
@@ -568,7 +568,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f896f"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e8322c0</tstamps>
     </comp>
@@ -581,7 +581,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5fa0fc3e12875025b3977997"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3b236ba6-0e9b-4353-b4d4-e0e9ee0c184b</tstamps>
     </comp>
@@ -594,7 +594,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5fa0fc3e12875025b3977997"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>bc19ac54-2438-41ce-bcf8-4ca838a54ce7</tstamps>
     </comp>
@@ -607,7 +607,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8989"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e840e49</tstamps>
     </comp>
@@ -620,7 +620,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984612875079b91f899f"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005ec61720</tstamps>
     </comp>
@@ -633,7 +633,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984612875079b91f899f"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005ec7130a</tstamps>
     </comp>
@@ -646,7 +646,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8970"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e88848f</tstamps>
     </comp>
@@ -659,7 +659,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8970"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e88a33b</tstamps>
     </comp>
@@ -672,7 +672,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8970"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e88b07b</tstamps>
     </comp>
@@ -685,7 +685,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8970"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e88b982</tstamps>
     </comp>
@@ -698,7 +698,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8970"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e88c389</tstamps>
     </comp>
@@ -711,7 +711,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8970"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e88d1f6</tstamps>
     </comp>
@@ -724,7 +724,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984612875079b91f899f"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>cdd98aa8-39c3-4902-a0e7-b4479d95ffc5</tstamps>
     </comp>
@@ -737,7 +737,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8970"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7b4cb5de-acfc-4eb8-b423-1fe9cedbdaaf</tstamps>
     </comp>
@@ -750,7 +750,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8970"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ece9e3fc-3639-41e4-a5ee-ebba7fce0010</tstamps>
     </comp>
@@ -763,7 +763,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8970"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ed431bee-d90e-48a7-b403-178564524dff</tstamps>
     </comp>
@@ -776,7 +776,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f898c"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4313d099-4ba5-4c5b-84fd-da270ac6a872</tstamps>
     </comp>
@@ -789,7 +789,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f898c"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>181136c6-142b-4030-9cba-0214ff7b9672</tstamps>
     </comp>
@@ -802,7 +802,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f897d"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e87cecd</tstamps>
     </comp>
@@ -815,7 +815,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8977"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e873847</tstamps>
     </comp>
@@ -828,7 +828,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8977"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e87bde8</tstamps>
     </comp>
@@ -841,7 +841,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8977"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f44c53ef-4a73-4de6-a9ba-573fa6ec21d4</tstamps>
     </comp>
@@ -854,7 +854,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f896b"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f3a95f28-0cd1-4285-adf6-4709cb14c1e8</tstamps>
     </comp>
@@ -867,7 +867,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f897f"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3be073a5-3cf2-4dcd-95e5-638b5ff126d4</tstamps>
     </comp>
@@ -880,7 +880,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984612875079b91f899f"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>2895353c-22c9-4754-9433-fb9ee36359e3</tstamps>
     </comp>
@@ -893,7 +893,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984612875079b91f89a1"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d1585a21-b520-4562-97dd-1e6ebc7a6516</tstamps>
     </comp>
@@ -906,7 +906,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5fa12b6012875025b3977a16"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3fd6e552-1e3f-4e4d-ba3f-e82fe65bf46d</tstamps>
     </comp>
@@ -919,7 +919,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984612875079b91f89a3"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d6a4e04e-8df6-4986-9125-2e4dff9106e1</tstamps>
     </comp>
@@ -933,7 +933,7 @@
       <libsource lib="Regulator_Linear" part="MIC5504-3.3YM5" description="300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23"/>
       <property name="UST_ID" value="5c7255e81287500b4e112ea2"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e8337ab</tstamps>
     </comp>
@@ -947,7 +947,7 @@
       <libsource lib="Power_Protection" part="USBLC6-2SC6" description="Bidirectional ESD Protection Diode, SOT-23-6"/>
       <property name="UST_ID" value="5e82e0691287502a334a778c"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e82fcfd</tstamps>
     </comp>
@@ -961,7 +961,7 @@
       <libsource lib="RF_GPS" part="NEO-M8P" description="GNSS RTK Module NEO M8, VCC 2.7V to 3.6V"/>
       <property name="UST_ID" value="5fa0faaf12875025b3977985"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e82e194</tstamps>
     </comp>
@@ -975,7 +975,7 @@
       <libsource lib="MLAB_IO" part="MAX2656" description="1575MHz/1900MHz Variable-IP3, LNA pro GPS"/>
       <property name="UST_ID" value="5fa0fa3612875025b397796f"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFGPS01B.kicad_sch"/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e9490243-5a68-4bbb-a1d9-29a68cf133c8</tstamps>
     </comp>

@@ -3,14 +3,14 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "6.0.4-6f826c9f35~116~ubuntu20.04.1"
+      "Version": "6.0.11+dfsg-1~bpo11+1"
     },
-    "CreationDate": "2023-05-11T07:13:51+00:00"
+    "CreationDate": "2023-05-11T07:21:03+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "TFGPS01B",
-      "GUID": "54464750-5330-4314-922e-6b696361645f",
+      "Name": "TFGPS01",
+      "GUID": "54464750-5330-4312-9e6b-696361645f70",
       "Revision": "REV"
     },
     "Size": {
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.2,
       "TrackToRegion": 0.2,
@@ -43,57 +43,57 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "TFGPS01B-Edge_Cuts.gbr",
+      "Path": "TFGPS01-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "TFGPS01B-F_Cu.gbr",
+      "Path": "TFGPS01-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "TFGPS01B-In1_Cu.gbr",
+      "Path": "TFGPS01-In1_Cu.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "TFGPS01B-In2_Cu.gbr",
+      "Path": "TFGPS01-In2_Cu.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "TFGPS01B-B_Cu.gbr",
+      "Path": "TFGPS01-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "TFGPS01B-F_Mask.gbr",
+      "Path": "TFGPS01-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "TFGPS01B-B_Mask.gbr",
+      "Path": "TFGPS01-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "TFGPS01B-F_Silkscreen.gbr",
+      "Path": "TFGPS01-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "TFGPS01B-B_Silkscreen.gbr",
+      "Path": "TFGPS01-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "TFGPS01B-F_Paste.gbr",
+      "Path": "TFGPS01-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "TFGPS01B-B_Paste.gbr",
+      "Path": "TFGPS01-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     }

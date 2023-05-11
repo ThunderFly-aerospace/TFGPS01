@@ -53,14 +53,17 @@ TFGPS01 is designed as Open-Hardware (GPL v3). All documentation is located in t
 ### Box
 To protect against external conditions, we have prepared a 3D printed box. The box is designed in OpenSCAD and it allows customization according to the use of reciemer and for the needs of mounting.
 
-![Example of basic TFGPS01 3D printed box](doc/img/tfgps01_cap.png)
+<p align="center">
+<img src="doc/img/TFGPS_1.jpg" alt="3D printed box" width="80%" />
+</p>
+
 
 Here are examples of various modifications of the box:
 
-![Example of UAV connectors TFGPS01 3D printed box](doc/img/tfgps01_box.png)
-
-![Example of USB TFGPS01 3D printed box](doc/img/tfgps01_box_usb.png)
-
+<p float="left">
+<img src="doc/img/tfgps01_box.png" alt="Example of UAV connectors TFGPS01 3D printed box" width="45%" />
+<img src="doc/img/tfgps01_box_usb.png" alt="Example of USB TFGPS01 3D printed box" width="45%" />
+</p>
 
 ### Mechanical drawing
 > TODO

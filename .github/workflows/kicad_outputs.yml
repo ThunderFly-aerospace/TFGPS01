@@ -288,7 +288,7 @@ jobs:
         
         cp -r doc_img/* doc/gen/img || true
         cp -r doc_cad/cad/* doc/gen || true
-        cp -r hw_cam_profi/gbr/PnP/* hw/cam_profi/PnP || true
+        mv -r hw_cam_profi/PnP/* hw/cam_profi/PnP || true
         cp -r hw_cam_profi/* hw/cam_profi/gbr || true
         cp -r doc_sch/docs/* doc/gen || true
         cp -r doc_xml/* hw/cam_profi || true

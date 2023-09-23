@@ -1,0 +1,6 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+"AE1","Antenna","GPS_CGGP.35.3.A.02",165.2245,-98.1190,180.0000,top
+"M1","HOLE","MountingHole_3mm",167.7185,-78.1490,0.0000,top
+"M2","HOLE","MountingHole_3mm",127.6785,-118.1890,0.0000,top
+"M3","HOLE","MountingHole_3mm",127.6785,-78.1490,0.0000,top
+"M4","HOLE","MountingHole_3mm",167.7185,-118.1890,0.0000,top

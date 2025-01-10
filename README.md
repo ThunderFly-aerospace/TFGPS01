@@ -1,4 +1,4 @@
-# TFGPS01A - UAV GNSS navigation module with RTK capability
+# TFGPS01 - UAV GNSS navigation module with RTK capability
 
 [![Kicad - production files generator](https://github.com/ThunderFly-aerospace/TFGPS01/actions/workflows/kicad_outputs.yml/badge.svg)](https://github.com/ThunderFly-aerospace/TFGPS01/actions/workflows/kicad_outputs.yml)  ![Slicing](https://github.com/ThunderFly-aerospace/TFGPS01/workflows/Slicing/badge.svg)
 

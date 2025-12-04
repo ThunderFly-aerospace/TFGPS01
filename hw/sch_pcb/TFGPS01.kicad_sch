@@ -10867,7 +10867,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "620R"
+		(property "Value" "200R"
 			(at 119.888 185.928 0)
 			(effects
 				(font
@@ -10902,7 +10902,7 @@
 				)
 			)
 		)
-		(property "UST_ID" "5c70984512875079b91f8989"
+		(property "UST_ID" "5c70984512875079b91f897d"
 			(at 118.11 184.785 0)
 			(effects
 				(font
@@ -15085,7 +15085,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "1k"
 			(at 222.885 37.078 90)
 			(effects
 				(font
@@ -15119,7 +15119,7 @@
 				)
 			)
 		)
-		(property "UST_ID" "5c70984512875079b91f897f"
+		(property "UST_ID" "5c70984512875079b91f898c"
 			(at 222.885 40.005 0)
 			(effects
 				(font

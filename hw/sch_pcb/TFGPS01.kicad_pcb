@@ -6759,7 +6759,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "1k"
 			(at 0.127 -0.381 90)
 			(layer "B.Fab")
 			(uuid "24afb7e7-1601-48d2-9bab-6daa36542b12")
@@ -6795,7 +6795,7 @@
 				)
 			)
 		)
-		(property "UST_ID" "5c70984512875079b91f897f"
+		(property "UST_ID" "5c70984512875079b91f898c"
 			(at 60.007 260.028 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -13801,7 +13801,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "620R"
+		(property "Value" "200R"
 			(at 0.127 -0.381 0)
 			(layer "B.Fab")
 			(uuid "8b95f46b-0956-4384-8c4e-8d20395b82e1")
@@ -13837,7 +13837,7 @@
 				)
 			)
 		)
-		(property "UST_ID" "5c70984512875079b91f8989"
+		(property "UST_ID" "5c70984512875079b91f897d"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)

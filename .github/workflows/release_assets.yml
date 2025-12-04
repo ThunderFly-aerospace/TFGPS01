@@ -1,0 +1,36 @@
+name: Release Assets
+
+permissions: write-all
+
+on:
+  release:
+    types: [edited, prereleased, released]
+
+jobs:
+  upload-gerber-assets:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up variables
+      run: |
+        REPO_NAME=$(basename -s .git `git config --get remote.origin.url`)
+        COMMIT_SHA=$(git rev-parse --short HEAD)
+        ZIP_NAME="${REPO_NAME}-${COMMIT_SHA}.gerber.zip"
+        echo "ZIP_NAME=$ZIP_NAME" >> $GITHUB_ENV
+
+    - name: Create ZIP archive of Gerber files
+      run: |
+        zip -j ${{ env.ZIP_NAME }} hw/cam_profi/gbr/*
+
+    - name: Upload ZIP as release asset
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ github.event.release.upload_url }}
+        asset_path: ${{ env.ZIP_NAME }}
+        asset_name: ${{ env.ZIP_NAME }}
+        asset_content_type: application/zip

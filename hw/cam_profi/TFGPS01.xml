@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFGPS01.kicad_sch</source>
-    <date>2025-12-04T16:24:47+0000</date>
+    <date>2025-12-04T21:19:12+0000</date>
     <tool>Eeschema 9.0.6+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -554,6 +554,23 @@
       <property name="ki_fp_filters" value="Filter*1109*1.1x0.9mm*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e78163e9-482e-4227-9608-722196227914</tstamps>
+    </comp>
+    <comp ref="G1">
+      <value>LOGO</value>
+      <footprint>TF_LOGA:TF 14x6,6</footprint>
+      <fields>
+        <field name="UST_ID"/>
+        <field name="Footprint">TF_LOGA:TF 14x6,6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="TF_LOGO" part="LOGO" description=""/>
+      <property name="UST_ID" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62064be8-63f5-4f76-b852-f4521c3f1020</tstamps>
     </comp>
     <comp ref="J1">
       <value>SM10B-GHS-TB</value>
@@ -1846,6 +1863,15 @@
         <pin num="4" name="NC" type="no_connect"/>
         <pin num="5" name="VOUT" type="power_out"/>
       </pins>
+    </libpart>
+    <libpart lib="TF_LOGO" part="LOGO">
+      <fields>
+        <field name="Reference">G</field>
+        <field name="Value">LOGO</field>
+        <field name="Footprint">MLAB_LOGA:TF 10x4,7</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
     </libpart>
   </libparts>
   <libraries>

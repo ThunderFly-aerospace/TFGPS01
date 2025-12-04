@@ -16,7 +16,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 15,Light emitting diode,LED,D3D4,RED,LED_1206,2,~,5c70984412875079b91f8896
 16,Light emitting diode,LED,D5,YELLOW,LED_1206,1,~,5c70984412875079b91f8897
 17,Dielectric Band Pass Filter for 1575MHz,DBP.1575.W.A.30,FL1,DBP.1575.W.A.30,SAW DBP.1575.W.A.30,1,https://eu.mouser.com/datasheet/2/398/DBP.1575.W.A.30-1371847.pdf,5fa0f56412875025b39778fc
-18,1x05 2.54 mm pitch header,SM04B-GHS-TB,J4,SM04B-GHS-TB,JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal,1,,5c86273d1287500b4e0280be
+18,,SM04B-GHS-TB,J4,SM04B-GHS-TB,JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal,1,,5c86273d1287500b4e0280be
 19,1x07 2.54 mm pitch header,SM06B-GHS-TB,J3,SM06B-GHS-TB,JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal,1,,5fa0f70212875025b3977932
 20,1x08 2.54 mm pitch header,SM08B-GHS-TB,J5,SM08B-GHS-TB,JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal,1,,5fa0f75012875025b3977948
 21,"Zásuvka; kabel-pl.spoj; vidlice; GH; 1,25mm; PIN: 10; SMT; 50V; 1A",SM10B-GHS-TB,J1,SM10B-GHS-TB,JST_GH_SM10B-GHS-TB_1x10-1MP_P1.25mm_Horizontal,1,,5fa0f69e12875025b397791d
@@ -38,4 +38,4 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 37,"1575MHz/1900MHz Variable-IP3, LNA pro GPS",MAX2656,U4,MAX2655,SOT-363_SC-70-6,1,https://datasheets.maximintegrated.com/en/ds/MAX2654-MAX2656.pdf,5fa0fa3612875025b397796f
 38,"300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23",MIC5504-3.3YM5,U1,MIC5504-3.3YM5,SOT-23-5,1,http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf,5c7255e81287500b4e112ea2
 39,"GNSS RTK Module NEO M8, VCC 2.7V to 3.6V",NEO-M8P,U3,NEO-M8P,ublox_NEO,1,https://www.u-blox.com/sites/default/files/NEO-M8P_DataSheet_%28UBX-15016656%29.pdf,5fa0faaf12875025b3977985
-40,"Bidirectional ESD Protection Diode, SOT-23-6",USBLC6-2SC6,U2,USBLC6-2SC6,SOT-23-6,1,http://www2.st.com/resource/en/datasheet/CD00050750.pdf,5e82e0691287502a334a778c
+40,"Very low capacitance ESD protection diode, 2 data-line, SOT-23-6",USBLC6-2SC6,U2,USBLC6-2SC6,SOT-23-6,1,http://www2.st.com/resource/en/datasheet/CD00050750.pdf,5e82e0691287502a334a778c

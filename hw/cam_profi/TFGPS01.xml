@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFGPS01.kicad_sch</source>
-    <date>2025-12-04T21:19:12+0000</date>
+    <date>2025-12-04T21:36:12+0000</date>
     <tool>Eeschema 9.0.6+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -868,17 +868,17 @@
       <tstamps>bc19ac54-2438-41ce-bcf8-4ca838a54ce7</tstamps>
     </comp>
     <comp ref="R4">
-      <value>620R</value>
+      <value>200R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f8989</field>
+        <field name="UST_ID">5c70984512875079b91f897d</field>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="5c70984512875079b91f8989"/>
+      <property name="UST_ID" value="5c70984512875079b91f897d"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1248,17 +1248,17 @@
       <tstamps>f3a95f28-0cd1-4285-adf6-4709cb14c1e8</tstamps>
     </comp>
     <comp ref="R24">
-      <value>220R</value>
+      <value>1k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f897f</field>
+        <field name="UST_ID">5c70984512875079b91f898c</field>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="5c70984512875079b91f897f"/>
+      <property name="UST_ID" value="5c70984512875079b91f898c"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>

@@ -756,7 +756,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Zener"
+		(symbol "Device:D_Schottky_Filled"
 			(pin_numbers
 				(hide yes)
 			)
@@ -775,7 +775,7 @@
 					)
 				)
 			)
-			(property "Value" "D_Zener"
+			(property "Value" "D_Schottky_Filled"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -801,7 +801,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Zener diode"
+			(property "Description" "Schottky diode, filled shape"
 				(at 0 0 0)
 				(effects
 					(font
@@ -810,7 +810,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -828,10 +828,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Zener_0_1"
+			(symbol "D_Schottky_Filled_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -839,6 +839,18 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -853,20 +865,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "D_Zener_1_1"
+			(symbol "D_Schottky_Filled_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1539,6 +1539,173 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:BAS516"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BAS516"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-523"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100V, 0.25A, High-speed Switching Diode, SOD-523"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?523*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAS516_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAS516_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3828,133 +3995,6 @@
 						)
 					)
 					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MLAB_D:D_ZENER"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_ZENER"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D? SO* SM*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_ZENER_0_1"
-				(polyline
-					(pts
-						(xy -1.778 1.27) (xy -1.27 0.762) (xy -1.27 -0.762) (xy -0.762 -1.27) (xy -0.762 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "D_ZENER_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6989,6 +7029,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 171.45) (xy 54.61 171.45)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "11358391-c395-4e53-98ac-711dc6814ad0")
+	)
+	(wire
+		(pts
 			(xy 19.05 151.13) (xy 19.05 152.4)
 		)
 		(stroke
@@ -7069,7 +7119,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 119.38) (xy 69.85 119.38)
+			(xy 63.5 95.25) (xy 60.96 95.25)
 		)
 		(stroke
 			(width 0)
@@ -7279,7 +7329,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 171.45) (xy 43.18 171.45)
+			(xy 40.64 171.45) (xy 44.45 171.45)
 		)
 		(stroke
 			(width 0)
@@ -7346,16 +7396,6 @@
 			(type solid)
 		)
 		(uuid "35cd8320-86ee-457c-8010-4a362b4afa3f")
-	)
-	(wire
-		(pts
-			(xy 53.34 171.45) (xy 54.61 171.45)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "35fdb36a-17f0-4529-a69e-5661435fa569")
 	)
 	(wire
 		(pts
@@ -7889,7 +7929,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 113.03) (xy 62.23 114.3)
+			(xy 68.58 88.9) (xy 68.58 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8009,7 +8049,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 119.38) (xy 57.15 119.38)
+			(xy 77.47 95.25) (xy 73.66 95.25)
 		)
 		(stroke
 			(width 0)
@@ -8169,7 +8209,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 121.92) (xy 69.85 121.92)
+			(xy 63.5 97.79) (xy 60.96 97.79)
 		)
 		(stroke
 			(width 0)
@@ -8879,7 +8919,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 127) (xy 62.23 128.27)
+			(xy 68.58 102.87) (xy 68.58 104.14)
 		)
 		(stroke
 			(width 0)
@@ -8929,7 +8969,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 166.37) (xy 54.61 171.45)
+			(xy 54.61 165.1) (xy 54.61 171.45)
 		)
 		(stroke
 			(width 0)
@@ -8999,7 +9039,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 121.92) (xy 53.34 121.92)
+			(xy 73.66 97.79) (xy 77.47 97.79)
 		)
 		(stroke
 			(width 0)
@@ -9009,7 +9049,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 148.59) (xy 54.61 156.21)
+			(xy 54.61 148.59) (xy 54.61 157.48)
 		)
 		(stroke
 			(width 0)
@@ -9188,22 +9228,22 @@
 		(uuid "0a4bae9c-ed29-4a78-a033-a36c7bd7306e")
 	)
 	(label "D1-"
-		(at 53.34 121.92 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "0f01a595-b82f-427a-b8a5-c99c7b613f79")
-	)
-	(label "D-"
-		(at 69.85 121.92 0)
+		(at 77.47 97.79 0)
 		(effects
 			(font
 				(size 1.524 1.524)
 			)
 			(justify left bottom)
+		)
+		(uuid "0f01a595-b82f-427a-b8a5-c99c7b613f79")
+	)
+	(label "D-"
+		(at 60.96 97.79 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
 		)
 		(uuid "1186429f-9201-4351-bca8-c62691f1f088")
 	)
@@ -9288,7 +9328,7 @@
 		(uuid "27e53a5a-d754-4693-a2d2-3f2efd330943")
 	)
 	(label "VBUS"
-		(at 62.23 113.03 90)
+		(at 68.58 88.9 90)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9298,12 +9338,12 @@
 		(uuid "2b37842d-0c60-4e81-bf0f-24513dc638b3")
 	)
 	(label "D1+"
-		(at 53.34 119.38 180)
+		(at 77.47 95.25 0)
 		(effects
 			(font
 				(size 1.524 1.524)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "2c8b1666-5b26-4f31-b431-861799ad1a9f")
 	)
@@ -9478,12 +9518,12 @@
 		(uuid "7ed13cb6-b376-43e1-b56a-621fcdd9a240")
 	)
 	(label "D+"
-		(at 69.85 119.38 0)
+		(at 60.96 95.25 180)
 		(effects
 			(font
 				(size 1.524 1.524)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "863ffbe8-80af-4ed6-951c-32b9218fd748")
 	)
@@ -10174,7 +10214,8 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
-		(at 62.23 119.38 0)
+		(at 68.58 95.25 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10182,7 +10223,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e82fcfd")
 		(property "Reference" "U2"
-			(at 66.04 111.76 0)
+			(at 64.77 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10190,7 +10231,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 71.12 114.3 0)
+			(at 59.69 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10198,7 +10239,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 43.18 109.22 0)
+			(at 87.63 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10207,7 +10248,7 @@
 			)
 		)
 		(property "Datasheet" "http://www2.st.com/resource/en/datasheet/CD00050750.pdf"
-			(at 67.31 110.49 0)
+			(at 63.5 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10216,7 +10257,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 119.38 0)
+			(at 68.58 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10224,7 +10265,7 @@
 			)
 		)
 		(property "UST_ID" "5e82e0691287502a334a778c"
-			(at 62.23 104.4194 0)
+			(at 68.58 80.2894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10575,7 +10616,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
+		(lib_id "Diode:BAS516")
 		(at 19.05 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10592,16 +10633,24 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAS85"
-			(at 21.0566 138.303 90)
+		(property "Value" "BAS516"
+			(at 16.002 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 23.495 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf"
 			(at 19.05 137.16 0)
 			(effects
 				(font
@@ -10610,24 +10659,34 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Description" "100V, 0.25A, High-speed Switching Diode, SOD-523"
 			(at 19.05 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 19.05 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "UST_ID" "5c70984512875079b91f88b3"
+			(at 19.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 19.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 19.05 137.16 0)
 			(effects
 				(font
@@ -13062,7 +13121,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 128.27 0)
+		(at 68.58 104.14 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13070,7 +13130,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ebe6c26")
 		(property "Reference" "#PWR012"
-			(at 62.23 134.62 0)
+			(at 68.58 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13079,7 +13139,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.357 132.6642 0)
+			(at 68.453 108.5342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13087,7 +13147,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 128.27 0)
+			(at 68.58 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13096,7 +13156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 128.27 0)
+			(at 68.58 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13105,7 +13165,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 128.27 0)
+			(at 68.58 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13675,7 +13735,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MLAB_D:D_ZENER")
+		(lib_id "Device:D_Schottky_Filled")
 		(at 48.26 171.45 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13692,8 +13752,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BZX585-B5V6.115"
-			(at 44.577 173.457 90)
+		(property "Value" "NSR05T40XV2T5G"
+			(at 47.498 174.244 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13726,16 +13786,7 @@
 				)
 			)
 		)
-		(property "UST_id" ""
-			(at 48.26 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UST_ID" "60879d38128750769ee58e48"
+		(property "UST_ID" "5c70984712875079b91f8b7b"
 			(at 48.26 171.45 0)
 			(effects
 				(font
@@ -16999,7 +17050,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MLAB_D:D_ZENER")
+		(lib_id "Device:D_Schottky_Filled")
 		(at 54.61 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17016,8 +17067,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BZX585-B5V6.115"
-			(at 52.603 157.607 90)
+		(property "Value" "NSR05T40XV2T5G"
+			(at 52.07 160.274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17050,16 +17101,7 @@
 				)
 			)
 		)
-		(property "UST_id" ""
-			(at 54.61 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UST_ID" "60879d38128750769ee58e48"
+		(property "UST_ID" "5c70984712875079b91f8b7b"
 			(at 54.61 161.29 0)
 			(effects
 				(font

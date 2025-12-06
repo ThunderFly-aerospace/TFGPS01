@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -98,6 +98,18 @@
         ],
         [
           "hole_clearance|153079473|99273974|d68f2b27-3220-46cf-b86c-f59e5f89bd73|c1a337b9-22db-477e-9b6c-e233ce1e261a",
+          ""
+        ],
+        [
+          "silk_edge_clearance|122238500|83219000|9e8ec0f9-0417-4a60-8f6f-e22105b18086|aaabc717-98b8-4977-a81b-24d30f663358",
+          ""
+        ],
+        [
+          "silk_edge_clearance|122238500|92799000|9e8ec0f9-0417-4a60-8f6f-e22105b18086|af7a8f04-df71-461a-a4ef-0a4c31d2c714",
+          ""
+        ],
+        [
+          "silk_edge_clearance|122238500|92799000|9e8ec0f9-0417-4a60-8f6f-e22105b18086|ddd78e20-2ab9-43b5-975e-829ac9c92760",
           ""
         ],
         [
@@ -732,15 +744,9 @@
         },
         {
           "group_by": false,
-          "label": "UST_id",
-          "name": "UST_id",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "UST_ID",
           "name": "UST_ID",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

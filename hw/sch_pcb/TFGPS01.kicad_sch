@@ -10668,7 +10668,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "5c70984512875079b91f88b3"
+		(property "UST_ID" "693421c6ea235ce78ba25972"
 			(at 19.05 137.16 0)
 			(effects
 				(font
@@ -11070,7 +11070,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Mlab_D:LED_1206"
+		(property "Footprint" "Mlab_D:LED_1206_mill"
 			(at 118.11 176.53 0)
 			(effects
 				(font
@@ -11546,7 +11546,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M4"
+		(property "Value" "BAS516"
 			(at 61.6966 154.813 90)
 			(effects
 				(font
@@ -11555,7 +11555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 59.69 153.67 0)
 			(effects
 				(font
@@ -11581,7 +11581,7 @@
 				)
 			)
 		)
-		(property "UST_ID" "5c70984512875079b91f88ac"
+		(property "UST_ID" "693421c6ea235ce78ba25972"
 			(at 59.69 153.67 0)
 			(effects
 				(font
@@ -11632,7 +11632,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Mlab_D:LED_1206"
+		(property "Footprint" "Mlab_D:LED_1206_mill"
 			(at 151.13 118.11 0)
 			(effects
 				(font
@@ -11940,7 +11940,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Mlab_D:LED_1206"
+		(property "Footprint" "Mlab_D:LED_1206_mill"
 			(at 160.02 118.11 0)
 			(effects
 				(font
@@ -12017,7 +12017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mlab_D:LED_1206"
+		(property "Footprint" "Mlab_D:LED_1206_mill"
 			(at 157.48 158.75 0)
 			(effects
 				(font
@@ -17639,7 +17639,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Mlab_D:LED_1206"
+		(property "Footprint" "Mlab_D:LED_1206_mill"
 			(at 189.23 46.99 0)
 			(effects
 				(font
@@ -17939,7 +17939,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M4"
+		(property "Value" "BAS516"
 			(at 217.9321 49.4093 90)
 			(effects
 				(font
@@ -17948,7 +17948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 215.9 48.26 0)
 			(effects
 				(font
@@ -17974,7 +17974,7 @@
 				)
 			)
 		)
-		(property "UST_ID" "5c70984512875079b91f88ac"
+		(property "UST_ID" "693421c6ea235ce78ba25972"
 			(at 215.9 48.26 0)
 			(effects
 				(font

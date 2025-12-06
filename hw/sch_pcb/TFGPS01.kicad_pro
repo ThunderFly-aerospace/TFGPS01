@@ -65,6 +65,46 @@
           ""
         ],
         [
+          "copper_edge_clearance|124861833|95577333|4ee6659b-506b-4832-a6ca-262f2f76d1fc|f0e15733-56c8-4a02-866a-704f6b719938",
+          ""
+        ],
+        [
+          "copper_edge_clearance|127545167|94410667|8edc608a-e34b-495c-9435-e93274e60cd1|ba84d8ca-392e-492e-92cb-eb656d187cc8",
+          ""
+        ],
+        [
+          "copper_edge_clearance|167216833|86005333|a3dc7de1-16bb-4d75-ad55-e98bac13f04c|1749ce17-aa18-45a0-a00d-4d76f2f285c9",
+          ""
+        ],
+        [
+          "copper_edge_clearance|167216833|89481333|45cdb615-724d-403f-8ec9-c00cde00b0f1|f3fadea6-b70c-4539-83fe-0c4182b9e419",
+          ""
+        ],
+        [
+          "copper_edge_clearance|167216833|92910333|bcd0c764-e8b4-46a1-aa1a-0227f6ef6138|21fbc24e-f608-41f1-8e59-4ffe0cc65757",
+          ""
+        ],
+        [
+          "copper_edge_clearance|167216833|96339333|308e5fac-dbb2-4e5b-a215-13b13613767a|9512a234-7745-4018-a66d-e905a773dcaa",
+          ""
+        ],
+        [
+          "copper_edge_clearance|169900167|84838667|e59f562c-a550-4900-8dcc-066458f8355c|4b755fd3-6dac-4ff5-9bf1-16a4454ec109",
+          ""
+        ],
+        [
+          "copper_edge_clearance|169900167|88314667|f7024a3c-404f-4d21-99e9-6615e561206f|ca15e44f-f0d8-4931-872a-4cc236cf0210",
+          ""
+        ],
+        [
+          "copper_edge_clearance|169900167|91743667|4c89928f-2850-4c98-ba2f-25adc6feb982|10cfbb9d-670b-4c48-9c46-b9dd40653d74",
+          ""
+        ],
+        [
+          "copper_edge_clearance|169900167|95172667|5c2e49f1-f8bf-430c-b442-7b8c4997b6ed|843c5a80-13cc-439b-980b-3b79545e8e43",
+          ""
+        ],
+        [
           "courtyards_overlap|155724536|100524257|897bf351-94fc-4e29-b8e2-1ffa32a7bebc|ca901474-f4ed-496a-878b-784557aebbd3",
           ""
         ],
@@ -101,15 +141,15 @@
           ""
         ],
         [
-          "silk_edge_clearance|122238500|83219000|9e8ec0f9-0417-4a60-8f6f-e22105b18086|aaabc717-98b8-4977-a81b-24d30f663358",
+          "silk_edge_clearance|122238500|83219000|9e8ec0f9-0417-4a60-8f6f-e22105b18086|343aad9e-6e12-4f65-982a-350d41607bc0",
           ""
         ],
         [
-          "silk_edge_clearance|122238500|92799000|9e8ec0f9-0417-4a60-8f6f-e22105b18086|af7a8f04-df71-461a-a4ef-0a4c31d2c714",
+          "silk_edge_clearance|122238500|92799000|9e8ec0f9-0417-4a60-8f6f-e22105b18086|01ddb6dd-d7a3-45a4-b862-f0800171171c",
           ""
         ],
         [
-          "silk_edge_clearance|122238500|92799000|9e8ec0f9-0417-4a60-8f6f-e22105b18086|ddd78e20-2ab9-43b5-975e-829ac9c92760",
+          "silk_edge_clearance|122238500|92799000|9e8ec0f9-0417-4a60-8f6f-e22105b18086|4f3a1bbd-101f-4d43-9abd-29f000c614c6",
           ""
         ],
         [
@@ -197,7 +237,7 @@
         "max_error": 0.005,
         "min_clearance": 0.2,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.0,
         "min_hole_to_hole": 0.125,
@@ -722,13 +762,13 @@
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -740,7 +780,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -758,6 +798,18 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
           "show": false
         }
       ],

@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFGPS01.kicad_sch</source>
-    <date>2025-12-05T23:49:40+0000</date>
+    <date>2025-12-06T12:02:45+0000</date>
     <tool>Eeschema 9.0.6+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -347,21 +347,26 @@
       <tstamps>e6b1fc9b-1c1b-455c-b5fc-20156193a722</tstamps>
     </comp>
     <comp ref="D1">
-      <value>BAS85</value>
-      <footprint>Diode_SMD:D_MiniMELF</footprint>
-      <datasheet>~</datasheet>
+      <value>BAS516</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf</datasheet>
+      <description>100V, 0.25A, High-speed Switching Diode, SOD-523</description>
       <fields>
         <field name="UST_ID">5c70984512875079b91f88b3</field>
-        <field name="Footprint">Diode_SMD:D_MiniMELF</field>
-        <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">Diode_SMD:D_SOD-523</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf</field>
+        <field name="Description">100V, 0.25A, High-speed Switching Diode, SOD-523</field>
       </fields>
-      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <libsource lib="Diode" part="BAS516" description="100V, 0.25A, High-speed Switching Diode, SOD-523"/>
       <property name="UST_ID" value="5c70984512875079b91f88b3"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
-      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <property name="ki_fp_filters" value="D*SOD?523*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e8355a7</tstamps>
     </comp>
@@ -499,40 +504,38 @@
       <tstamps>dcb557ac-adb8-4521-85bb-9643d76a3029</tstamps>
     </comp>
     <comp ref="D9">
-      <value>BZX585-B5V6.115</value>
+      <value>NSR05T40XV2T5G</value>
       <footprint>Diode_SMD:D_SOD-523</footprint>
       <fields>
-        <field name="UST_id"/>
-        <field name="UST_ID">60879d38128750769ee58e48</field>
+        <field name="UST_ID">5c70984712875079b91f8b7b</field>
         <field name="Footprint">Diode_SMD:D_SOD-523</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="MLAB_D" part="D_ZENER" description=""/>
-      <property name="UST_id" value=""/>
-      <property name="UST_ID" value="60879d38128750769ee58e48"/>
+      <libsource lib="Device" part="D_Schottky_Filled" description="Schottky diode, filled shape"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b7b"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
-      <property name="ki_fp_filters" value="D? SO* SM*"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b39e5f53-ff8f-48d4-b4a2-f7a745f70c86</tstamps>
     </comp>
     <comp ref="D10">
-      <value>BZX585-B5V6.115</value>
+      <value>NSR05T40XV2T5G</value>
       <footprint>Diode_SMD:D_SOD-523</footprint>
       <fields>
-        <field name="UST_id"/>
-        <field name="UST_ID">60879d38128750769ee58e48</field>
+        <field name="UST_ID">5c70984712875079b91f8b7b</field>
         <field name="Footprint">Diode_SMD:D_SOD-523</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="MLAB_D" part="D_ZENER" description=""/>
-      <property name="UST_id" value=""/>
-      <property name="UST_ID" value="60879d38128750769ee58e48"/>
+      <libsource lib="Device" part="D_Schottky_Filled" description="Schottky diode, filled shape"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b7b"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
-      <property name="ki_fp_filters" value="D? SO* SM*"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0ba6d129-4e92-4e1f-a407-d764718c23b7</tstamps>
     </comp>
@@ -1509,8 +1512,8 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="D_Zener">
-      <description>Zener diode</description>
+    <libpart lib="Device" part="D_Schottky_Filled">
+      <description>Schottky diode, filled shape</description>
       <docs>~</docs>
       <footprints>
         <fp>TO-???*</fp>
@@ -1520,10 +1523,10 @@
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">D_Zener</field>
+        <field name="Value">D_Schottky_Filled</field>
         <field name="Footprint"/>
         <field name="Datasheet">~</field>
-        <field name="Description">Zener diode</field>
+        <field name="Description">Schottky diode, filled shape</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
@@ -1604,6 +1607,26 @@
       <pins>
         <pin num="1" name="" type="passive"/>
         <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAS516">
+      <description>100V, 0.25A, High-speed Switching Diode, SOD-523</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf</docs>
+      <footprints>
+        <fp>D*SOD?523*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAS516</field>
+        <field name="Footprint">Diode_SMD:D_SOD-523</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf</field>
+        <field name="Description">100V, 0.25A, High-speed Switching Diode, SOD-523</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="MLAB_CONNECTORS" part="USBC_USB4105-GF-A">
@@ -1714,24 +1737,6 @@
         <pin num="9" name="" type="passive"/>
         <pin num="10" name="" type="passive"/>
         <pin num="MP" name="" type="free"/>
-      </pins>
-    </libpart>
-    <libpart lib="MLAB_D" part="D_ZENER">
-      <footprints>
-        <fp>D?</fp>
-        <fp>SO*</fp>
-        <fp>SM*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_ZENER</field>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="MLAB_IO" part="DBP.1575.W.A.30">
@@ -1878,6 +1883,9 @@
   <libraries>
     <library logical="Device">
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
     </library>
     <library logical="Power_Protection">
       <uri>/usr/share/kicad/symbols//Power_Protection.kicad_sym</uri>

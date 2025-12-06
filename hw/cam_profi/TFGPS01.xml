@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFGPS01.kicad_sch</source>
-    <date>2025-12-06T12:02:45+0000</date>
+    <date>2025-12-06T14:31:20+0000</date>
     <tool>Eeschema 9.0.6+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -352,7 +352,7 @@
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf</datasheet>
       <description>100V, 0.25A, High-speed Switching Diode, SOD-523</description>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f88b3</field>
+        <field name="UST_ID">693421c6ea235ce78ba25972</field>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
         <field name="Footprint">Diode_SMD:D_SOD-523</field>
@@ -360,7 +360,7 @@
         <field name="Description">100V, 0.25A, High-speed Switching Diode, SOD-523</field>
       </fields>
       <libsource lib="Diode" part="BAS516" description="100V, 0.25A, High-speed Switching Diode, SOD-523"/>
-      <property name="UST_ID" value="5c70984512875079b91f88b3"/>
+      <property name="UST_ID" value="693421c6ea235ce78ba25972"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
       <property name="Sheetname" value=""/>
@@ -371,17 +371,17 @@
       <tstamps>00000000-0000-0000-0000-00005e8355a7</tstamps>
     </comp>
     <comp ref="D2">
-      <value>M4</value>
-      <footprint>Diode_SMD:D_SMA</footprint>
+      <value>BAS516</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f88ac</field>
-        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="UST_ID">693421c6ea235ce78ba25972</field>
+        <field name="Footprint">Diode_SMD:D_SOD-523</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="D" description="Diode"/>
-      <property name="UST_ID" value="5c70984512875079b91f88ac"/>
+      <property name="UST_ID" value="693421c6ea235ce78ba25972"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -391,11 +391,11 @@
     </comp>
     <comp ref="D3">
       <value>RED</value>
-      <footprint>Mlab_D:LED_1206</footprint>
+      <footprint>Mlab_D:LED_1206_mill</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8896</field>
-        <field name="Footprint">Mlab_D:LED_1206</field>
+        <field name="Footprint">Mlab_D:LED_1206_mill</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
@@ -410,11 +410,11 @@
     </comp>
     <comp ref="D4">
       <value>RED</value>
-      <footprint>Mlab_D:LED_1206</footprint>
+      <footprint>Mlab_D:LED_1206_mill</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8896</field>
-        <field name="Footprint">Mlab_D:LED_1206</field>
+        <field name="Footprint">Mlab_D:LED_1206_mill</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
@@ -429,11 +429,11 @@
     </comp>
     <comp ref="D5">
       <value>YELLOW</value>
-      <footprint>Mlab_D:LED_1206</footprint>
+      <footprint>Mlab_D:LED_1206_mill</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8897</field>
-        <field name="Footprint">Mlab_D:LED_1206</field>
+        <field name="Footprint">Mlab_D:LED_1206_mill</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
@@ -448,11 +448,11 @@
     </comp>
     <comp ref="D6">
       <value>GREEN</value>
-      <footprint>Mlab_D:LED_1206</footprint>
+      <footprint>Mlab_D:LED_1206_mill</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8895</field>
-        <field name="Footprint">Mlab_D:LED_1206</field>
+        <field name="Footprint">Mlab_D:LED_1206_mill</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
@@ -467,11 +467,11 @@
     </comp>
     <comp ref="D7">
       <value>BLUE</value>
-      <footprint>Mlab_D:LED_1206</footprint>
+      <footprint>Mlab_D:LED_1206_mill</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8898</field>
-        <field name="Footprint">Mlab_D:LED_1206</field>
+        <field name="Footprint">Mlab_D:LED_1206_mill</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
@@ -485,17 +485,17 @@
       <tstamps>d046736c-6039-46c0-a433-52f0a4874786</tstamps>
     </comp>
     <comp ref="D8">
-      <value>M4</value>
-      <footprint>Diode_SMD:D_SMA</footprint>
+      <value>BAS516</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f88ac</field>
-        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="UST_ID">693421c6ea235ce78ba25972</field>
+        <field name="Footprint">Diode_SMD:D_SOD-523</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="D" description="Diode"/>
-      <property name="UST_ID" value="5c70984512875079b91f88ac"/>
+      <property name="UST_ID" value="693421c6ea235ce78ba25972"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFGPS01.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>

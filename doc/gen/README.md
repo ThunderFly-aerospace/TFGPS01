@@ -55,7 +55,7 @@ Via: 0.6/0.2 mm (24/8 mils)
 - By design rules: 0.4/0.2 mm (16/8 mils)
 - Micro via: yes [0.2/0.1 mm (8/4 mils)]
 - Buried/blind via: yes
-- Total: 189 (thru: 189 buried/blind: 0 micro: 0)
+- Total: 202 (thru: 200 buried/blind: 0 micro: 2)
 
 Outer Annular Ring: 0.15 mm (6 mils)
 
@@ -87,11 +87,12 @@ Defined tracks:
 Used tracks:
 
 - 0.2 mm (8 mils) (36) defined: yes
-- 0.26 mm (10 mils) (16) defined: no
-- 0.3 mm (12 mils) (25) defined: yes
-- 0.4 mm (16 mils) (32) defined: yes
-- 0.5 mm (20 mils) (357) defined: yes
-- 0.7 mm (28 mils) (15) defined: yes
+- 0.26 mm (10 mils) (8) defined: no
+- 0.3 mm (12 mils) (26) defined: yes
+- 0.4 mm (16 mils) (33) defined: yes
+- 0.5 mm (20 mils) (363) defined: yes
+- 0.6 mm (24 mils) (1) defined: yes
+- 0.7 mm (28 mils) (17) defined: yes
 - 1.0 mm (39 mils) (24) defined: yes
 
 Defined vias:
@@ -102,15 +103,14 @@ Defined vias:
 
 Used vias:
 
-- 0.6/0.2 mm (24/8 mils) (Count: 4, Aspect: 2.7 A) defined: yes
-- 0.7/0.3 mm (28/12 mils) (Count: 25, Aspect: 2.3 A) defined: yes
-- 0.8/0.4 mm (31/16 mils) (Count: 160, Aspect: 2.0 A) defined: yes
+- 0.6/0.2 mm (24/8 mils) (Count: 6, Aspect: 2.7 A) defined: yes
+- 0.7/0.3 mm (28/12 mils) (Count: 23, Aspect: 2.3 A) defined: yes
+- 0.8/0.4 mm (31/16 mils) (Count: 173, Aspect: 2.0 A) defined: yes
 
 Holes (excluding vias):
 
 - 0.65 mm (26 mils) (2)
 - 1.2 mm (47 mils) (1)
-- 2.7 mm (106 mils) (5)
 - 3.0 mm (118 mils) (4)
 
 Oval holes:
@@ -120,13 +120,12 @@ Oval holes:
 
 Drill tools (including vias and computing adjusts and rounding):
 
-- 0.3 mm (12 mils) (4)
-- 0.4 mm (16 mils) (25)
-- 0.5 mm (20 mils) (160)
+- 0.3 mm (12 mils) (6)
+- 0.4 mm (16 mils) (23)
+- 0.5 mm (20 mils) (173)
 - 0.65 mm (26 mils) (2)
 - 0.7 mm (28 mils) (4)
 - 1.2 mm (47 mils) (1)
-- 2.7 mm (106 mils) (5)
 - 3.1 mm (122 mils) (4)
 
 Solder paste stats:
@@ -138,7 +137,7 @@ The stencil thickness is  0.12 mm.
 
 | Side   | Pads with paste | Area [mm²] | Paste [g] |
 |--------|-----------------|------------|-----------|
-| Total  |             215 |     321.01 |      1.60 |
+| Total  |             215 |     305.22 |      1.52 |
 
 Note: this is just an approximation to the theoretical value. Margins of the solder mask and waste aren't computed.
 

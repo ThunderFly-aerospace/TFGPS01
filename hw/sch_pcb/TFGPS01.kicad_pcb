@@ -575,7 +575,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "1b261c23-114f-4b6d-a726-3828e8d1a9f0")
+			(uuid "169093ca-bf9d-4245-8c24-b2aa94657193")
 		)
 		(fp_rect
 			(start 0 -17.5)
@@ -586,7 +586,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "18579dae-da7e-4c06-b47a-c883b62d0509")
+			(uuid "0895a29a-a724-4258-b5e3-f1a8ad0cbb2d")
 		)
 		(pad "" np_thru_hole circle
 			(at 13.3 0 180)
@@ -594,12 +594,12 @@
 			(drill 1.2)
 			(layers "*.Mask")
 			(clearance 0.9)
-			(uuid "c1a337b9-22db-477e-9b6c-e233ce1e261a")
+			(uuid "59626707-8c64-4f55-a701-b4dad106b5f5")
 		)
 		(pad "1" smd circle
 			(at 13.3 0 180)
 			(size 2.5 2.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "B.Cu" "B.Mask")
 			(net 3 "/RF6")
 			(pinfunction "A")
 			(pintype "input")

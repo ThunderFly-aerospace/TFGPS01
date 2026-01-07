@@ -19,13 +19,13 @@ jobs:
       source: 'hw/cad/**.scad'
       destination: 'out/hw/cad/stl'
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout
         with:
           fetch-depth: 2
       - name: Slicovani
         uses: roman-dvorak/Slice@render
       - name: Artifact
-        uses: actions/upload-artifact@v2.2.1
+        uses: actions/upload-artifact
         with:
           name: "Out_render"
           path: "out"
@@ -41,7 +41,7 @@ jobs:
         printer: ['3d']
     
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout
         with:
           fetch-depth: 2
 
@@ -61,7 +61,7 @@ jobs:
           token: ${{ secrets.API_TOKEN_GITHUB }}
 
       - name: Artifact
-        uses: actions/upload-artifact@v2.2.1
+        uses: actions/upload-artifact
         with:
           name: "Out_slice"
           path: "out"

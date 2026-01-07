@@ -19,13 +19,13 @@ jobs:
       source: 'hw/cad/**.scad'
       destination: 'out/hw/cad/stl'
     steps:
-      - uses: actions/checkout
+      - uses: actions/checkout@master
         with:
           fetch-depth: 2
       - name: Slicovani
         uses: roman-dvorak/Slice@render
       - name: Artifact
-        uses: actions/upload-artifact
+        uses: actions/upload-artifact@master
         with:
           name: "Out_render"
           path: "out"
@@ -41,7 +41,7 @@ jobs:
         printer: ['3d']
     
     steps:
-      - uses: actions/checkout
+      - uses: actions/checkout@master
         with:
           fetch-depth: 2
 

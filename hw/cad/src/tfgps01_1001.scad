@@ -185,9 +185,9 @@ module gps_vicko(){
       for(x = [-1, 1], y = [-1, 1]) translate([x/2*(pcb_size+2*wall), y/2*(pcb_size+2*wall), -antenna_solid_layer]) cylinder(d=2, h = 100, $fn=4, center = true);
 
 
-        cube([pcb_size-20, pcb_size-3, 7.5+7], center = true);
-        cube([pcb_size-20, pcb_size+2, 7.5], center = true);
-        cube([pcb_size+2, 35, 7.5-4.5], center = true);
+        cube([pcb_size-19.5, pcb_size-3, 7.5+7], center = true);
+        cube([pcb_size-19.5, pcb_size+2, 6.5], center = true);
+        cube([pcb_size+2, 35, 6.5], center = true);
         cube([pcb_size-3, 35, 7.5+7], center = true);
 
         for(y=[-1, 1])
@@ -211,7 +211,7 @@ module gps_vicko(){
 			translate([20*x, 20*y, 2])
                 hull(){
                     translate([0, -y*5, 0]) cylinder(d = M3_nut_diameter, h=3, center = true, $fn = 6);
-                    cylinder(d = M3_nut_diameter, h=3, center = true, $fn = 6);
+                    rotate([0,0,30]) cylinder(d = M3_nut_diameter, h=3, center = true, $fn = 6);
                 }
 	}
 }

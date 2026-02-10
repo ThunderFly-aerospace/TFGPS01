@@ -46,8 +46,8 @@ TFGPS01 is designed as Open-Hardware (GPL v3). All documentation is located in t
 
 ### PCB
 <p float="left">
-<img src="/doc/img/TFGPS01A_top_big.jpg" width="45%" />
-<img src="/doc/img/TFGPS01A_bot_big.jpg" width="45%" />
+<img src="/doc/gen/img/TFGPS01-top.png" width="45%" />
+<img src="/doc/gen/img/TFGPS01-bottom.png" width="45%" />
 </p>
 
 ### Box

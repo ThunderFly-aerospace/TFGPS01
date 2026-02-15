@@ -10,8 +10,15 @@ on:
       - '**.kicad_pcb'
       - '**.kicad_sch'
       - '**.kicad_pro'
-      - '**.yml'
-      - 'doc/assets'
+      - 'doc/assets/**'
+      - '.github/workflows/*.yml'
+  pull_request:
+    paths:
+      - '**.kicad_pcb'
+      - '**.kicad_sch'
+      - '**.kicad_pro'
+      - 'doc/assets/**'
+      - '.github/workflows/*.yml'
   workflow_dispatch:
   
 env:
@@ -257,6 +264,7 @@ jobs:
 
 
   UPDATE_REPO:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
     runs-on: ubuntu-latest
     name: Update repository
     needs: [graphics, gerbers, schematics, placement, report, ibom]
@@ -318,5 +326,5 @@ jobs:
         
     - uses: stefanzweifel/git-auto-commit-action@v4.16.0
       with:
-        commit_message: Update actions products
+        commit_message: Automatic update of KiCAD outputs
         add_options: '-A -f'
